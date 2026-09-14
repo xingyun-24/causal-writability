@@ -1,13 +1,15 @@
-// Set the final public URLs and trailer here when they are ready.
+import { assetUrl } from "./asset-url";
+
+// Add the arXiv identifier after the paper is announced.
 export const publication = {
   title: "A Chosen Future Can Still Be Rewritten",
   subtitle: "Causal Writability in Video Models",
-  paper: "/paper/main.pdf",
+  paper: assetUrl("/paper/main.pdf"),
   code: "https://github.com/xingyun-24/causal-writability" as string | null,
   arxiv: null as string | null,
   projectUrl: "https://xingyun-24.github.io/causal-writability/",
-  trailer: (import.meta.env.VITE_LOCAL_TRAILER || null) as string | null,
-  trailerPoster: import.meta.env.VITE_LOCAL_TRAILER_POSTER || "/paper/current/figure1.png",
+  trailer: assetUrl("/videos/overview.mp4"),
+  trailerPoster: assetUrl("/videos/overview-poster.png"),
   trailerCaptions: null as string | null,
 };
 

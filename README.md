@@ -1,11 +1,11 @@
 # Causal Writability in Video Models
 
 Materials for **A Chosen Future Can Still Be Rewritten: Causal Writability in
-Video Models**. This is the project's independent repository, currently private
-while the authors prepare the public release.
+Video Models**.
 
 ## Start Here
 
+- [Project page: videos and interactive PCA](https://xingyun-24.github.io/causal-writability/)
 - [Paper and LaTeX sources](paper/)
 - [Core model downloads](CHECKPOINTS.md)
 - [Spring code and reproduction](reproduction/spring/)
@@ -13,7 +13,7 @@ while the authors prepare the public release.
 - [Free Fall code and reproduction](reproduction/freefall/)
 - [Project-page source and local previews](website/)
 
-Sixteen selected checkpoints are hosted in a private Hugging Face repository:
+Sixteen selected checkpoints are hosted on Hugging Face:
 six Spring, two Pendulum, one Free Fall, and seven pretrained-Wan checkpoints.
 The full 15-seed training-history ensemble is not included.
 
@@ -34,6 +34,6 @@ activation extraction and project-page projection code. Plotting existing
 results does not require retraining the models.
 
 Original project code uses [MIT](LICENSE). Third-party licenses and model terms
-are retained. Public publication and deployment remain pending. The previous
-collaborator integration branch is retained separately; new release work belongs
-in this repository. No GitHub Pages deployment is enabled.
+are retained. The project page uses the same experimental assets and final
+paper figures as this repository. The arXiv identifier will be added after
+the submission is announced.

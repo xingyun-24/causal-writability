@@ -2,8 +2,7 @@
 
 The model files are hosted at
 [xingyun-24/causal-writability](https://huggingface.co/xingyun-24/causal-writability).
-The repository is currently private. Sign in with an authorized Hugging Face
-account before downloading.
+The files can be downloaded without signing in.
 
 | Group | Files | Models |
 |---|---:|---|
@@ -17,7 +16,6 @@ are listed in [checkpoints.json](checkpoints.json). The 15-seed x 6-checkpoint
 Spring ensemble and extra pretrained intermediate checkpoints are not uploaded.
 
 ```bash
-hf auth login
 hf download xingyun-24/causal-writability \
   spring/spring-short-3407-50k.safetensors --local-dir weights
 hf download xingyun-24/causal-writability \
@@ -26,7 +24,7 @@ hf download xingyun-24/causal-writability \
 
 Paths are preserved, for example `weights/spring/spring-short-3407-50k.safetensors`.
 The Spring CLI also supports `cw weights --model spring-short-3407-50k --out ...`
-using the authenticated HF client.
+using the HF client.
 
 The [frozen Wan2.1 VAE](https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/main/Wan2.1_VAE.pth)
 is downloaded from upstream rather than duplicated. PCA bases, controller

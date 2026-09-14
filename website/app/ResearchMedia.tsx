@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { ExternalLink, Pause, Play, RotateCcw } from "lucide-react";
+import { assetUrl } from "./asset-url";
 
 type Clip = { src: string; label: string };
 
@@ -63,8 +64,8 @@ export function VideoPair({ clips, caption }: { clips: [Clip, Clip]; caption: st
   }, [playing]);
   return <figure className="video-pair">
     <div className="paired-clips">{clips.map((clip, index) => <div key={clip.src}>
-      <div className="clip-label">{clip.label}<a href={clip.src} target="_blank" rel="noreferrer" title={`Open ${clip.label} MP4`} aria-label={`Open ${clip.label} MP4`}><ExternalLink size={14}/></a></div>
-      <video ref={v => { refs.current[index] = v; }} src={clip.src} muted playsInline preload="metadata"
+      <div className="clip-label">{clip.label}<a href={assetUrl(clip.src)} target="_blank" rel="noreferrer" title={`Open ${clip.label} MP4`} aria-label={`Open ${clip.label} MP4`}><ExternalLink size={14}/></a></div>
+      <video ref={v => { refs.current[index] = v; }} src={assetUrl(clip.src)} muted playsInline preload="metadata"
         aria-label={clip.label} onLoadedMetadata={() => {
           setReady(old => old.map((v, i) => i === index || v));
           const lengths = refs.current.map(v => v?.duration ?? NaN);
@@ -94,7 +95,7 @@ export function PCAView({ task, raw, difference }: { task: string; raw: string; 
     if (host.current) observer.observe(host.current);
     return () => observer.disconnect();
   }, []);
-  const src = mode === "raw" ? raw : difference;
+  const src = assetUrl(mode === "raw" ? raw : difference);
   return <div className="pca-view" ref={host}>
     <div className="pca-toolbar">
       <div role="tablist" aria-label={`${task} PCA views`}>

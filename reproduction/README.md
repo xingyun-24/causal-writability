@@ -7,8 +7,7 @@
 | Free Fall | [freefall/README.md](freefall/README.md) | Final hist32/100K train-only controller, result tables, input/residual generation and evaluation; B1 projection extraction |
 
 Use separate Python environments because all three runtimes define `sshv2`.
-Weights are listed in [CHECKPOINTS.md](../CHECKPOINTS.md), with an authenticated
-download path while the repository is private. Basis tensors and input
+Weights are listed in [CHECKPOINTS.md](../CHECKPOINTS.md). Basis tensors and input
 manifests remain separate from model weights.
 
 The paper's corrected tables and figures are retained. A plotting check is not

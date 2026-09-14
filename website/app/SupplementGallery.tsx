@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import figures from "../public/paper/appendix/manifest.json";
+import { assetUrl } from "./asset-url";
 
 export default function SupplementGallery() {
   const groups = [...new Set(figures.map(figure => figure.group))];
@@ -12,9 +13,9 @@ export default function SupplementGallery() {
       <summary><span>{group}</span><small>{selected.length} figures</small></summary>
       {open[group] && <div className="atlasGrid">{selected.map(figure => <article className="atlasCard" key={figure.number}>
         <div><span>FIGURE {figure.number}</span><h3>{figure.title}</h3><p>{figure.note}</p>
-          <a className="captionLink" href={`/paper/main.pdf#page=${figure.page}`} target="_blank" rel="noreferrer">Caption and methods in paper ↗</a>
+          <a className="captionLink" href={assetUrl(`/paper/main.pdf#page=${figure.page}`)} target="_blank" rel="noreferrer">Caption and methods in paper ↗</a>
         </div>
-        <a href={figure.src} target="_blank" rel="noreferrer"><img src={figure.src} alt={`Figure ${figure.number}: ${figure.title}`} loading="lazy"/></a>
+        <a href={assetUrl(figure.src)} target="_blank" rel="noreferrer"><img src={assetUrl(figure.src)} alt={`Figure ${figure.number}: ${figure.title}`} loading="lazy"/></a>
       </article>)}</div>}
     </details>;
   })}</div>;

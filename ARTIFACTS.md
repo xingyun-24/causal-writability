@@ -1,7 +1,7 @@
 # Model and Data Downloads
 
 Model weights are listed in [CHECKPOINTS.md](CHECKPOINTS.md). The Hugging Face
-repository is private during release preparation; use an account with access.
+repository and downloads are public.
 
 Free Fall also needs its frozen PCA arrays and archived decoded RGB frames for
 controller inference and saved-video re-evaluation. These 646 files (about
@@ -13,7 +13,6 @@ From this repository root:
 
 ```bash
 python -m pip install 'huggingface_hub==0.36.2'
-hf auth login
 python scripts/download_freefall.py
 ```
 

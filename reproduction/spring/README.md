@@ -5,7 +5,7 @@ Code for **A Chosen Future Can Still Be Rewritten: Causal Writability in Video M
 This local release candidate contains the Spring renderer, training pipeline,
 decoded-video evaluator, residual patching and frozen-controller K/V interventions.
 Pendulum and Free Fall live in the neighboring task directories and use separate
-environments. Core model downloads are available through the private Hugging
+environments. Core model downloads are available through the Hugging
 Face repository; see `../../CHECKPOINTS.md`. `cw weights --model ...` uses the
 logged-in HF client for those checkpoints.
 
@@ -37,11 +37,10 @@ This generates a tiny dataset and runs one optimizer step, not a 50K retraining.
 
 The core models are Spring Short and Long at 50K steps, each with seeds 3407,
 3408 and 3409. The registry in `models/registry.json` provides their download
-locations. Use an authorized Hugging Face account while the repository is private.
+locations. No Hugging Face login is required for these public downloads.
 The following commands install a Short model and the upstream VAE:
 
 ```bash
-hf auth login
 cw weights --model spring-short-3407-50k \
   --out weights/spring-short-3407-50k.safetensors
 cw weights --model wan21-vae --out weights/vae.pth
@@ -118,7 +117,6 @@ These are not Long-model controllers. The command above performs a phase edit.
 Adding `--kv-block 9 --components v --head 8 --gain 8` also runs a targeted
 attention-write intervention. This gain can overshoot on some receivers; it is
 not a universal restoration setting for the shared bank.
-The Hugging Face repository requires authorized login while it is private.
 
 `--fm-window early` or `late` restricts the K/V write to calls 0-9 or 10-19.
 The demo selects from the shared held-out bank; reproducing the paper's specific

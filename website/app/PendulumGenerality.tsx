@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { PCAView } from "./ResearchMedia";
+import { assetUrl } from "./asset-url";
 
 type Mode = "behavior" | "causal";
 
@@ -48,7 +49,7 @@ export default function PendulumGenerality() {
         <div className="pendulumVideos">
           {current.videos.map((video) => (
             <figure key={video.src}>
-              <video src={video.src} controls muted loop playsInline preload="metadata" aria-label={`${video.label}: ${video.detail}`}/>
+              <video src={assetUrl(video.src)} controls muted loop playsInline preload="metadata" aria-label={`${video.label}: ${video.detail}`}/>
               <figcaption><strong>{video.label}</strong><span>{video.detail}</span></figcaption>
             </figure>
           ))}
@@ -56,8 +57,8 @@ export default function PendulumGenerality() {
       </div>
 
       <div className="pendulumPreviews">
-        <a href="/pendulum/behavior.svg" target="_blank" rel="noreferrer"><img src="/pendulum/behavior.svg" width="1590" height="1490" alt="Pendulum eleven-hue behavior sweep across low and high histories"/><span>Behavior · 2,816 decoded futures</span></a>
-        <a href="/pendulum/decoded-recovery.svg" target="_blank" rel="noreferrer"><img src="/pendulum/decoded-recovery.svg" width="3887" height="1983" alt="Pendulum donor-free decoded recovery across 64 held-out receivers"/><span>Causal edit · 64 held-out receivers</span></a>
+        <a href={assetUrl("/pendulum/behavior.svg")} target="_blank" rel="noreferrer"><img src={assetUrl("/pendulum/behavior.svg")} width="1590" height="1490" alt="Pendulum eleven-hue behavior sweep across low and high histories"/><span>Behavior · 2,816 decoded futures</span></a>
+        <a href={assetUrl("/pendulum/decoded-recovery.svg")} target="_blank" rel="noreferrer"><img src={assetUrl("/pendulum/decoded-recovery.svg")} width="3887" height="1983" alt="Pendulum donor-free decoded recovery across 64 held-out receivers"/><span>Causal edit · 64 held-out receivers</span></a>
       </div>
 
       <div className="interactiveSection"><PCAView task="Pendulum" raw="/interactives/pendulum-project-pca.html" difference="/interactives/pendulum-difference-pca.html"/><p className="interactiveNote">64 fit pairs, 64 held-out pairs at B12. The raw view shows 128 endpoints; the difference view shows 64 edits. Point color is decoded frequency, using the aligned endpoint for differences.</p></div>
@@ -72,8 +73,8 @@ export default function PendulumGenerality() {
           <div><span>EVALUATOR</span><strong>One contract for every condition</strong><p>All displayed rollouts pass the current appearance-tolerant geometry and frequency-fit gates.</p></div>
         </div>
         <div className="pendulumDetailFigures">
-          <a href="/pendulum/state-geometry.svg" target="_blank" rel="noreferrer"><img src="/pendulum/state-geometry.svg" width="2958" height="2006" alt="Fit and held-out Pendulum top-four causal edit-coordinate geometry"/></a>
-          <a href="/pendulum/writeability.svg" target="_blank" rel="noreferrer"><img src="/pendulum/writeability.svg" width="3837" height="2449" alt="Pendulum Short and Long localized writeability profiles for both target directions"/></a>
+          <a href={assetUrl("/pendulum/state-geometry.svg")} target="_blank" rel="noreferrer"><img src={assetUrl("/pendulum/state-geometry.svg")} width="2958" height="2006" alt="Fit and held-out Pendulum top-four causal edit-coordinate geometry"/></a>
+          <a href={assetUrl("/pendulum/writeability.svg")} target="_blank" rel="noreferrer"><img src={assetUrl("/pendulum/writeability.svg")} width="3837" height="2449" alt="Pendulum Short and Long localized writeability profiles for both target directions"/></a>
         </div>
       </details>
     </section>

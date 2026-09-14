@@ -55,7 +55,6 @@ The experiment source environment is Python 3.10.12 on Linux/CUDA.
 
 ```bash
 python -m pip install 'huggingface_hub==0.36.2'
-hf auth login
 python scripts/download_freefall.py
 cd reproduction/freefall
 python3.10 -m venv .venv
@@ -77,7 +76,7 @@ with its Apache-2.0 license; its source commit is
 The original training config retains archival absolute training paths; inference
 uses the supplied checkpoint and relative `models/Wan2.1_VAE.pth`. Set the data
 and log paths to local locations before retraining. Third-party model terms
-remain applicable; this is a private transfer, not a new model license.
+remain applicable; the code license does not replace separate model terms.
 
 ## Generate exact evaluation inputs
 

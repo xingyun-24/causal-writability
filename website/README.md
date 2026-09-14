@@ -5,7 +5,7 @@ with the current Pendulum section and the new Free Fall/PCA additions.
 Leqian's original style is the selected project-page design. The A/B switcher
 has been removed; old `?style=clean` links also display the selected design.
 The previous comparison is recorded in `STYLE_COMPARISON_ZH.md` and Git history.
-No public deployment is enabled.
+The page is deployed at https://xingyun-24.github.io/causal-writability/.
 
 Scientific figures now use vector SVGs. `scripts/export_vector_panels.py`
 exports current-paper subpanels with outlined fonts, keeping embedded decoded
@@ -27,14 +27,28 @@ Node >=22.13 is required by the existing vinext/Vite stack.
 npm ci
 npm run dev -- --host 127.0.0.1 --port 4317
 npm test
+npm run build:pages
 ```
+
+## Deployment
+
+The GitHub Pages build renders the same `app/page.tsx` and components into
+static HTML and hydrates them with React, retaining video controls, Pendulum
+tabs, interactive PCA views and the appendix gallery. `static-site/build.mjs` copies
+only release media and uses the `/causal-writability/` base path. It does not
+publish `.env.local` or `public/_local`.
+
+Changes to `website/` on `main` trigger `.github/workflows/pages.yml`. The
+workflow can also be started manually. The old `export_github_pages.py` is a
+historical non-interactive export and is not used for deployment.
 
 ## Publication settings
 
 Edit `app/site-content.ts` for the trailer MP4, poster, optional captions,
 repository, arXiv and project URL. The header links directly to Paper and GitHub;
 model downloads remain in the repository documentation, not the page header.
-The canonical GitHub repository is still private until author-approved release.
+The canonical GitHub repository is public. The final bilingual overview film
+is included in `public/videos/overview.mp4`.
 While the trailer is unset, Hero
 shows the current paper's Figure 1 without a pretend play button.
 
@@ -75,5 +89,4 @@ placeholders, while reusing the audited assets and paper's current evidence.
 updated numerical details. The original Spring video layout is preserved.
 
 No new pretrained layer-scan candidate is inserted into the paper or page.
-No model training, recoloring of decoded frames, public deployment or remote
-license change is part of this integration.
+No model training or recoloring of decoded frames is part of the page build.

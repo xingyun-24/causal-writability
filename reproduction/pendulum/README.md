@@ -49,4 +49,4 @@ python verify_data.py
 
 These commands use the stored tables, not a new model run. No original paper
 result is overwritten. See [model downloads](../../CHECKPOINTS.md); both final
-Short/Long checkpoints are now available with authorized private-repo access.
+Short/Long checkpoints are publicly downloadable.
