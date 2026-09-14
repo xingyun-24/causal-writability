@@ -1,0 +1,40 @@
+{
+  "points": [
+    {
+      "pair_id": "pair_e320aa5000eb7fe7139d",
+      "trajectory_id": "traj_e320aa5000eb7fe7139d",
+      "condition": "aligned",
+      "split": "heldout",
+      "input_colour": "blue",
+      "true_band": "fast",
+      "omega_true": 6.182560569503928,
+      "omega_hat": 6.239181250000001,
+      "valid": true,
+      "generation_seed": 154003734,
+      "pc1": -46.031436920166016,
+      "pc2": -3.310218572616577,
+      "pc3": 2.183070182800293
+    },
+    {
+      "pair_id": "pair_e320aa5000eb7fe7139d",
+      "trajectory_id": "traj_e320aa5000eb7fe7139d",
+      "condition": "conflict",
+      "split": "heldout",
+      "input_colour": "red",
+      "true_band": "fast",
+      "omega_true": 6.182560569503928,
+      "omega_hat": 2.9189000000000003,
+      "valid": true,
+      "generation_seed": 154003734,
+      "pc1": 61.378868103027344,
+      "pc2": 30.705217361450195,
+      "pc3": 85.84745788574219
+    }
+  ],
+  "difference_pc": [
+    -107.41031646728516,
+    -34.01543426513672,
+    -83.66439056396484
+  ],
+  "projection_subtraction_error": 1.1444091796875e-05
+}

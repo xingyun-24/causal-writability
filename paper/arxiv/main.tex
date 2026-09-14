@@ -1,0 +1,547 @@
+% Active coherent working manuscript. Sections 1--5 are maintained inline;
+% Discussion, Related Work, reproducibility, and AI use are included below.
+\documentclass{article}
+\usepackage{iclr2027_conference,times}
+\usepackage[scaled=.94]{helvet}
+
+\input{math_commands.tex}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{booktabs,multirow}
+\usepackage{graphicx}
+\graphicspath{{./}}
+\usepackage{placeins}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,backgrounds,calc,decorations.pathmorphing}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{etoolbox}
+% Compact preprint title spacing; the anonymous ICLR source is unchanged.
+\makeatletter
+\patchcmd{\@maketitle}{\vskip 0.3in minus 0.1in}{\vskip 8pt}{}%
+  {\PackageError{arxiv-layout}{Title spacing patch failed}{}}
+\patchcmd{\@maketitle}{\rule{\z@}{24pt}}{\rule{\z@}{16pt}}{}%
+  {\PackageError{arxiv-layout}{Author spacing patch failed}{}}
+\makeatother
+\renewenvironment{abstract}{%
+  \par\vspace{5pt}\centerline{\large\scshape Abstract}\vspace{0.5ex}%
+  \begin{list}{}{\setlength{\leftmargin}{0pt}%
+    \setlength{\rightmargin}{0pt}\setlength{\topsep}{4pt}}%
+  \item\relax
+}{\end{list}\vspace{4pt}}
+\input{macros.tex}
+\input{figures/figure_style.tex}
+\newcommand{\resultlead}[1]{\par\noindent{\bfseries #1}\hspace{0.35em}}
+\newcommand{\introhighlight}[1]{{\bfseries #1}}
+
+\title{A Chosen Future Can Still Be Rewritten:\\
+Causal Writability in Video Models}
+
+\author{%
+\parbox[t]{\dimexpr\textwidth-2\tabcolsep\relax}{\centering
+Xingyun Wang\textsuperscript{1,4,*}\hfill
+Haomin Zheng\textsuperscript{2,4,*}\hfill
+Man Yuan\textsuperscript{2,4}\hfill
+Leqian Yang\textsuperscript{3,4}\hfill
+Ziming Liu\textsuperscript{1,4,5}\\[4pt]
+{\normalfont\small
+\textsuperscript{1}Tsinghua University\qquad
+\textsuperscript{2}Peking University\\
+\textsuperscript{3}University of Science and Technology of China\\
+\textsuperscript{4}MetaCircle\qquad
+\textsuperscript{5}Shanghai Qi Zhi Institute\\[2pt]
+\textsuperscript{*}Equal contribution.\quad
+\href{mailto:xingyun-24@mails.tsinghua.edu.cn}{xingyun-24@mails.tsinghua.edu.cn}\quad
+\href{mailto:zmliu@tsinghua.edu.cn}{zmliu@tsinghua.edu.cn}
+}}
+}
+
+\iclrfinalcopy
+\begin{document}
+\raggedbottom
+\maketitle
+\lhead{Preprint}
+
+\begin{abstract}
+When a video model generates physically incorrect motion, did it fail to learn
+the correct motion, or did it learn it but fail to use it?
+\textbf{We show the latter: the correct motion remains available inside the
+model and can still be made to control the generated video.} We train on videos
+where red masses oscillate slowly and blue masses oscillate quickly, then test a
+red mass with fast observed motion. Even when the model generates slow motion in
+this conflicting case, a low-dimensional edit predicted from simple physical
+variables restores the correct fast motion. \textbf{We call this ability causal
+writability. At fixed strength, we find a sharp depth boundary: the same edit
+changes the video before the boundary but not after it.} This closure marks
+commitment for that write. The motion signal nevertheless remains, and a
+stronger downstream write can restore physical motion, while excessive gain
+overshoots. \textbf{Early causal writability predicts which errors training
+later corrects:} those errors are writable at more network depths than errors
+that persist. We reproduce both causal writability and its sharp closure in a
+pretrained 1.3B video model, supporting generality across model scale and
+training regime.
+\end{abstract}
+
+\begingroup
+\setlength{\intextsep}{8pt}
+\begin{figure}[H]
+    \centering
+    \includegraphics[trim=0 9.32pt 0 0,clip,width=\textwidth]{figures/source/figure1_haomin.pdf}
+    \caption{\textbf{Natural generation can select one future while a causally
+    usable physical alternative remains writable.}
+    \textbf{a,} Correlated red--slow and blue--fast examples support both
+    motion-based and appearance-based predictive rules.
+    \textbf{b,} With observed motion fixed, cue strength changes which future
+    controls natural generation.
+    \textbf{c,} An activation edit predicted from target motion and boundary
+    state gives the physical alternative control over decoded video.
+    \textbf{d,} Closure marks the depth after which the same edit no longer
+    changes the decoded video.}
+    \label{fig:visual-thesis}
+\end{figure}
+\endgroup
+\clearpage
+
+\section{Introduction}
+
+\introhighlight{When a video model generates physically incorrect motion, has it failed
+to learn the correct motion, or has it learned it but failed to use it?} The
+generated video alone cannot distinguish these two failures. \introhighlight{We show
+that the correct motion can remain available inside the model even when it does
+not control the natural rollout; an intervention can give it control.}
+
+Correlations in observational video create this ambiguity.
+Generative world models learn from video to predict how scenes will evolve
+\citep{ha2018worldmodels,hafner2020dream,ho2022video}, but appearance, context,
+object identity, and motion rarely vary independently. Highway scenes, for
+example, tend to contain faster vehicle motion, while residential scenes tend to
+contain slower motion. Scene appearance can therefore predict speed statistically
+without determining it physically. A model may extrapolate the future from recent
+motion or use appearance as a proxy for speed. Ordinary training examples do not
+distinguish these rules; only when appearance and observed motion conflict do they
+predict different futures. This is predictive underspecification
+\citep{geirhos2020shortcut,damour2022underspecification}.
+
+To test whether the correct motion is absent or merely unused, we construct a
+controlled spring--mass task. During training, red masses oscillate slowly and
+blue masses oscillate quickly. At test time, we create unseen color--motion
+combinations by holding observed motion fixed and changing only color---for
+example, a red mass with fast observed motion. We determine which cue controls
+the generated future by measuring motion directly in fully decoded videos.
+\introhighlight{The model can follow color and generate slow motion---a predictive
+shortcut.} A low-dimensional internal edit predicted from simple physical
+variables restores the correct fast motion. Figure~\ref{fig:visual-thesis}
+summarizes the conflict and the causal tests that follow.
+
+\introhighlight{Causal writability is the ability of an internal edit to change motion
+in decoded video.} It depends on both edit location and strength. As computation
+proceeds, observed-frame information is progressively written into future-frame
+states, so observed-frame edits can eventually arrive too late. At fixed
+strength, we find a sharp depth boundary over a narrow range of layers: the same
+edit changes the video before the boundary but not after it. Closure marks
+commitment for that write. The underlying motion signal remains detectable after
+commitment; an appropriate downstream gain restores physical motion, while
+excessive gain overshoots.
+
+\introhighlight{Early causal writability predicts which errors training later corrects.}
+At an early checkpoint, those errors are writable at more network depths than
+errors that persist. The writable boundary also depends on evidence and learning
+history: more observed motion keeps the correct future writable to deeper layers,
+and, in a pretrained 1.3B video model, learning motion before introducing the
+color bias also moves the boundary deeper.
+
+\introhighlight{Different natural behavior can coexist with a shared causal edit space.}
+Independently trained models differ in how often their rollouts follow observed
+motion, yet corrective edits transfer between them. This points to different
+downstream use of similar physical solutions. We therefore trace the downstream
+write and show that self-attention carries motion information from observed
+frames into future-frame states; strengthening the corresponding write restores
+the correct motion in decoded video.
+
+\section{How Appearance and Observed Motion Compete for the Generated Future}
+\label{sec:solution-selection}
+
+\resultlead{Experimental setting.}
+We study Spring, a 488M-parameter latent flow-matching Transformer with 30
+bidirectional DiT blocks and a frozen Wan2.1 VAE. Each 20-fps video shows a
+colored mass oscillating on a spring, with 65 observed frames followed by 64
+generated frames. Training pairs red with the slow band
+$\omega\sim U[2.2,3.0]$ rad/s and blue with the fast band
+$\omega\sim U[5.2,6.4]$ rad/s. No conflicting color--frequency combinations
+appear during training. We train two settings with different amounts of visible
+motion. Long retains all 65 observed frames, whereas Short replaces the first 57
+frames with a fixed background, leaving only the final 8 motion frames while
+preserving the timeline and token count. We detect the mass in fully decoded
+videos and measure its generated frequency and future appearance. Full model,
+sampling, and evaluation details appear in
+Appendix~\ref{app:experimental-details}.
+
+\resultlead{Appearance-cue strength shifts the generated future.} We fix observed
+motion and generation seed for each trajectory and sweep 11 hues from red to blue.
+\textbf{Physics-follow rate} is the fraction of valid decoded videos whose
+frequency lies in the observed-motion band, evaluated over the stated cohort.
+Aggregate behavior pools the $64\times11$ grid (32 slow and 32 fast histories);
+cue-specific and conflict-only rates use subsets.
+The training color--frequency rule gives a 50\% reference on the full balanced
+grid, but 0\% on conflict-only endpoints.
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=.915\textwidth]{figures/generated/figure2_solution_selection.pdf}
+  \caption{\textbf{Appearance and observed motion compete to determine the
+  generated future.}
+  \textbf{a}, A hue sweep measures decoded frequency and RGB.
+  \textbf{b}, Ambiguous cues let observed motion select its paired motion--appearance mode.
+  \textbf{c}, Long (65 frames) resists stronger conflicting cues than Short
+  (8 frames); each rate uses 32 histories per cue and motion band.}
+  \label{fig:solution-selection}
+\end{figure*}
+
+Appearance cues mainly select between the two training-supported frequency
+bands, rather than continuously tuning speed. Around ambiguous hues, the
+generated future is more likely to follow observed motion than at the red or
+blue endpoints.
+
+\resultlead{Observed motion completes the learned motion--appearance pair.} The
+same model can also use observed motion to select the color paired with that
+motion during training (Figure~\ref{fig:solution-selection}b). Under ambiguous
+appearance cues, fast motion favors a blue future and slow motion a red one.
+With strong color cues, the same model instead favors the frequency paired with
+the observed color. These two behaviors show that the learned motion--appearance
+association can be completed in either direction.
+
+\resultlead{More visible motion shifts control toward the physical solution.} In
+separately trained Short and Long models, motion-consistent futures persist
+farther toward the conflicting red or blue endpoint under Long in both conflict
+directions (Figure~\ref{fig:solution-selection}c). The generated future therefore
+depends on the relative evidence supplied by appearance and observed motion.
+Pendulum shows the same cue-dependent competition in another oscillatory system
+(Appendix~\ref{app:pendulum-replication}).
+We next test whether the motion-consistent alternative remains causally
+accessible when the conflicting color cue controls generation.
+
+\begin{figure*}[!ht]
+  \centering
+  \includegraphics[trim=0 11pt 0 1pt,clip,width=\textwidth]{figures/generated/figure3_causal_route.pdf}
+  \caption{\textbf{A compact, physically structured activation edit restores
+  the motion-consistent future.}
+  \textbf{a}, A full edit redirects the naturally selected future in decoded
+  video.
+  \textbf{b}, Four coordinates retain nearly the full effect, with their
+  variation organized by boundary position and velocity.
+  \textbf{c}, A controller fitted on separate trajectories predicts held-out
+  edits from target motion and boundary state.
+  \textbf{d}, Natural physics-follow rates pool each run's $64\times11$ cue
+  grid; all six directed transfers achieve held-out decoded recovery
+  $R=.94$--$.99$.}
+  \label{fig:causal-route}
+\end{figure*}
+
+\section{A Physically Structured Alternative Remains Causally Accessible}
+\label{sec:causal-route}
+
+We test causal accessibility in three independently trained Short models after 50K training steps. Each
+strict aligned--conflict pair shares observed motion, prediction-boundary state,
+and generation seed, and differs only in color. Both rollouts are valid: the
+aligned input uses the training-paired color and follows observed motion,
+whereas the conflict input uses the opposite color and follows appearance
+(e.g., fast--blue versus fast--red; full criteria in
+Appendix~\ref{app:experimental-details}). The prediction-boundary state is the
+position and velocity at the final observed frame. Let $h_{A,i}$ and
+$h_{C,i}$ denote their observed-frame token states after DiT block $\ell$
+(with $i$ indexing an aligned--conflict pair).
+Adding $d_i=h_{A,i}-h_{C,i}$ to the conflict run redirects its decoded future
+(Figure~\ref{fig:causal-route}a).
+
+Let $\hat\omega_{C,i}$ denote the fitted frequency of the natural conflict
+rollout, $\hat\omega_{A,i}$ that of its corresponding aligned rollout, and
+$\hat\omega_{\mathrm{edit},i}(\ell)$ the fitted frequency after intervention at
+block $\ell$. We measure \textbf{normalized frequency recovery} by
+\[
+R_i^\omega(\ell)=
+\frac{\hat\omega_{\mathrm{edit},i}(\ell)-\hat\omega_{C,i}}
+     {\hat\omega_{A,i}-\hat\omega_{C,i}},
+\]
+so $R^\omega=0$ denotes the natural conflict frequency and $R^\omega=1$ the
+corresponding aligned frequency. For the structure analysis, a layer scan
+selects a late site where the write still redirects the decoded future; across
+the three runs this site falls at blocks 3, 6, and 4. Only observed-frame tokens are
+changed. This full edit does not reveal whether the model has learned a compact
+physical representation. We therefore use PCA to look for low-dimensional
+structure shared across edits.
+
+\resultlead{Four coordinates retain nearly the full effect.} We fit an uncentered
+PCA basis to paired differences from one set of trajectories. For each held-out
+trajectory, we retain only the component of its paired difference along the
+first four axes and test whether this low-rank edit preserves the effect of the
+full difference. Across the three Short 50K runs, 87.8\% of held-out top-4 writes satisfy
+$.75<R^\omega<1.25$, compared with 92.4\% for the full paired-difference edit.
+Each run supports two rewrite directions (slow$\to$fast and fast$\to$slow), giving
+six run--direction groups. This establishes a compact edit space, but each
+held-out test still uses its own paired difference.
+
+\resultlead{Boundary position and velocity organize the write.}
+The Top-4 coordinates vary systematically with boundary phase: held-out edits
+form smooth phase-ordered loops in both rewrite directions
+(Figure~\ref{fig:causal-route}b).
+For harmonic motion, $x=A\cos\theta$ and $v=-A\omega\sin\theta$, so the input
+boundary phase
+\[
+\theta^*=\operatorname{atan2}(-v^*/\omega_{\rm true},x^*),
+\]
+compactly encodes normalized position and velocity: up to a common amplitude
+scale, $\cos\theta^*$ is position-like and $\sin\theta^*$ is velocity-like after
+frequency normalization. This organization suggests predicting an edit for a
+new trajectory from its boundary state and requested target direction, without
+the matched aligned activation. We fit a separate first-harmonic map for each
+target family:
+\[
+\hat z^{(r)}_{1:4}(\theta^*)
+=\beta^{(r)}_0+\beta^{(r)}_c\cos\theta^*
++\beta^{(r)}_s\sin\theta^*,
+\qquad r\in\{\mathrm{fast},\mathrm{slow}\}.
+\]
+This model raises held-out coordinate $R^2$ to $.83$--$.88$, up
+from $.51$--$.60$ for a direction-only model. For a held-out input, the frozen
+controller predicts four coordinates from target direction and boundary state,
+then reconstructs the activation edit through the frozen PCA basis. Across the
+six run--direction groups, 85.9\% of these synthesized held-out writes satisfy
+$.75<R^\omega<1.25$
+(Figure~\ref{fig:causal-route}c).
+
+Physical-state differences also place the two rewrite directions in a common
+edit space (Appendix~\ref{app:state-parameterizations}).
+The edits also rewrite associated appearance: slow$\to$fast shifts future color
+toward blue. The same low-order organization recurs in Pendulum, where boundary
+angle and angular velocity predict top-four coordinates, and in non-oscillatory
+Free Fall, where a donor-free $[1,g_{\mathrm{target}}]$ controller reaches median held-out recovery
+$R^g=.967$ across 64 decoded rollouts
+(Appendix~\ref{app:pendulum-replication},~\ref{app:freefall-replication}).
+
+\resultlead{Models with very different natural behavior can share transferable
+physical corrections.} Despite identical architecture and training settings,
+physics-follow rates span about 22 percentage points across the three training
+seeds (Figure~\ref{fig:causal-route}d). This variation motivates testing whether
+these models share a transferable physical edit space.
+A scale and four-dimensional
+orthogonal map fitted on separate
+trajectories transfers controller-predicted edits across all six directed run
+pairs, with near-full held-out decoded recovery
+(Figure~\ref{fig:causal-route}d; Appendix~\ref{app:cross-run-transfer-controls}).
+Their behavioral differences may therefore arise from how downstream computation
+uses a shared physical solution. This shifts the question from whether the
+physical solution exists to when it loses its ability to affect generation.
+
+\section{Causal Writability: When Does the Future Become Hard to Change?}
+\label{sec:writability}
+
+To measure depthwise writability, we apply each matched full edit from
+Section~\ref{sec:causal-route} at all 31 network sites. Early writes redirect the
+shortcut future; after a narrow depth range, the edit stops changing decoded
+motion. For a \textbf{strict-failure bank}---pairs whose aligned rollout
+follows observed motion and whose conflict rollout follows color---and writing
+$\Pr_i$ for the fraction over trajectories $i$, define
+\begingroup
+\[
+W^\omega(\ell)
+=\Pr_i\!\left[\mathrm{valid}\ \land\ .75<R_i^\omega(\ell)<1.25\right],
+\qquad
+D^\omega=\sum_{\ell\in\mathcal L}W^\omega(\ell),
+\]
+over the common 31-site scan $\mathcal L$ (one site before block 0 and one after
+each of the 30 blocks). $W^\omega(\ell)$ is the fraction of strict failures that
+can still be redirected at site $\ell$. $D^\omega$ is the expected number of
+writable sites out of 31; a larger value means that the same write remains
+effective deeper into the network. For one trajectory,
+\[
+D_i^\omega
+=\sum_{\ell\in\mathcal L}
+\mathbf 1\!\left[\mathrm{valid}\ \land\ .75<R_i^\omega(\ell)<1.25\right].
+\]
+\endgroup
+The motion-consistent future is \textbf{causally writable} while the tested write
+changes the decoded motion; closure marks \textbf{commitment} for the write. Individual
+trajectories close at different sites, so averaging broadens the population
+profile. In Pendulum, more observed motion delays closure in both directions;
+Free Fall loses near-full direct writability after block 1
+(Appendix~\ref{app:pendulum-replication},~\ref{app:freefall-replication}).
+
+\begin{figure}[!t]
+  \centering
+  \includegraphics[width=.893\textwidth]{figures/drafts/figure4_writeability_draft.pdf}
+  \caption{\textbf{Causal writability closes with depth and predicts which
+  early failures training later corrects.}
+  \textbf{a}, Layerwise recovery closes earlier over training.
+  \textbf{b}, Across 15 seeds, mean full-grid ($64\times11$) physics-follow rate
+  rises while remaining errors become less writable.
+  \textbf{c}, Later-corrected errors are more writable at 5K.
+  \textbf{d}, Long (65 frames) delays closure relative to Short (8 frames).}
+  \label{fig:writability}
+\end{figure}
+
+\resultlead{Training corrects some errors while consolidating the rest.} Across
+15 Short runs, physics-following behavior rises from $.52$ at 5K to $.60$ at
+100K, while mean writability among remaining shortcut errors falls from $10.88$
+to $9.55$ sites (Figure~\ref{fig:writability}b). A classifier can improve held-out
+accuracy while becoming more confidently wrong on some remaining examples,
+increasing their cross-entropy loss. We therefore ask whether early writability
+distinguishes the shortcut errors that training later corrects from those that
+persist. See Appendix~\ref{app:writability-robustness} for
+same-checkpoint comparisons.
+
+\resultlead{Early writability predicts which errors training later corrects.} We
+test this prediction using trajectories that all follow the shortcut at 5K.
+Future-rescued trajectories follow observed motion at both 80K and 100K, whereas
+persistent failures follow the shortcut at all six checkpoints (5K, 10K, 20K,
+50K, 80K, and 100K). Future-rescued errors are writable at $3.79$ more sites on
+average (95\% CI $[1.57,6.53]$; Figure~\ref{fig:writability}c). Early writability
+therefore separates the two outcomes before their generated behavior diverges
+(Appendix~\ref{app:persistent-rigidity}).
+
+The link between early writability and later behavior raises a second question:
+can stronger support for the physical future keep it writable deeper into the network?
+We test two ways of providing that support: more observed motion and learning
+dynamics before introducing the appearance shortcut.
+
+\resultlead{More visible motion delays commitment.} In all three matched-seed
+comparisons at 50K, Long remains writable to a
+later block than Short (Figure~\ref{fig:writability}d).
+
+\resultlead{Training order moves the commitment boundary.}
+Longer histories strengthen the motion evidence available at inference.
+We next ask whether learning motion first has a similar effect, comparing
+two adaptation paths for the same pretrained Wan 1.3B video DiT.
+Direct adaptation learns the biased red--slow/blue--fast task immediately.
+Neutral-first adaptation first learns the same motion from achromatic videos,
+where appearance carries no frequency information, and then receives the same
+biased data.
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[trim=0 16pt 0 10pt,clip,width=\textwidth]{figures/generated/figure5_pretrained_main.pdf}
+  \caption{\textbf{In a pretrained video DiT, learning cue-independent dynamics
+  first improves physical behavior and delays commitment.} \textbf{a}, Direct
+  and Neutral-first conflict-endpoint rates and the matched gray-input rate
+  each use the same 128 held-out histories.
+  \textbf{b}, The donor-free
+  controller approaches the full-edit and Top-4 references.
+  \textbf{c}, Direct and Neutral-first adaptation both close sharply, but
+  between B12--B13 and B14--B15, respectively.}
+\label{fig:pretrained-curriculum}
+\end{figure}
+
+Training order changes the generated future. On a fixed population of
+128 trajectories, conflict physics-follow at 10K is $80.5\%$ after Neutral-first
+adaptation and $9.4\%$ after Direct adaptation. Aligned performance is similar
+(Figure~\ref{fig:pretrained-curriculum}a). Before
+comparing closure, we verify that the compact edit remains effective in
+Wan. A controller fitted on separate trajectories approaches the Top-4
+reference in both write directions (Figure~\ref{fig:pretrained-curriculum}b).
+
+Learning cue-independent motion first delays closure. On the same
+persistent-failure identities, Neutral-first adaptation retains writability
+deeper than Direct adaptation
+(Figure~\ref{fig:pretrained-curriculum}c). On fixed identities, access can close
+and later reopen across nearby training checkpoints. Commitment therefore marks
+a depth boundary within a given forward pass; subsequent training can move or
+reopen it
+(Appendix~\ref{app:pretrained-curriculum}).
+
+Longer histories and motion-first learning thus provide two ways to preserve
+access to the physical future. They leave open what stops that future from
+controlling generation when direct writing finally fails.
+
+\section{Attention Writes the Selected Future into Future Tokens}
+\label{sec:downstream}
+When direct writing stops changing the video, two explanations remain. The
+signal for the alternative motion may have disappeared, or it may still be
+present after the selected motion has already been written into future-frame
+tokens.
+
+\resultlead{The alternative-motion signal survives closure.} We first apply a write
+at an earlier writable block. At each subsequent block, we compare the edited
+future-frame activations with the natural conflict run and project their
+difference onto the aligned-minus-conflict direction. We call this projection
+the alternative-motion signal. A value of 1 indicates the full paired
+difference along that direction; 0 indicates the unedited conflict response. On
+held-out fast-target examples, the signal
+remains measurable in all three runs from the first non-writable block through
+the final block, even after observed-frame writes stop changing the generated
+frequency (Figure~\ref{fig:downstream}a).
+
+We next localize the pathway through which the physical direction causally
+affects generation, starting from the full edit $E=C+(A-C)$
+(where $C$, $A$, and $E$ denote the conflict, aligned,
+and edited activations, respectively). We first replace either the
+post-attention future-frame state or the subsequent MLP output with its
+natural-conflict counterpart. We then decompose self-attention by restoring its
+natural-conflict Q, K, or V
+components one at a time. Restoring Q tests the queries issued by future-frame
+tokens, while restoring K or V tests the information made available by
+observed-frame tokens.
+
+\begin{figure}[!t]
+  \centering
+  \includegraphics[width=\textwidth]{figures/drafts/figure5_downstream_draft.pdf}
+  \caption{\textbf{The alternative-motion signal survives closure, and
+  self-attention determines whether it changes the video.}
+  \textbf{a}, The signal remains measurable after observed-frame writing stops
+  changing decoded motion.
+  \textbf{b}, Restoring conflict K+V, but not Q, removes frequency recovery.
+  \textbf{c}, On 48 held-out fast-motion/red-cue strict failures, moderate
+  V-head amplification restores target motion; excessive gain leaves the
+  supported modes.}
+  \label{fig:downstream}
+\end{figure}
+
+\resultlead{Observed-frame K/V mediates the motion write into future-frame tokens.}
+Restoring the natural-conflict post-attention future-frame state removes
+frequency recovery, whereas restoring the following MLP output preserves
+frequency recovery.
+This localizes the write to self-attention. Within self-attention, restoring Q
+has little effect, while jointly restoring observed-frame K+V removes recovery
+in all six run--direction groups (Figure~\ref{fig:downstream}b). Future-frame
+queries therefore obtain the motion-controlling information from observed-frame
+K/V.
+
+We next test whether amplifying this attention write can restore control.
+Head-level responsibility differs across runs: the effect is concentrated in
+one K head, distributed across K/V, or localized to a selective V head
+(Appendix~\ref{app:implementation-multiplicity}). In Run C, we amplify
+only the observed-frame V of one of the nine heads:
+\[
+V_C^{(8)}+\lambda\,\Delta V^{(8)},
+\qquad
+\Delta V^{(8)}=V_M^{(8)}-V_C^{(8)},
+\]
+where $M$ is the state produced by the frozen controller from
+Section~\ref{sec:causal-route} and
+$\lambda$ scales the strength of the physical-alternative direction.
+
+\resultlead{Moderate amplification allows the alternative motion to regain control.} At
+$\lambda=8$, the physics-following rate
+peaks at $56.3\%$ across 48 held-out strict failures
+(Figure~\ref{fig:downstream}c). Higher gain overshoots: at $\lambda=16$, all
+outputs remain valid, but most are off-family.
+In this model, the alternative-motion signal remains present,
+but its unamplified attention write is too weak to control the video. We also
+examine when the alternative-motion write becomes effective during iterative
+generation. Early-only flow-matching writes produce an internal response without
+decoded recovery, whereas late- or all-call writes restore the motion-consistent
+future. Effective control therefore depends on the temporal allocation of the
+write, not only its location within the network
+(Appendix Figure~\ref{fig:fm-time-decoded-rescue}).
+
+% Sections 6 onward are intentionally unchanged source text.
+\input{sections/06_discussion}
+\input{sections/07_related_work}
+\input{sections/reproducibility}
+\input{sections/ai_use}
+
+\bibliography{refs}
+\bibliographystyle{iclr2027_conference}
+\appendix
+\input{appendix_revision_20260822.tex}
+\end{document}

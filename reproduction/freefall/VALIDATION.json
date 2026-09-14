@@ -1,0 +1,58 @@
+{
+  "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows CPU; no fresh GPU inference",
+  "checkpoint_sha256": "f2fb7275c3385a910cb498c620ce2f72842d46773c3f25a76634109937bec11d",
+  "vae_sha256": "38071ab59bd94681c686fa51d75a1968f64e470262043be31f7a094e442fd981",
+  "archive_members_verified": 699,
+  "pca_self_test": "PASS: SVD equivalence, orthonormal basis, projections, heldout perturbation isolation",
+  "basis_shape": [
+    2,
+    20,
+    1088,
+    1536
+  ],
+  "basis_gram": [
+    [
+      1.0000000001117066,
+      -3.068252802437138e-11
+    ],
+    [
+      -3.068252802437138e-11,
+      0.9999999998603504
+    ]
+  ],
+  "controller_refit_max_abs_coefficient_error": {
+    "low": 0.0,
+    "high": 0.0
+  },
+  "saved_frame_reevaluation": {
+    "fit_only_controller": {
+      "n": 64,
+      "valid": 64,
+      "E3_correct": 61
+    },
+    "natural_conflict": {
+      "n": 64,
+      "valid": 64,
+      "E3_correct": 0
+    }
+  },
+  "input_generator_smoke": {
+    "base_seed": 50000,
+    "sample_ids": [
+      "eval_50000_low_aligned",
+      "eval_50000_low_conflict",
+      "eval_50000_high_aligned",
+      "eval_50000_high_conflict"
+    ],
+    "physical_metadata_match": true,
+    "mp4_encoder_bytes_not_required_to_match": true
+  },
+  "syntax_checked_file_count": 135,
+  "original_mp4_count": 4,
+  "new_gpu_rollouts": 0,
+  "limitations": [
+    "Independent clean-environment GPU reproduction has not been run.",
+    "Pendulum final runtime inputs not accessible."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "contract": {
+    "color_distance": 150.0,
+    "detection_rate_required": 0.5,
+    "max_boundary_jump_px": 30.0,
+    "max_fit_rmse": 0.12,
+    "max_jump_px": 30.0,
+    "max_length_error": 0.1,
+    "max_missing_run_allowed": 12,
+    "min_area": 12
+  },
+  "rows": 1178
+}

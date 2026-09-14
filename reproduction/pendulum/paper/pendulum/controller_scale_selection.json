@@ -1,0 +1,40 @@
+{
+  "selection_split": "fit",
+  "selection_rule": "maximize all-cohort near-full count, then evaluator-valid count; held-out is not read",
+  "intervention_layer_zero_based": 12,
+  "predicted_coordinate_rank": 4,
+  "fit_count": 64,
+  "candidates": [
+    {
+      "scale": 0.0,
+      "valid_n": 64,
+      "near_full_n": 0,
+      "conditional_median_recovery": 0.0,
+      "no_op_max_abs_pixel": 0
+    },
+    {
+      "scale": 0.5,
+      "valid_n": 59,
+      "near_full_n": 0,
+      "conditional_median_recovery": 0.05821917808219189
+    },
+    {
+      "scale": 0.75,
+      "valid_n": 7,
+      "near_full_n": 7,
+      "conditional_median_recovery": 0.8699059561128526
+    },
+    {
+      "scale": 1.0,
+      "valid_n": 52,
+      "near_full_n": 52,
+      "conditional_median_recovery": 0.9309887887079946
+    }
+  ],
+  "selected_scale": 1.0,
+  "heldout_generated_once": true,
+  "heldout_count": 64,
+  "heldout_valid_n": 52,
+  "heldout_near_full_n": 51,
+  "heldout_conditional_median_recovery": 0.9295710601330256
+}

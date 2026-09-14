@@ -1,0 +1,60 @@
+[
+  {
+    "figure": 2,
+    "panel": "b",
+    "file": "examples/videos/figure2-fast-endpoint.mp4",
+    "model": "spring-short-3407-50k",
+    "trajectory_id": "traj_978c049c8b0e16ccf35c",
+    "sample_id": "neutral_168a1211cc631d499746",
+    "input_cue": "mix00",
+    "omega_hat": 2.8446000000000002,
+    "kind": "original archived decoded video"
+  },
+  {
+    "figure": 2,
+    "panel": "b",
+    "file": "examples/videos/figure2-fast-purple.mp4",
+    "model": "spring-short-3407-50k",
+    "trajectory_id": "traj_978c049c8b0e16ccf35c",
+    "sample_id": "neutral_1d063536769094ea5890",
+    "input_cue": "mix05",
+    "omega_hat": 6.3784937500000005,
+    "kind": "original archived decoded video"
+  },
+  {
+    "figure": 2,
+    "panel": "appendix matched example",
+    "file": "examples/videos/figure2-slow-endpoint.mp4",
+    "model": "spring-short-3407-50k",
+    "trajectory_id": "traj_87d9b2d2439ab7ee4577",
+    "sample_id": "neutral_169b34539ebd1fe96838",
+    "input_cue": "mix10",
+    "omega_hat": 5.2268437500000005,
+    "kind": "original archived decoded video"
+  },
+  {
+    "figure": 2,
+    "panel": "appendix matched example",
+    "file": "examples/videos/figure2-slow-purple.mp4",
+    "model": "spring-short-3407-50k",
+    "trajectory_id": "traj_87d9b2d2439ab7ee4577",
+    "sample_id": "neutral_6eb67f1f53ad094ae737",
+    "input_cue": "mix05",
+    "omega_hat": 2.25484375,
+    "kind": "original archived decoded video"
+  },
+  {
+    "figure": "appendix FM-time decoded rescue",
+    "file": "examples/videos/downstream-natural_conflict.mp4",
+    "model": "spring-short-3409-50k",
+    "arm": "natural_conflict",
+    "kind": "original archived replay; not the numerical dose-sweep cohort"
+  },
+  {
+    "figure": "appendix FM-time decoded rescue",
+    "file": "examples/videos/downstream-condition_V_only.mp4",
+    "model": "spring-short-3409-50k",
+    "arm": "condition_V_only",
+    "kind": "original archived replay; not the numerical dose-sweep cohort"
+  }
+]

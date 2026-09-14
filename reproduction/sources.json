@@ -1,0 +1,30 @@
+{
+  "spring": {
+    "source": "verified local Spring release",
+    "gpu_smoke_test": "passed"
+  },
+  "pendulum": {
+    "repository": "AlistairY/Physics-in-DiT",
+    "branch": "leqian/pendulum-paper-handoff-20260825",
+    "commit": "7e15a03c8038a4980bd24cd588a915428cd29c60",
+    "upstream_submodule": {
+      "repository": "modelscope/DiffSynth-Studio",
+      "commit": "afd101f3452c9ecae0c87b79adfa2e22d65ffdc3"
+    },
+    "paper_data": "current corrected tables including audited_probability_v2",
+    "runtime_status": "core helpers integrated; Short/Long GPU smoke passed; full held-out Top-4 not rerun"
+  },
+  "freefall": {
+    "result_package": "freefall_pca_trainonly_redo.zip",
+    "integration": "runtime, checkpoint, VAE, train-only basis and redo artifacts supplied",
+    "path": "freefall",
+    "validation": "freefall/VALIDATION.json",
+    "independent_gpu_reproduction": "not run",
+    "weights_transport": "Git LFS on private integration branch"
+  },
+  "remote_changes": true,
+  "license": "MIT for original project code; third-party terms retained",
+  "summary_repository": "xingyun-24/physics-shortcuts-benchmarks",
+  "summary_branch": "integration/paper-release-20260912",
+  "release_stage": "private integration; not published"
+}

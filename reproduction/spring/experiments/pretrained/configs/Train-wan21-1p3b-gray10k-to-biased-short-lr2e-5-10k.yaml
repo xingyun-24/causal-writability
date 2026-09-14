@@ -1,0 +1,66 @@
+seed: 4501
+randomness:
+  init_seed: 4501
+  data_seed: 4501
+  diffusion_seed: 4501
+  other_seed: 4501
+  deterministic_algorithms: false
+model:
+  dit:
+    dim: 1536
+    in_dim: 16
+    ffn_dim: 8960
+    out_dim: 16
+    text_dim: 4096
+    freq_dim: 256
+    eps: 1.0e-06
+    patch_size:
+    - 1
+    - 2
+    - 2
+    num_heads: 12
+    num_layers: 30
+    has_text_input: true
+    has_image_input: false
+    num_inference_steps: 20
+    type: bidirectional
+    ckpt_file: weights/pretrained/wan-neutral-only-10k.safetensors
+  vae:
+    z_dim: 16
+    queued: false
+    ckpt_file: weights/vae.pth
+  type: pretrained_t2v_zero_context
+  num_condition_frames: 17
+data:
+  dataset: data/latents/train_short
+  labels: data/latents/train_short/metadata.csv
+  size:
+  - 128
+  - 128
+  num_frames: 33
+  load_as: tensor
+  encoded: true
+loader:
+  num_training_steps: 10000
+  batch_size: 32
+  num_workers: 4
+optimizer:
+  learning_rate: 2.0e-05
+  weight_decay: 0.01
+  gradient_accumulation_steps: 1
+  with_ema: false
+log:
+  project: spring-v4-pretrained-wan-gray10k-biased-curriculum
+  name: wan21-1p3b-gray10k-to-biased-short-lr2e-5
+  log_every: 10
+  save_at:
+  - 250
+  - 500
+  - 1000
+  - 2000
+  - 5000
+  - 10000
+  save_last_every: 250
+  ckpt_dir: runs/pretrained/checkpoints
+  out_dir: runs/pretrained/outputs
+  fps: 20

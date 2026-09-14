@@ -1,0 +1,642 @@
+{
+  "eval_50000_high": {
+    "previous_conflict_g_E3": 0.04551214046886443,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06511387887451758,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04551214046886443,
+      "gravity_error": 0.01960173840565315,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03802876827049937,
+      "gravity_error_e0": 0.027085110604018213,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.02051214046886443,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50005_low": {
+    "previous_conflict_g_E3": 0.014106756028437886,
+    "current": {
+      "valid": true,
+      "detected_frames": 58,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.007266470942510986,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.014106756028437886,
+      "gravity_error": 0.0068402850859269,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03565470882040982,
+      "gravity_error_e0": 0.02838823787789883,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.030893243971562113,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50014_high": {
+    "previous_conflict_g_E3": 0.04385402825832608,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06461412859500178,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04385402825832608,
+      "gravity_error": 0.020760100336675698,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.037948678220892304,
+      "gravity_error_e0": 0.026665450374109473,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.018854028258326078,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50022_low": {
+    "previous_conflict_g_E3": 0.021072786592906158,
+    "current": {
+      "valid": true,
+      "detected_frames": 60,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.016146214477300393,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.021072786592906158,
+      "gravity_error": 0.004926572115605765,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.037435855706286825,
+      "gravity_error_e0": 0.021289641228986432,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.02392721340709384,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50038_high": {
+    "previous_conflict_g_E3": 0.04459219497539726,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06492680178141044,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04459219497539726,
+      "gravity_error": 0.020334606806013185,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.038102838045556725,
+      "gravity_error_e0": 0.026823963735853718,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.019592194975397256,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50053_low": {
+    "previous_conflict_g_E3": 0.023268571899069068,
+    "current": {
+      "valid": true,
+      "detected_frames": 60,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.018471270957218754,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.023268571899069068,
+      "gravity_error": 0.004797300941850314,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.0373678660093272,
+      "gravity_error_e0": 0.018896595052108445,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.02173142810093093,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50060_low": {
+    "previous_conflict_g_E3": 0.01102143680323288,
+    "current": {
+      "valid": true,
+      "detected_frames": 60,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.005894401651397412,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.01102143680323288,
+      "gravity_error": 0.005127035151835468,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.035388424923771616,
+      "gravity_error_e0": 0.029494023272374204,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.03397856319676712,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50067_low": {
+    "previous_conflict_g_E3": 0.022191077681429767,
+    "current": {
+      "valid": true,
+      "detected_frames": 60,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.01709998591120215,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.022191077681429767,
+      "gravity_error": 0.005091091770227617,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03723466029816727,
+      "gravity_error_e0": 0.02013467438696512,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.02280892231857023,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50073_high": {
+    "previous_conflict_g_E3": 0.04442093303796729,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06509883693868776,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04442093303796729,
+      "gravity_error": 0.020677903900720468,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03785231880254229,
+      "gravity_error_e0": 0.027246518136145467,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.01942093303796729,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50081_low": {
+    "previous_conflict_g_E3": 0.010129783627780083,
+    "current": {
+      "valid": true,
+      "detected_frames": 62,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.003831881469574032,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.010129783627780083,
+      "gravity_error": 0.006297902158206051,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03367936503746581,
+      "gravity_error_e0": 0.02984748356789178,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.03487021637221992,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50092_high": {
+    "previous_conflict_g_E3": 0.04388418563791719,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06337247545209575,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04388418563791719,
+      "gravity_error": 0.019488289814178557,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03778159738112198,
+      "gravity_error_e0": 0.025590878070973766,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.01888418563791719,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50097_high": {
+    "previous_conflict_g_E3": 0.045494863408235754,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06695300996135099,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.045494863408235754,
+      "gravity_error": 0.02145814655311524,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.037292288571906175,
+      "gravity_error_e0": 0.029660721389444818,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.020494863408235753,
+      "route_label": "shortcut_band"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50106_high": {
+    "previous_conflict_g_E3": 0.04471388171772714,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06452919097333171,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04471388171772714,
+      "gravity_error": 0.01981530925560457,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03771587918526315,
+      "gravity_error_e0": 0.026813311788068554,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.019713881717727137,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50115_high": {
+    "previous_conflict_g_E3": 0.044031976809948845,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06521975927623197,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.044031976809948845,
+      "gravity_error": 0.021187782466283125,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.037763308980910675,
+      "gravity_error_e0": 0.027456450295321295,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.019031976809948843,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50120_high": {
+    "previous_conflict_g_E3": 0.044658069523992,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06538017222884851,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.044658069523992,
+      "gravity_error": 0.020722102704856513,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03781618993633296,
+      "gravity_error_e0": 0.027563982292515547,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.019658069523991996,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50142_low": {
+    "previous_conflict_g_E3": 0.014618796304525842,
+    "current": {
+      "valid": true,
+      "detected_frames": 59,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.003419693060143414,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.014618796304525842,
+      "gravity_error": 0.011199103244382428,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.035388652772850866,
+      "gravity_error_e0": 0.031968959712707454,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.030381203695474156,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50146_low": {
+    "previous_conflict_g_E3": 0.011101957571796073,
+    "current": {
+      "valid": true,
+      "detected_frames": 59,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.00593522170707521,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.011101957571796073,
+      "gravity_error": 0.005166735864720863,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.035670717631890364,
+      "gravity_error_e0": 0.029735495924815156,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.03389804242820393,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50156_low": {
+    "previous_conflict_g_E3": 0.01313886419313098,
+    "current": {
+      "valid": true,
+      "detected_frames": 60,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.00783312111183486,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.01313886419313098,
+      "gravity_error": 0.005305743081296121,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.035340086842311,
+      "gravity_error_e0": 0.02750696573047614,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.031861135806869015,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50163_high": {
+    "previous_conflict_g_E3": 0.044222422565086086,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06480414029130344,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.044222422565086086,
+      "gravity_error": 0.02058171772621735,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.037916611353058786,
+      "gravity_error_e0": 0.02688752893824465,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.019222422565086085,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50178_low": {
+    "previous_conflict_g_E3": 0.022381960370855845,
+    "current": {
+      "valid": true,
+      "detected_frames": 60,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.017229663400812972,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.022381960370855845,
+      "gravity_error": 0.005152296970042873,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03719461007410519,
+      "gravity_error_e0": 0.019964946673292218,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.022618039629144153,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50187_high": {
+    "previous_conflict_g_E3": 0.04405327682922396,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06458603172283665,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04405327682922396,
+      "gravity_error": 0.02053275489361269,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.038084199521088026,
+      "gravity_error_e0": 0.026501832201748628,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.01905327682922396,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50195_high": {
+    "previous_conflict_g_E3": 0.04442839757113038,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06620475074383063,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04442839757113038,
+      "gravity_error": 0.021776353172700248,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03775175518971281,
+      "gravity_error_e0": 0.028452995554117816,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.01942839757113038,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50204_low": {
+    "previous_conflict_g_E3": 0.015199802263388537,
+    "current": {
+      "valid": true,
+      "detected_frames": 60,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.010085546178167065,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.015199802263388537,
+      "gravity_error": 0.0051142560852214716,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.036078761587607665,
+      "gravity_error_e0": 0.0259932154094406,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.02980019773661146,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50216_high": {
+    "previous_conflict_g_E3": 0.04470961453760514,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06462940503869435,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04470961453760514,
+      "gravity_error": 0.01991979050108921,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03784506451177408,
+      "gravity_error_e0": 0.026784340526920275,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.01970961453760514,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50230_high": {
+    "previous_conflict_g_E3": 0.0445344262335282,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06619606505783483,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.0445344262335282,
+      "gravity_error": 0.021661638824306634,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03784026769128796,
+      "gravity_error_e0": 0.02835579736654687,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.019534426233528197,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50246_low": {
+    "previous_conflict_g_E3": 0.018857721075964687,
+    "current": {
+      "valid": true,
+      "detected_frames": 58,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.013294381761817999,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.018857721075964687,
+      "gravity_error": 0.005563339314146688,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03721046514127932,
+      "gravity_error_e0": 0.02391608337946132,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.02614227892403531,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50257_low": {
+    "previous_conflict_g_E3": 0.02153389677520779,
+    "current": {
+      "valid": true,
+      "detected_frames": 60,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.016179008259124644,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.02153389677520779,
+      "gravity_error": 0.005354888516083147,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03759298154504137,
+      "gravity_error_e0": 0.021413973285916727,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.023466103224792208,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50276_high": {
+    "previous_conflict_g_E3": 0.04405186347690187,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06560982400699188,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04405186347690187,
+      "gravity_error": 0.021557960530090008,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.037907873152472786,
+      "gravity_error_e0": 0.02770195085451909,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.019051863476901867,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50282_high": {
+    "previous_conflict_g_E3": 0.04546000765234416,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06640661819273552,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04546000765234416,
+      "gravity_error": 0.02094661054039136,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.037768154277469636,
+      "gravity_error_e0": 0.028638463915265887,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.02046000765234416,
+      "route_label": "shortcut_band"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50292_low": {
+    "previous_conflict_g_E3": 0.014286287997302681,
+    "current": {
+      "valid": true,
+      "detected_frames": 59,
+      "detected_colour_majority": "blue",
+      "gravity_true": 0.003732307664588469,
+      "true_band": "low",
+      "input_colour": "blue",
+      "gravity_hat": 0.014286287997302681,
+      "gravity_error": 0.010553980332714211,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.03549447113040014,
+      "gravity_error_e0": 0.03176216346581167,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.03071371200269732,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50301_high": {
+    "previous_conflict_g_E3": 0.0465813219944638,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.06688255651277687,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.0465813219944638,
+      "gravity_error": 0.020301234518313074,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.0372828564403735,
+      "gravity_error_e0": 0.029599700072403375,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.021581321994463797,
+      "route_label": "physics_side"
+    },
+    "absolute_g_drift": 0.0
+  },
+  "eval_50311_high": {
+    "previous_conflict_g_E3": 0.04432851709989645,
+    "current": {
+      "valid": true,
+      "detected_frames": 64,
+      "detected_colour_majority": "red",
+      "gravity_true": 0.0634179998723445,
+      "true_band": "high",
+      "input_colour": "red",
+      "gravity_hat": 0.04432851709989645,
+      "gravity_error": 0.019089482772448055,
+      "E3_correct": false,
+      "gravity_hat_e0": 0.037999192951033635,
+      "gravity_error_e0": 0.02541880692131087,
+      "E0_correct": false,
+      "shortcut_band_distance": 0.01932851709989645,
+      "route_label": "middle_gap"
+    },
+    "absolute_g_drift": 0.0
+  }
+}

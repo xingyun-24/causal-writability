@@ -1,0 +1,38 @@
+version: projectile_gravity_v2
+render:
+  width: 128
+  height: 128
+  fps: 20
+  num_frames: 129
+  ball_radius_px: 7
+  background_rgb: [28, 30, 34]
+  red_rgb: [235, 48, 48]
+  blue_rgb: [48, 106, 235]
+physics:
+  simulation_fps: 20
+  low_gravity_range: [0.009, 0.015]
+  high_gravity_range: [0.029, 0.035]
+  paired_gravity_gap: 0.020
+  x_boundary_range: [0.42, 0.58]
+  y_boundary_range: [0.55, 0.70]
+  vx_boundary_range: [0.08, 0.10]
+  vy_boundary_range: [-0.02, 0.06]
+history:
+  boundary_frame: 64
+  prediction_start: 65
+  short_observation_window_pixels: 32
+  short_masked_prefix_pixels: 33
+splits:
+  train_base_seeds: 1024
+  eval_base_seeds: 128
+evaluation:
+  primary:
+    estimator: E3
+    gravity: g_E3_free
+    description: free boundary state; report the fitted continuous gravity
+  secondary:
+    estimator: E0
+    gravity: g_E0_strict
+    state_errors: [delta_y_E3, delta_v_E3, delta_x_E3, delta_vx_E3]
+    description: strict boundary-state gravity plus free-state boundary errors
+seed: 3407

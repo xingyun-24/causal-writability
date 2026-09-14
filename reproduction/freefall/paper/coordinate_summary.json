@@ -1,0 +1,195 @@
+{
+  "controller": "direction_specific_absolute_target_[1,g_target]",
+  "feature_order": [
+    "1",
+    "g_target"
+  ],
+  "fit_pairs": 64,
+  "heldout_pairs": 64,
+  "pca_rank": 2,
+  "global_scale": 1.0022815498887996,
+  "models": {
+    "low": {
+      "train_pair_ids": [
+        "eval_50013_low",
+        "eval_50032_low",
+        "eval_50044_low",
+        "eval_50051_low",
+        "eval_50057_low",
+        "eval_50062_low",
+        "eval_50065_low",
+        "eval_50068_low",
+        "eval_50077_low",
+        "eval_50083_low",
+        "eval_50087_low",
+        "eval_50095_low",
+        "eval_50112_low",
+        "eval_50138_low",
+        "eval_50144_low",
+        "eval_50147_low",
+        "eval_50155_low",
+        "eval_50157_low",
+        "eval_50168_low",
+        "eval_50193_low",
+        "eval_50198_low",
+        "eval_50208_low",
+        "eval_50221_low",
+        "eval_50226_low",
+        "eval_50248_low",
+        "eval_50274_low",
+        "eval_50284_low",
+        "eval_50289_low",
+        "eval_50295_low",
+        "eval_50300_low",
+        "eval_50306_low",
+        "eval_50318_low"
+      ],
+      "heldout_pair_ids": [
+        "eval_50005_low",
+        "eval_50022_low",
+        "eval_50034_low",
+        "eval_50047_low",
+        "eval_50053_low",
+        "eval_50060_low",
+        "eval_50064_low",
+        "eval_50067_low",
+        "eval_50071_low",
+        "eval_50081_low",
+        "eval_50084_low",
+        "eval_50094_low",
+        "eval_50110_low",
+        "eval_50118_low",
+        "eval_50142_low",
+        "eval_50146_low",
+        "eval_50153_low",
+        "eval_50156_low",
+        "eval_50161_low",
+        "eval_50178_low",
+        "eval_50194_low",
+        "eval_50204_low",
+        "eval_50209_low",
+        "eval_50224_low",
+        "eval_50246_low",
+        "eval_50257_low",
+        "eval_50281_low",
+        "eval_50288_low",
+        "eval_50292_low",
+        "eval_50298_low",
+        "eval_50304_low",
+        "eval_50316_low"
+      ],
+      "coefficients_rows_[1_g_target]": [
+        [
+          350.53005278216,
+          134.2022314868598
+        ],
+        [
+          814.1397062120458,
+          -3065.1363334896314
+        ]
+      ],
+      "train_condition_number": 170.10699750278147,
+      "train_coordinate_R2": [
+        0.9901275389636499,
+        0.9972669589275409
+      ],
+      "heldout_coordinate_R2": [
+        0.9872690626352207,
+        0.997715010696582
+      ],
+      "heldout_joint_R2": 0.997010082284911,
+      "heldout_rmse": 0.6472776396676948
+    },
+    "high": {
+      "train_pair_ids": [
+        "eval_50001_high",
+        "eval_50006_high",
+        "eval_50009_high",
+        "eval_50015_high",
+        "eval_50035_high",
+        "eval_50039_high",
+        "eval_50072_high",
+        "eval_50075_high",
+        "eval_50090_high",
+        "eval_50093_high",
+        "eval_50109_high",
+        "eval_50119_high",
+        "eval_50121_high",
+        "eval_50124_high",
+        "eval_50149_high",
+        "eval_50167_high",
+        "eval_50174_high",
+        "eval_50186_high",
+        "eval_50188_high",
+        "eval_50196_high",
+        "eval_50202_high",
+        "eval_50208_high",
+        "eval_50213_high",
+        "eval_50229_high",
+        "eval_50232_high",
+        "eval_50244_high",
+        "eval_50259_high",
+        "eval_50264_high",
+        "eval_50280_high",
+        "eval_50287_high",
+        "eval_50307_high",
+        "eval_50314_high"
+      ],
+      "heldout_pair_ids": [
+        "eval_50000_high",
+        "eval_50003_high",
+        "eval_50007_high",
+        "eval_50014_high",
+        "eval_50016_high",
+        "eval_50038_high",
+        "eval_50055_high",
+        "eval_50073_high",
+        "eval_50076_high",
+        "eval_50092_high",
+        "eval_50097_high",
+        "eval_50101_high",
+        "eval_50106_high",
+        "eval_50115_high",
+        "eval_50120_high",
+        "eval_50122_high",
+        "eval_50143_high",
+        "eval_50163_high",
+        "eval_50169_high",
+        "eval_50185_high",
+        "eval_50187_high",
+        "eval_50195_high",
+        "eval_50199_high",
+        "eval_50216_high",
+        "eval_50230_high",
+        "eval_50241_high",
+        "eval_50247_high",
+        "eval_50261_high",
+        "eval_50276_high",
+        "eval_50282_high",
+        "eval_50301_high",
+        "eval_50311_high"
+      ],
+      "coefficients_rows_[1_g_target]": [
+        [
+          -419.3068115995882,
+          -84.64005465546592
+        ],
+        [
+          981.2578880987284,
+          2872.0915029722205
+        ]
+      ],
+      "train_condition_number": 617.6499676374104,
+      "train_coordinate_R2": [
+        0.9728013503989845,
+        0.9958977936622546
+      ],
+      "heldout_coordinate_R2": [
+        0.9623096567509288,
+        0.99538484596949
+      ],
+      "heldout_joint_R2": 0.9920028639818427,
+      "heldout_rmse": 0.2636949332958748
+    }
+  }
+}

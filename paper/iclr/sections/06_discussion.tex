@@ -1,0 +1,23 @@
+\section{Discussion and Limitations}
+
+Predictive underspecification and causal writability answer different questions.
+The former asks which solutions fit the training data; the latter asks which can
+still reach the output as inference proceeds. This parallels the
+control-theoretic distinction between observability and controllability
+\citep{kalman1960general}: a physical solution may remain detectable after it
+loses control over generation. Commitment marks this loss of causal access, not
+the loss of physical information.
+
+Our mechanistic analysis uses controlled synthetic dynamics, where exact
+counterfactual matching and quantitative decoded-video evaluation are possible.
+The learned edits follow the coupled appearance--dynamics modes in training, and
+closure is specific to the observed-frame edit, sites, and checkpoints tested.
+Independent runs distribute the observed-to-future attention write across
+different K/V components and heads. Pendulum extends the analysis to another
+oscillator and renderer; Free Fall extends it to non-oscillatory dynamics with a
+specified-gravity controller. In a pretrained 1.3B Wan video DiT, we likewise
+observe an executable physical
+edit and a clear closure boundary, showing that the acquisition--control
+distinction is not confined to models trained from scratch. Whether naturally
+occurring shortcuts in broadly pretrained world models exhibit the same point
+of no return remains open.

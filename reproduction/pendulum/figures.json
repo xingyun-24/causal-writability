@@ -1,0 +1,41 @@
+[
+  {
+    "figure": 15,
+    "pdf": "paper/final/pendulum_behavior.pdf",
+    "data": [
+      "paper/pendulum/behavior_rollouts.csv"
+    ],
+    "rebuild": "rebuild_figures.py"
+  },
+  {
+    "figure": 16,
+    "pdf": "paper/final/pendulum_state_geometry.pdf",
+    "data": [
+      "paper/pendulum/coordinate_predictions.csv",
+      "paper/pendulum/coordinate_summary.json",
+      "paper/pendulum/decoded_recovery.csv"
+    ],
+    "rebuild": "rebuild_figures.py"
+  },
+  {
+    "figure": 17,
+    "pdf": "paper/final/pendulum_decoded_recovery.pdf",
+    "data": [
+      "paper/pendulum/decoded_recovery.csv",
+      "paper/pendulum/frames/natural_conflict",
+      "paper/pendulum/frames/state_edit"
+    ],
+    "rebuild": "rebuild_figures.py"
+  },
+  {
+    "figure": 18,
+    "pdf": "paper/final/pendulum_writeability.pdf",
+    "data": [
+      "paper/pendulum/evaluator_v2",
+      "paper/pendulum/layer_scan.csv",
+      "paper/pendulum/layer_summary.json",
+      "paper/pendulum/prepare_pendulum_probability_v2.py"
+    ],
+    "rebuild": "rebuild_figures.py"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "contract_name": "appearance_tolerant_sensitivity_v1",
+  "examples": [
+    {
+      "receiver_id": "A_000",
+      "location": 13,
+      "strict_valid": false,
+      "relaxed_valid": true,
+      "relaxed_detection_rate": 1.0,
+      "relaxed_max_missing_run": 0,
+      "relaxed_frequency_recovery": 0.970873786407767
+    },
+    {
+      "receiver_id": "A_084",
+      "location": 16,
+      "strict_valid": false,
+      "relaxed_valid": true,
+      "relaxed_detection_rate": 1.0,
+      "relaxed_max_missing_run": 0,
+      "relaxed_frequency_recovery": 1.0016611295681062
+    },
+    {
+      "receiver_id": "A_157",
+      "location": 16,
+      "strict_valid": false,
+      "relaxed_valid": true,
+      "relaxed_detection_rate": 1.0,
+      "relaxed_max_missing_run": 0,
+      "relaxed_frequency_recovery": 0.9880043620501635
+    },
+    {
+      "receiver_id": "A_157",
+      "location": 17,
+      "strict_valid": true,
+      "relaxed_valid": true,
+      "relaxed_detection_rate": 1.0,
+      "relaxed_max_missing_run": 0,
+      "relaxed_frequency_recovery": 0.9814612868047983
+    }
+  ]
+}

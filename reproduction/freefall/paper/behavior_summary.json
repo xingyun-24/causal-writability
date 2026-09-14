@@ -1,0 +1,14 @@
+{
+  "rows": 1408,
+  "physical_histories": 64,
+  "hues": 11,
+  "regimes": [
+    "Short",
+    "Long"
+  ],
+  "valid_count": 1198,
+  "invalid_count": 210,
+  "valid_rate": 0.8508522727272727,
+  "descriptive_only": true,
+  "raw_points_and_per_hue_medians": "no inferential uncertainty interval"
+}

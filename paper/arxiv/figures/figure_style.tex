@@ -1,0 +1,59 @@
+% Authoritative paper-figure palette and TikZ grammar.
+% Keep synchronized with FIGURE_STYLE_GUIDE_v1.md and figure_style.py.
+
+% Semantic colors.
+\definecolor{slowred}{HTML}{D66555}
+\definecolor{slowredlight}{HTML}{F3D6D1}
+\definecolor{fastblue}{HTML}{4F75B3}
+\definecolor{fastbluelight}{HTML}{D8E1F0}
+\definecolor{ambigpurple}{HTML}{9575B5}
+\definecolor{ambigpurplelight}{HTML}{E5DCEF}
+\definecolor{causalteal}{HTML}{3A9688}
+\definecolor{causalteallight}{HTML}{D8ECE8}
+\definecolor{commitamber}{HTML}{D19A45}
+\definecolor{commitamberlight}{HTML}{F2E4C9}
+
+% Neutral colors.
+\definecolor{primaryink}{HTML}{30343B}
+\definecolor{secondarytext}{HTML}{899097}
+\definecolor{darksecondary}{HTML}{626970}
+\definecolor{structurefill}{HTML}{F1F0ED}
+\definecolor{targetfill}{HTML}{E3E7E8}
+\definecolor{warmcard}{HTML}{F8F6F1}
+\definecolor{inactivegray}{HTML}{C8CBCB}
+\definecolor{gridline}{HTML}{DDE0E2}
+\definecolor{cardborder}{HTML}{D9D7D2}
+\definecolor{paperwhite}{HTML}{FFFFFF}
+
+% Frozen 11-point display encoding for u = 0.0, ..., 1.0.
+\definecolor{huezero}{HTML}{D66555}
+\definecolor{hueone}{HTML}{C96868}
+\definecolor{huetwo}{HTML}{BC6B7B}
+\definecolor{huethree}{HTML}{AF6F8F}
+\definecolor{huefour}{HTML}{A272A2}
+\definecolor{huefive}{HTML}{9575B5}
+\definecolor{huesix}{HTML}{8775B5}
+\definecolor{hueseven}{HTML}{7975B4}
+\definecolor{hueeight}{HTML}{6B75B4}
+\definecolor{huenine}{HTML}{5D75B3}
+\definecolor{hueten}{HTML}{4F75B3}
+
+\tikzset{
+  paperpanel/.style={draw=cardborder, rounded corners=4pt, fill=paperwhite,
+    line width=.6pt},
+  naturalcard/.style={draw=cardborder, rounded corners=3pt, fill=warmcard,
+    line width=.8pt, inner xsep=5pt, inner ysep=4pt, align=center},
+  conditiontoken/.style={draw=cardborder, rounded corners=2pt, fill=structurefill,
+    line width=.8pt, inner xsep=4pt, inner ysep=3pt, align=center},
+  targettoken/.style={draw=cardborder, rounded corners=2pt, fill=targetfill,
+    line width=.8pt, inner xsep=4pt, inner ysep=3pt, align=center},
+  causalcard/.style={draw=causalteal, rounded corners=3pt, fill=causalteallight,
+    line width=1pt, inner xsep=5pt, inner ysep=4pt, align=center},
+  commitcard/.style={draw=commitamber, rounded corners=3pt, fill=commitamberlight,
+    line width=1pt, inner xsep=5pt, inner ysep=4pt, align=center},
+  naturalarrow/.style={-{Latex[length=2mm]}, draw=primaryink, line width=.9pt},
+  causalarrow/.style={-{Latex[length=2mm]}, draw=causalteal, line width=1.25pt},
+  association/.style={draw=secondarytext, densely dotted, line width=.8pt},
+  boundaryline/.style={draw=commitamber, line width=1.25pt}
+}
+

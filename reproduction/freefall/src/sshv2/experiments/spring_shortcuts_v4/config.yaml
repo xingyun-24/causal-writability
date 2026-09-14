@@ -1,0 +1,20 @@
+experiment_id: spring
+dataset_id: spring_shortcuts_v4
+prediction_profiles:
+  short:
+    history: short
+    data_config: configs/spring_shortcuts_v4/data.yaml
+    diffusion_steps: 20
+    seed_offset: 17000000
+  long:
+    history: long
+    data_config: configs/spring_shortcuts_v4/data.yaml
+    diffusion_steps: 20
+    seed_offset: 17000000
+evaluation_profiles:
+  short:
+    history: short
+    data_config: configs/spring_shortcuts_v4/data.yaml
+  long:
+    history: long
+    data_config: configs/spring_shortcuts_v4/data.yaml

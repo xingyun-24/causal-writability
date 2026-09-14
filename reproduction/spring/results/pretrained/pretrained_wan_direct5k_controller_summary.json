@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "layer": 14,
+  "fit_n": 128,
+  "heldout_n": 128,
+  "heldout_coordinate_R2": {
+    "fast": 0.8584058858784134,
+    "slow": 0.7714674149678803
+  },
+  "phase_features": "separate direction-specific [1, cos(theta*), sin(theta*)] maps",
+  "phase_controller_reads_heldout_donor": false,
+  "oracle_projection_uses_heldout_difference_and_norm": true,
+  "groups": {
+    "full/fast": {
+      "n": 64,
+      "valid_rate": 1.0,
+      "median_R": 0.9691175686650799,
+      "strong_R_rate": 0.9375,
+      "route_counts": {
+        "physics_frequency": 55,
+        "compromise_frequency": 8,
+        "outside_frequency_bands": 1
+      }
+    },
+    "full/slow": {
+      "n": 64,
+      "valid_rate": 1.0,
+      "median_R": 0.9499520504731861,
+      "strong_R_rate": 0.9375,
+      "route_counts": {
+        "compromise_frequency": 14,
+        "physics_frequency": 48,
+        "shortcut_frequency": 2
+      }
+    },
+    "full/pooled": {
+      "n": 128,
+      "valid_rate": 1.0,
+      "median_R": 0.9604238867541279,
+      "strong_R_rate": 0.9375,
+      "route_counts": {
+        "physics_frequency": 103,
+        "compromise_frequency": 22,
+        "outside_frequency_bands": 1,
+        "shortcut_frequency": 2
+      }
+    },
+    "pc1/fast": {
+      "n": 64,
+      "valid_rate": 1.0,
+      "median_R": 0.9591017230192489,
+      "strong_R_rate": 0.9375,
+      "route_counts": {
+        "physics_frequency": 52,
+        "compromise_frequency": 11,
+        "outside_frequency_bands": 1
+      }
+    },
+    "pc1/slow": {
+      "n": 64,
+      "valid_rate": 1.0,
+      "median_R": 0.9411531864362053,
+      "strong_R_rate": 0.9375,
+      "route_counts": {
+        "compromise_frequency": 15,
+        "physics_frequency": 47,
+        "shortcut_frequency": 2
+      }
+    },
+    "pc1/pooled": {
+      "n": 128,
+      "valid_rate": 1.0,
+      "median_R": 0.9504938362375315,
+      "strong_R_rate": 0.9375,
+      "route_counts": {
+        "physics_frequency": 99,
+        "compromise_frequency": 26,
+        "outside_frequency_bands": 1,
+        "shortcut_frequency": 2
+      }
+    },
+    "top2/fast": {
+      "n": 64,
+      "valid_rate": 1.0,
+      "median_R": 0.9732764468563677,
+      "strong_R_rate": 0.9375,
+      "route_counts": {
+        "physics_frequency": 53,
+        "compromise_frequency": 9,
+        "shortcut_frequency": 1,
+        "outside_frequency_bands": 1
+      }
+    },
+    "top2/slow": {
+      "n": 64,
+      "valid_rate": 1.0,
+      "median_R": 0.9547177249432459,
+      "strong_R_rate": 0.9375,
+      "route_counts": {
+        "compromise_frequency": 11,
+        "physics_frequency": 51,
+        "shortcut_frequency": 2
+      }
+    },
+    "top2/pooled": {
+      "n": 128,
+      "valid_rate": 1.0,
+      "median_R": 0.9666079812206572,
+      "strong_R_rate": 0.9375,
+      "route_counts": {
+        "physics_frequency": 104,
+        "compromise_frequency": 20,
+        "shortcut_frequency": 3,
+        "outside_frequency_bands": 1
+      }
+    },
+    "top4/fast": {
+      "n": 64,
+      "valid_rate": 1.0,
+      "median_R": 0.9680140417845337,
+      "strong_R_rate": 0.953125,
+      "route_counts": {
+        "physics_frequency": 54,
+        "compromise_frequency": 8,
+        "off_frequency_family": 1,
+        "outside_frequency_bands": 1
+      }
+    },
+    "top4/slow": {
+      "n": 64,
+      "valid_rate": 1.0,
+      "median_R": 0.9521529197909565,
+      "strong_R_rate": 0.9375,
+      "route_counts": {
+        "compromise_frequency": 12,
+        "physics_frequency": 50,
+        "shortcut_frequency": 2
+      }
+    },
+    "top4/pooled": {
+      "n": 128,
+      "valid_rate": 1.0,
+      "median_R": 0.9607996939642165,
+      "strong_R_rate": 0.9453125,
+      "route_counts": {
+        "physics_frequency": 104,
+        "compromise_frequency": 20,
+        "off_frequency_family": 1,
+        "outside_frequency_bands": 1,
+        "shortcut_frequency": 2
+      }
+    },
+    "phase_predicted_top4/fast": {
+      "n": 64,
+      "valid_rate": 1.0,
+      "median_R": 0.9534375493205852,
+      "strong_R_rate": 0.921875,
+      "route_counts": {
+        "physics_frequency": 52,
+        "compromise_frequency": 10,
+        "shortcut_frequency": 1,
+        "outside_frequency_bands": 1
+      }
+    },
+    "phase_predicted_top4/slow": {
+      "n": 64,
+      "valid_rate": 1.0,
+      "median_R": 0.9233982176734101,
+      "strong_R_rate": 0.828125,
+      "route_counts": {
+        "compromise_frequency": 14,
+        "physics_frequency": 41,
+        "shortcut_frequency": 9
+      }
+    },
+    "phase_predicted_top4/pooled": {
+      "n": 128,
+      "valid_rate": 1.0,
+      "median_R": 0.9360963658636178,
+      "strong_R_rate": 0.875,
+      "route_counts": {
+        "physics_frequency": 93,
+        "compromise_frequency": 24,
+        "shortcut_frequency": 10,
+        "outside_frequency_bands": 1
+      }
+    }
+  },
+  "route_label_repair": "true band derived from rewrite direction; original helper had hard-coded fast"
+}

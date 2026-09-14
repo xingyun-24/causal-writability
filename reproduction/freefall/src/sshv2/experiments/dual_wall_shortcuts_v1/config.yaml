@@ -1,0 +1,18 @@
+experiment_id: dual_wall
+dataset_id: dual_wall_shortcuts_v1
+data:
+  train_count: 2048
+  eval_count: 64
+  audit_count: 32
+prediction_profiles:
+  raw_wan:
+    mode: raw_wan
+    diffusion_steps: 20
+    seed_offset: 1700000
+evaluation_profiles:
+  raw_wan:
+    mode: raw_wan
+    diffusion_steps: 20
+  gt_dynamics:
+    mode: gt_dynamics
+    config: configs/dual_wall_shortcuts_v1/gt_dynamics_local_mechanisms.yaml

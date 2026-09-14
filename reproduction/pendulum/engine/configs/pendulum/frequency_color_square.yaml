@@ -1,0 +1,70 @@
+# Pendulum frequency-color shortcut with a fixed square bob.
+experiment_id: pendulum
+dataset_id: pendulum_v1
+
+data:
+  target: frequency
+  model_pairing: color
+  test_intervention: color
+  fixed_shape: square
+  fixed_color: red
+  ood_enabled: true
+
+  low_frequency:
+    low: 2.2
+    high: 3.0
+  high_frequency:
+    low: 5.2
+    high: 6.4
+  small_amplitude:
+    low: 0.10
+    high: 0.17
+  large_amplitude:
+    low: 0.23
+    high: 0.30
+
+  short_prefix_start: 57
+  prediction_start: 65
+  seed: 3407
+  train_base_seeds: 1024
+  eval_base_seeds: 64
+  generate_train: true
+  generate_eval: true
+
+  render:
+    width: 128
+    height: 128
+    fps: 20
+    num_frames: 129
+    pivot_x: 0.50
+    pivot_y: 0.14
+    length: 0.34
+    bob_radius_px: 7
+    rope_width_px: 2
+    background_rgb: [28, 30, 34]
+    rope_rgb: [226, 229, 235]
+    pivot_rgb: [205, 209, 217]
+    red_rgb: [235, 48, 48]
+    blue_rgb: [48, 96, 235]
+    gray_rgb: [150, 154, 164]
+    green_rgb: [48, 190, 104]
+
+prediction_profiles:
+  short:
+    history: short
+    data_config: configs/pendulum/frequency_color_square.yaml
+    diffusion_steps: 20
+    seed_offset: 23000000
+  long:
+    history: long
+    data_config: configs/pendulum/frequency_color_square.yaml
+    diffusion_steps: 20
+    seed_offset: 23000000
+
+evaluation_profiles:
+  short:
+    history: short
+    data_config: configs/pendulum/frequency_color_square.yaml
+  long:
+    history: long
+    data_config: configs/pendulum/frequency_color_square.yaml

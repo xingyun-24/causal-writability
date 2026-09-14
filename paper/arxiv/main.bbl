@@ -1,0 +1,118 @@
+\begin{thebibliography}{22}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ainsworth et~al.(2023)Ainsworth, Hayase, and Srinivasa]{ainsworth2023git}
+Samuel~K. Ainsworth, Jonathan Hayase, and Siddhartha Srinivasa.
+\newblock Git re-basin: Merging models modulo permutation symmetries.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Alam(2026)]{alam2026causal}
+Nahid Alam.
+\newblock Causal physics steering in video world models via concept activation vectors.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops}, pp.\  5890--5896, 2026.
+
+\bibitem[Bansal et~al.(2021)Bansal, Nakkiran, and Barak]{bansal2021stitching}
+Yamini Bansal, Preetum Nakkiran, and Boaz Barak.
+\newblock Revisiting model stitching to compare neural representations.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume~34, 2021.
+
+\bibitem[D'Amour et~al.(2022)D'Amour, Heller, Moldovan, Adlam, Alipanahi, Beutel, Chen, Deaton, Eisenstein, Hoffman, et~al.]{damour2022underspecification}
+Alexander D'Amour, Katherine Heller, Dan Moldovan, Ben Adlam, Babak Alipanahi, Alex Beutel, Christina Chen, Jonathan Deaton, Jacob Eisenstein, Matthew~D. Hoffman, et~al.
+\newblock Underspecification presents challenges for credibility in modern machine learning.
+\newblock \emph{Journal of Machine Learning Research}, 23\penalty0 (226):\penalty0 1--61, 2022.
+
+\bibitem[Esmati et~al.(2026)Esmati, Nath, Hofmann, Nowrouzezahrai, Ebrahimi~Kahou, and Mirmehdi]{esmati2026invisible}
+Parsa Esmati, Somjit Nath, Katja Hofmann, Derek Nowrouzezahrai, Samira Ebrahimi~Kahou, and Majid Mirmehdi.
+\newblock The invisible hand of physics: When video diffusion models know more than they show.
+\newblock \emph{arXiv preprint arXiv:2606.05328}, 2026.
+
+\bibitem[Geirhos et~al.(2020)Geirhos, Jacobsen, Michaelis, Zemel, Brendel, Bethge, and Wichmann]{geirhos2020shortcut}
+Robert Geirhos, J{\"o}rn-Henrik Jacobsen, Claudio Michaelis, Richard Zemel, Wieland Brendel, Matthias Bethge, and Felix~A. Wichmann.
+\newblock Shortcut learning in deep neural networks.
+\newblock \emph{Nature Machine Intelligence}, 2:\penalty0 665--673, 2020.
+
+\bibitem[Ha \& Schmidhuber(2018)Ha and Schmidhuber]{ha2018worldmodels}
+David Ha and J{\"u}rgen Schmidhuber.
+\newblock World models.
+\newblock \emph{arXiv preprint arXiv:1803.10122}, 2018.
+
+\bibitem[Hafner et~al.(2020)Hafner, Lillicrap, Ba, and Norouzi]{hafner2020dream}
+Danijar Hafner, Timothy Lillicrap, Jimmy Ba, and Mohammad Norouzi.
+\newblock Dream to control: Learning behaviors by latent imagination.
+\newblock In \emph{International Conference on Learning Representations}, 2020.
+
+\bibitem[Ho et~al.(2022)Ho, Salimans, Gritsenko, Chan, Norouzi, and Fleet]{ho2022video}
+Jonathan Ho, Tim Salimans, Alexey Gritsenko, William Chan, Mohammad Norouzi, and David~J. Fleet.
+\newblock Video diffusion models.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2022.
+
+\bibitem[Joseph et~al.(2026)Joseph, Garrido, Balestriero, Kowal, Fel, Bakhtiari, Richards, and Rabbat]{joseph2026interpreting}
+Sonia Joseph, Quentin Garrido, Randall Balestriero, Matthew Kowal, Thomas Fel, Shahab Bakhtiari, Blake Richards, and Mike Rabbat.
+\newblock Interpreting physics in video world models.
+\newblock In \emph{International Conference on Machine Learning}, 2026.
+
+\bibitem[Kalman(1960)]{kalman1960general}
+Rudolf~E. Kalman.
+\newblock On the general theory of control systems.
+\newblock In \emph{Proceedings of the First International Congress of the International Federation of Automatic Control}, pp.\  481--492, 1960.
+
+\bibitem[Kang et~al.(2025)Kang, Yue, Lu, Lin, Zhao, Wang, Huang, and Feng]{kang2025physical}
+Bingyi Kang, Yang Yue, Rui Lu, Zhijie Lin, Yang Zhao, Kaixin Wang, Gao Huang, and Jiashi Feng.
+\newblock How far is video generation from world model: A physical law perspective.
+\newblock In \emph{Proceedings of the 42nd International Conference on Machine Learning}, volume 267 of \emph{Proceedings of Machine Learning Research}, pp.\  28991--29017, 2025.
+
+\bibitem[Makelov et~al.(2024)Makelov, Lange, Geiger, and Nanda]{makelov2024subspace}
+Aleksandar Makelov, Georg Lange, Atticus Geiger, and Neel Nanda.
+\newblock Is this the subspace you are looking for? an interpretability illusion for subspace activation patching.
+\newblock In \emph{International Conference on Learning Representations}, 2024.
+
+\bibitem[Meng et~al.(2022)Meng, Bau, Andonian, and Belinkov]{meng2022locating}
+Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov.
+\newblock Locating and editing factual associations in {GPT}.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2022.
+
+\bibitem[Oozeer et~al.(2025)Oozeer, Nathawani, Prakash, Lan, Harrasse, and Abdullah]{oozeer2025activationtransfer}
+Narmeen~Fatimah Oozeer, Dhruv Nathawani, Nirmalendu Prakash, Michael Lan, Abir Harrasse, and Amirali Abdullah.
+\newblock Activation space interventions can be transferred between large language models.
+\newblock In \emph{Proceedings of the 42nd International Conference on Machine Learning}, volume 267 of \emph{Proceedings of Machine Learning Research}, pp.\  47212--47286. PMLR, 2025.
+
+\bibitem[Plattner et~al.(2026)Plattner, Paischer, Brandstetter, and Berzins]{plattner2026circuits}
+Maximilian Plattner, Fabian Paischer, Johannes Brandstetter, and Arturs Berzins.
+\newblock Meltdown: Circuits and bifurcations in point-cloud-conditioned 3d diffusion transformers.
+\newblock \emph{arXiv preprint arXiv:2602.11130}, 2026.
+
+\bibitem[Poppi et~al.(2026)Poppi, Cappelletti, Sarto, Schiffers, Kessler, Cornia, Baraldi, and Cucchiara]{poppi2026crossmodel}
+Tobia Poppi, Silvia Cappelletti, Sara Sarto, Florian Schiffers, Garin Kessler, Marcella Cornia, Lorenzo Baraldi, and Rita Cucchiara.
+\newblock Do models share safety representations? cross-model steering for safe visual generation.
+\newblock \emph{arXiv preprint arXiv:2606.05290}, 2026.
+
+\bibitem[Smith et~al.(2025)Smith, Mannering, and Marcu]{smith2025alignment}
+Damian Smith, Harvey Mannering, and Antonia Marcu.
+\newblock Functional alignment can mislead: Examining model stitching.
+\newblock In \emph{Proceedings of the 42nd International Conference on Machine Learning}, volume 267 of \emph{Proceedings of Machine Learning Research}, pp.\  55972--55998, 2025.
+
+\bibitem[Wurgaft et~al.(2026)Wurgaft, Rager, Kowal, Shyam, Feucht, Bhalla, Haklay, Bigelow, Sarfati, McGrath, Lewis, Merullo, Goodman, Fel, Geiger, and Lubana]{wurgaft2026manifold}
+Daniel Wurgaft, Can Rager, Matthew Kowal, Vasudev Shyam, Sheridan Feucht, Usha Bhalla, Tal Haklay, Eric Bigelow, Raphael Sarfati, Thomas McGrath, Owen Lewis, Jack Merullo, Noah Goodman, Thomas Fel, Atticus Geiger, and Ekdeep~Singh Lubana.
+\newblock Manifold steering reveals the shared geometry of neural network representation and behavior.
+\newblock \emph{arXiv preprint arXiv:2605.05115}, 2026.
+
+\bibitem[Yuan et~al.(2026)Yuan, Zhang, Friedrich, Beltran-Velez, Hall, Askari-Hemmat, Han, Ballas, Drozdzal, and Romero-Soriano]{yuan2026physicsalignment}
+Jianhao Yuan, Xiaofeng Zhang, Felix Friedrich, Nicolas Beltran-Velez, Melissa Hall, Reyhane Askari-Hemmat, Xiaochuang Han, Nicolas Ballas, Michal Drozdzal, and Adriana Romero-Soriano.
+\newblock Inference-time physics alignment of video generative models with latent world models.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pp.\  16118--16129, June 2026.
+
+\bibitem[Zhang \& Nanda(2024)Zhang and Nanda]{zhang2024patching}
+Fred Zhang and Neel Nanda.
+\newblock Towards best practices of activation patching in language models: Metrics and methods.
+\newblock In \emph{International Conference on Learning Representations}, 2024.
+
+\bibitem[Zhang et~al.(2025)Zhang, Liao, Zhang, Meng, Wan, Yan, and Cheng]{zhang2025videorepa}
+Xiangdong Zhang, Jiaqi Liao, Shaofeng Zhang, Fanqing Meng, Xiangpeng Wan, Junchi Yan, and Yu~Cheng.
+\newblock {VideoREPA}: Learning physics for video generation through relational alignment with foundation models.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume~38, 2025.
+
+\end{thebibliography}

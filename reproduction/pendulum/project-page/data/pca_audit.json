@@ -1,0 +1,2706 @@
+{
+  "protocol": "pendulum_activation_pca_v3",
+  "manifest_sha256": "55efb97064c9af8295f5e27d34aa9644877f72bcb3b60853ae7546cecf1d7c80",
+  "fit_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ],
+  "heldout_indices": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127
+  ],
+  "maximum_rank": 8,
+  "direction_shape": [
+    20,
+    1088,
+    1152
+  ],
+  "direction_dtype": "<f4",
+  "fit_method": "uncentered PCA via chunked receiver Gram matrix",
+  "projection_audit": [
+    {
+      "receiver_id": "A_111",
+      "rank": 1,
+      "reference_norm": 243.63691625769565,
+      "projected_norm": 210.66234609484673,
+      "norm_match_scale": 1.1565280686089139,
+      "retained_energy_before_norm_match": 0.7476315927475791
+    },
+    {
+      "receiver_id": "A_111",
+      "rank": 2,
+      "reference_norm": 243.63691625769565,
+      "projected_norm": 214.47661181712235,
+      "norm_match_scale": 1.1359602997898783,
+      "retained_energy_before_norm_match": 0.7749500179777823
+    },
+    {
+      "receiver_id": "A_111",
+      "rank": 3,
+      "reference_norm": 243.63691625769565,
+      "projected_norm": 232.89719931016094,
+      "norm_match_scale": 1.0461135512979358,
+      "retained_energy_before_norm_match": 0.9137814638089111
+    },
+    {
+      "receiver_id": "A_111",
+      "rank": 4,
+      "reference_norm": 243.63691625769565,
+      "projected_norm": 232.95105545655053,
+      "norm_match_scale": 1.045871699444342,
+      "retained_energy_before_norm_match": 0.9142041261553212
+    },
+    {
+      "receiver_id": "A_111",
+      "rank": 8,
+      "reference_norm": 243.63691625769565,
+      "projected_norm": 237.66962851799047,
+      "norm_match_scale": 1.0251074896566075,
+      "retained_energy_before_norm_match": 0.9516147979268736
+    },
+    {
+      "receiver_id": "A_112",
+      "rank": 1,
+      "reference_norm": 245.6354579702606,
+      "projected_norm": 224.45219245553017,
+      "norm_match_scale": 1.0943776279615864,
+      "retained_energy_before_norm_match": 0.8349598402630326
+    },
+    {
+      "receiver_id": "A_112",
+      "rank": 2,
+      "reference_norm": 245.6354579702606,
+      "projected_norm": 240.0908537659086,
+      "norm_match_scale": 1.0230937751996085,
+      "retained_energy_before_norm_match": 0.955364535031313
+    },
+    {
+      "receiver_id": "A_112",
+      "rank": 3,
+      "reference_norm": 245.6354579702606,
+      "projected_norm": 240.4471545379141,
+      "norm_match_scale": 1.021577728554606,
+      "retained_energy_before_norm_match": 0.9582022083113529
+    },
+    {
+      "receiver_id": "A_112",
+      "rank": 4,
+      "reference_norm": 245.6354579702606,
+      "projected_norm": 240.44811485941082,
+      "norm_match_scale": 1.0215736484932842,
+      "retained_energy_before_norm_match": 0.9582098622510986
+    },
+    {
+      "receiver_id": "A_112",
+      "rank": 8,
+      "reference_norm": 245.6354579702606,
+      "projected_norm": 242.1897963705695,
+      "norm_match_scale": 1.0142271129970273,
+      "retained_energy_before_norm_match": 0.9721416887668654
+    },
+    {
+      "receiver_id": "A_116",
+      "rank": 1,
+      "reference_norm": 237.7187642506354,
+      "projected_norm": 205.0853001177311,
+      "norm_match_scale": 1.1591214197905493,
+      "retained_energy_before_norm_match": 0.7442899198525335
+    },
+    {
+      "receiver_id": "A_116",
+      "rank": 2,
+      "reference_norm": 237.7187642506354,
+      "projected_norm": 206.27588206955727,
+      "norm_match_scale": 1.1524312094347289,
+      "retained_energy_before_norm_match": 0.752956657979938
+    },
+    {
+      "receiver_id": "A_116",
+      "rank": 3,
+      "reference_norm": 237.7187642506354,
+      "projected_norm": 227.8987821805227,
+      "norm_match_scale": 1.04308922573502,
+      "retained_energy_before_norm_match": 0.9190879685894603
+    },
+    {
+      "receiver_id": "A_116",
+      "rank": 4,
+      "reference_norm": 237.7187642506354,
+      "projected_norm": 228.0778668539619,
+      "norm_match_scale": 1.0422702015309822,
+      "retained_energy_before_norm_match": 0.9205329893745747
+    },
+    {
+      "receiver_id": "A_116",
+      "rank": 8,
+      "reference_norm": 237.7187642506354,
+      "projected_norm": 231.63565519471024,
+      "norm_match_scale": 1.0262615401364343,
+      "retained_energy_before_norm_match": 0.9494757836669805
+    },
+    {
+      "receiver_id": "A_120",
+      "rank": 1,
+      "reference_norm": 241.3482090191552,
+      "projected_norm": 218.19257164001465,
+      "norm_match_scale": 1.1061247741162514,
+      "retained_energy_before_norm_match": 0.8173193127598278
+    },
+    {
+      "receiver_id": "A_120",
+      "rank": 2,
+      "reference_norm": 241.3482090191552,
+      "projected_norm": 220.57646776758938,
+      "norm_match_scale": 1.0941702506246134,
+      "retained_energy_before_norm_match": 0.8352763689873705
+    },
+    {
+      "receiver_id": "A_120",
+      "rank": 3,
+      "reference_norm": 241.3482090191552,
+      "projected_norm": 234.37687298759806,
+      "norm_match_scale": 1.0297441293703327,
+      "retained_energy_before_norm_match": 0.9430643994439527
+    },
+    {
+      "receiver_id": "A_120",
+      "rank": 4,
+      "reference_norm": 241.3482090191552,
+      "projected_norm": 234.84779467763443,
+      "norm_match_scale": 1.0276792649913686,
+      "retained_energy_before_norm_match": 0.9468579106260063
+    },
+    {
+      "receiver_id": "A_120",
+      "rank": 8,
+      "reference_norm": 241.3482090191552,
+      "projected_norm": 237.11924531358306,
+      "norm_match_scale": 1.0178347552514324,
+      "retained_energy_before_norm_match": 0.9652625288372814
+    },
+    {
+      "receiver_id": "A_126",
+      "rank": 1,
+      "reference_norm": 238.68769732392036,
+      "projected_norm": 206.4216996729374,
+      "norm_match_scale": 1.1563110743788394,
+      "retained_energy_before_norm_match": 0.7479122213218609
+    },
+    {
+      "receiver_id": "A_126",
+      "rank": 2,
+      "reference_norm": 238.68769732392036,
+      "projected_norm": 206.5005091078504,
+      "norm_match_scale": 1.1558697765692159,
+      "retained_energy_before_norm_match": 0.7484834189373514
+    },
+    {
+      "receiver_id": "A_126",
+      "rank": 3,
+      "reference_norm": 238.68769732392036,
+      "projected_norm": 230.38946592919788,
+      "norm_match_scale": 1.0360182761015326,
+      "retained_energy_before_norm_match": 0.9316765541698698
+    },
+    {
+      "receiver_id": "A_126",
+      "rank": 4,
+      "reference_norm": 238.68769732392036,
+      "projected_norm": 230.53507123741417,
+      "norm_match_scale": 1.0353639298469701,
+      "retained_energy_before_norm_match": 0.932854558716764
+    },
+    {
+      "receiver_id": "A_126",
+      "rank": 8,
+      "reference_norm": 238.68769732392036,
+      "projected_norm": 233.07183628953246,
+      "norm_match_scale": 1.0240949791437333,
+      "retained_energy_before_norm_match": 0.9534974285756115
+    },
+    {
+      "receiver_id": "A_128",
+      "rank": 1,
+      "reference_norm": 246.45818711994656,
+      "projected_norm": 221.64094704389572,
+      "norm_match_scale": 1.1119704657783105,
+      "retained_energy_before_norm_match": 0.8087485129684528
+    },
+    {
+      "receiver_id": "A_128",
+      "rank": 2,
+      "reference_norm": 246.45818711994656,
+      "projected_norm": 239.95030785930263,
+      "norm_match_scale": 1.0271217791662925,
+      "retained_energy_before_norm_match": 0.9478860323661796
+    },
+    {
+      "receiver_id": "A_128",
+      "rank": 3,
+      "reference_norm": 246.45818711994656,
+      "projected_norm": 241.33630851010653,
+      "norm_match_scale": 1.0212229922694187,
+      "retained_energy_before_norm_match": 0.9588680141745766
+    },
+    {
+      "receiver_id": "A_128",
+      "rank": 4,
+      "reference_norm": 246.45818711994656,
+      "projected_norm": 241.44592615762355,
+      "norm_match_scale": 1.0207593519679055,
+      "retained_energy_before_norm_match": 0.9597392691254002
+    },
+    {
+      "receiver_id": "A_128",
+      "rank": 8,
+      "reference_norm": 246.45818711994656,
+      "projected_norm": 243.0681539851778,
+      "norm_match_scale": 1.0139468419831563,
+      "retained_energy_before_norm_match": 0.9726791938549497
+    },
+    {
+      "receiver_id": "A_129",
+      "rank": 1,
+      "reference_norm": 240.83748403165643,
+      "projected_norm": 220.21336388587952,
+      "norm_match_scale": 1.09365517052119,
+      "retained_energy_before_norm_match": 0.8360633365144216
+    },
+    {
+      "receiver_id": "A_129",
+      "rank": 2,
+      "reference_norm": 240.83748403165643,
+      "projected_norm": 221.53449732206064,
+      "norm_match_scale": 1.0871330963932613,
+      "retained_energy_before_norm_match": 0.8461250738653442
+    },
+    {
+      "receiver_id": "A_129",
+      "rank": 3,
+      "reference_norm": 240.83748403165643,
+      "projected_norm": 235.36434378998027,
+      "norm_match_scale": 1.0232539056406944,
+      "retained_energy_before_norm_match": 0.9550655457515435
+    },
+    {
+      "receiver_id": "A_129",
+      "rank": 4,
+      "reference_norm": 240.83748403165643,
+      "projected_norm": 235.42109236267112,
+      "norm_match_scale": 1.02300724890292,
+      "retained_energy_before_norm_match": 0.9555261519722945
+    },
+    {
+      "receiver_id": "A_129",
+      "rank": 8,
+      "reference_norm": 240.83748403165643,
+      "projected_norm": 236.0796142804686,
+      "norm_match_scale": 1.0201536662353885,
+      "retained_energy_before_norm_match": 0.9608792404186476
+    },
+    {
+      "receiver_id": "A_130",
+      "rank": 1,
+      "reference_norm": 242.55644237933822,
+      "projected_norm": 202.77254903316498,
+      "norm_match_scale": 1.1961996016515346,
+      "retained_energy_before_norm_match": 0.6988640378136595
+    },
+    {
+      "receiver_id": "A_130",
+      "rank": 2,
+      "reference_norm": 242.55644237933822,
+      "projected_norm": 230.40781518930538,
+      "norm_match_scale": 1.0527266281313046,
+      "retained_energy_before_norm_match": 0.9023370364847852
+    },
+    {
+      "receiver_id": "A_130",
+      "rank": 3,
+      "reference_norm": 242.55644237933822,
+      "projected_norm": 232.1121084903312,
+      "norm_match_scale": 1.0449969368549425,
+      "retained_energy_before_norm_match": 0.9157353197082074
+    },
+    {
+      "receiver_id": "A_130",
+      "rank": 4,
+      "reference_norm": 242.55644237933822,
+      "projected_norm": 234.8729564508717,
+      "norm_match_scale": 1.0327133700046633,
+      "retained_energy_before_norm_match": 0.9376492287034086
+    },
+    {
+      "receiver_id": "A_130",
+      "rank": 8,
+      "reference_norm": 242.55644237933822,
+      "projected_norm": 237.84688674921566,
+      "norm_match_scale": 1.019800787365732,
+      "retained_energy_before_norm_match": 0.9615443362861084
+    },
+    {
+      "receiver_id": "A_135",
+      "rank": 1,
+      "reference_norm": 238.03749256375488,
+      "projected_norm": 186.2917576432228,
+      "norm_match_scale": 1.2777671732510736,
+      "retained_energy_before_norm_match": 0.6124865367583876
+    },
+    {
+      "receiver_id": "A_135",
+      "rank": 2,
+      "reference_norm": 238.03749256375488,
+      "projected_norm": 220.54141787142518,
+      "norm_match_scale": 1.0793323760280251,
+      "retained_energy_before_norm_match": 0.8583997668365866
+    },
+    {
+      "receiver_id": "A_135",
+      "rank": 3,
+      "reference_norm": 238.03749256375488,
+      "projected_norm": 221.33950719394554,
+      "norm_match_scale": 1.0754406006478454,
+      "retained_energy_before_norm_match": 0.8646237157793363
+    },
+    {
+      "receiver_id": "A_135",
+      "rank": 4,
+      "reference_norm": 238.03749256375488,
+      "projected_norm": 230.01727527198614,
+      "norm_match_scale": 1.0348678910411626,
+      "retained_energy_before_norm_match": 0.9337490554249835
+    },
+    {
+      "receiver_id": "A_135",
+      "rank": 8,
+      "reference_norm": 238.03749256375488,
+      "projected_norm": 231.83278835025806,
+      "norm_match_scale": 1.0267637043821543,
+      "retained_energy_before_norm_match": 0.9485472814321775
+    },
+    {
+      "receiver_id": "A_140",
+      "rank": 1,
+      "reference_norm": 244.98319608858012,
+      "projected_norm": 223.48971444368362,
+      "norm_match_scale": 1.0961721289876745,
+      "retained_energy_before_norm_match": 0.8322283169624695
+    },
+    {
+      "receiver_id": "A_140",
+      "rank": 2,
+      "reference_norm": 244.98319608858012,
+      "projected_norm": 238.37090697649776,
+      "norm_match_scale": 1.0277394972228482,
+      "retained_energy_before_norm_match": 0.946746929791271
+    },
+    {
+      "receiver_id": "A_140",
+      "rank": 3,
+      "reference_norm": 244.98319608858012,
+      "projected_norm": 239.4022528619902,
+      "norm_match_scale": 1.0233119912610313,
+      "retained_energy_before_norm_match": 0.9549571252489045
+    },
+    {
+      "receiver_id": "A_140",
+      "rank": 4,
+      "reference_norm": 244.98319608858012,
+      "projected_norm": 239.42149003288284,
+      "norm_match_scale": 1.0232297696206527,
+      "retained_energy_before_norm_match": 0.9551106025974405
+    },
+    {
+      "receiver_id": "A_140",
+      "rank": 8,
+      "reference_norm": 244.98319608858012,
+      "projected_norm": 241.37895020971087,
+      "norm_match_scale": 1.0149318980621047,
+      "retained_energy_before_norm_match": 0.9707920158385401
+    },
+    {
+      "receiver_id": "A_141",
+      "rank": 1,
+      "reference_norm": 243.1783394195301,
+      "projected_norm": 206.86630365252495,
+      "norm_match_scale": 1.1755338357473568,
+      "retained_energy_before_norm_match": 0.7236519418933082
+    },
+    {
+      "receiver_id": "A_141",
+      "rank": 2,
+      "reference_norm": 243.1783394195301,
+      "projected_norm": 223.11802606946642,
+      "norm_match_scale": 1.089908976443786,
+      "retained_energy_before_norm_match": 0.8418205846498509
+    },
+    {
+      "receiver_id": "A_141",
+      "rank": 3,
+      "reference_norm": 243.1783394195301,
+      "projected_norm": 228.560332936556,
+      "norm_match_scale": 1.0639568830477324,
+      "retained_energy_before_norm_match": 0.8833889103304623
+    },
+    {
+      "receiver_id": "A_141",
+      "rank": 4,
+      "reference_norm": 243.1783394195301,
+      "projected_norm": 232.5379472038455,
+      "norm_match_scale": 1.0457576595288214,
+      "retained_energy_before_norm_match": 0.9144035250216127
+    },
+    {
+      "receiver_id": "A_141",
+      "rank": 8,
+      "reference_norm": 243.1783394195301,
+      "projected_norm": 237.40004722664287,
+      "norm_match_scale": 1.0243398948752978,
+      "retained_energy_before_norm_match": 0.9530415279438271
+    },
+    {
+      "receiver_id": "A_142",
+      "rank": 1,
+      "reference_norm": 242.63759561175942,
+      "projected_norm": 212.78029090166092,
+      "norm_match_scale": 1.1403198791747937,
+      "retained_energy_before_norm_match": 0.7690358914888348
+    },
+    {
+      "receiver_id": "A_142",
+      "rank": 2,
+      "reference_norm": 242.63759561175942,
+      "projected_norm": 224.00514800062763,
+      "norm_match_scale": 1.0831786580685172,
+      "retained_energy_before_norm_match": 0.8523143706058067
+    },
+    {
+      "receiver_id": "A_142",
+      "rank": 3,
+      "reference_norm": 242.63759561175942,
+      "projected_norm": 231.52404896852474,
+      "norm_match_scale": 1.0480016943930759,
+      "retained_energy_before_norm_match": 0.910491782269089
+    },
+    {
+      "receiver_id": "A_142",
+      "rank": 4,
+      "reference_norm": 242.63759561175942,
+      "projected_norm": 231.66679678595858,
+      "norm_match_scale": 1.0473559395563146,
+      "retained_energy_before_norm_match": 0.9116148688985688
+    },
+    {
+      "receiver_id": "A_142",
+      "rank": 8,
+      "reference_norm": 242.63759561175942,
+      "projected_norm": 236.76030044895816,
+      "norm_match_scale": 1.0248238203434292,
+      "retained_energy_before_norm_match": 0.952141681222839
+    },
+    {
+      "receiver_id": "A_144",
+      "rank": 1,
+      "reference_norm": 238.47090792127153,
+      "projected_norm": 207.32791548967361,
+      "norm_match_scale": 1.1502112841777405,
+      "retained_energy_before_norm_match": 0.7558658982959089
+    },
+    {
+      "receiver_id": "A_144",
+      "rank": 2,
+      "reference_norm": 238.47090792127153,
+      "projected_norm": 209.32394481036388,
+      "norm_match_scale": 1.139243329936827,
+      "retained_energy_before_norm_match": 0.7704900078366322
+    },
+    {
+      "receiver_id": "A_144",
+      "rank": 3,
+      "reference_norm": 238.47090792127153,
+      "projected_norm": 228.93558940880672,
+      "norm_match_scale": 1.0416506605071252,
+      "retained_energy_before_norm_match": 0.92162832310395
+    },
+    {
+      "receiver_id": "A_144",
+      "rank": 4,
+      "reference_norm": 238.47090792127153,
+      "projected_norm": 229.6482905693786,
+      "norm_match_scale": 1.038417953514997,
+      "retained_energy_before_norm_match": 0.9273755115836526
+    },
+    {
+      "receiver_id": "A_144",
+      "rank": 8,
+      "reference_norm": 238.47090792127153,
+      "projected_norm": 231.50874427665482,
+      "norm_match_scale": 1.0300730050882954,
+      "retained_energy_before_norm_match": 0.9424623033433469
+    },
+    {
+      "receiver_id": "A_145",
+      "rank": 1,
+      "reference_norm": 238.907837674357,
+      "projected_norm": 195.61656180024147,
+      "norm_match_scale": 1.2213068028377039,
+      "retained_energy_before_norm_match": 0.6704253812434553
+    },
+    {
+      "receiver_id": "A_145",
+      "rank": 2,
+      "reference_norm": 238.907837674357,
+      "projected_norm": 224.06815391599997,
+      "norm_match_scale": 1.06622843763831,
+      "retained_energy_before_norm_match": 0.8796288744786663
+    },
+    {
+      "receiver_id": "A_145",
+      "rank": 3,
+      "reference_norm": 238.907837674357,
+      "projected_norm": 224.7833218535986,
+      "norm_match_scale": 1.0628361379495836,
+      "retained_energy_before_norm_match": 0.8852529338694322
+    },
+    {
+      "receiver_id": "A_145",
+      "rank": 4,
+      "reference_norm": 238.907837674357,
+      "projected_norm": 230.78423390580068,
+      "norm_match_scale": 1.0351999945190022,
+      "retained_energy_before_norm_match": 0.9331500377116289
+    },
+    {
+      "receiver_id": "A_145",
+      "rank": 8,
+      "reference_norm": 238.907837674357,
+      "projected_norm": 233.07615687620262,
+      "norm_match_scale": 1.025020494915968,
+      "retained_energy_before_norm_match": 0.9517763342005333
+    },
+    {
+      "receiver_id": "A_147",
+      "rank": 1,
+      "reference_norm": 239.96667845587274,
+      "projected_norm": 207.84616649150848,
+      "norm_match_scale": 1.1545398335055486,
+      "retained_energy_before_norm_match": 0.7502088053442669
+    },
+    {
+      "receiver_id": "A_147",
+      "rank": 2,
+      "reference_norm": 239.96667845587274,
+      "projected_norm": 208.95285862606755,
+      "norm_match_scale": 1.1484249607003754,
+      "retained_energy_before_norm_match": 0.7582191580215085
+    },
+    {
+      "receiver_id": "A_147",
+      "rank": 3,
+      "reference_norm": 239.96667845587274,
+      "projected_norm": 229.93923329320916,
+      "norm_match_scale": 1.0436091093244493,
+      "retained_energy_before_norm_match": 0.9181724922240005
+    },
+    {
+      "receiver_id": "A_147",
+      "rank": 4,
+      "reference_norm": 239.96667845587274,
+      "projected_norm": 231.17100904585018,
+      "norm_match_scale": 1.0380483238202158,
+      "retained_energy_before_norm_match": 0.9280360715001831
+    },
+    {
+      "receiver_id": "A_147",
+      "rank": 8,
+      "reference_norm": 239.96667845587274,
+      "projected_norm": 232.6691596405528,
+      "norm_match_scale": 1.0313643579862228,
+      "retained_energy_before_norm_match": 0.940103700405382
+    },
+    {
+      "receiver_id": "A_148",
+      "rank": 1,
+      "reference_norm": 243.03478909010684,
+      "projected_norm": 207.39039540290833,
+      "norm_match_scale": 1.1718709953657702,
+      "retained_energy_before_norm_match": 0.7281827545894718
+    },
+    {
+      "receiver_id": "A_148",
+      "rank": 2,
+      "reference_norm": 243.03478909010684,
+      "projected_norm": 227.89535053274045,
+      "norm_match_scale": 1.0664315376420608,
+      "retained_energy_before_norm_match": 0.879293858850636
+    },
+    {
+      "receiver_id": "A_148",
+      "rank": 3,
+      "reference_norm": 243.03478909010684,
+      "projected_norm": 229.88080642069588,
+      "norm_match_scale": 1.0572208827445053,
+      "retained_energy_before_norm_match": 0.8946816584472007
+    },
+    {
+      "receiver_id": "A_148",
+      "rank": 4,
+      "reference_norm": 243.03478909010684,
+      "projected_norm": 231.31550740494504,
+      "norm_match_scale": 1.050663623103512,
+      "retained_energy_before_norm_match": 0.9058840393103821
+    },
+    {
+      "receiver_id": "A_148",
+      "rank": 8,
+      "reference_norm": 243.03478909010684,
+      "projected_norm": 237.32352325456634,
+      "norm_match_scale": 1.0240653170710527,
+      "retained_energy_before_norm_match": 0.9535526655202873
+    },
+    {
+      "receiver_id": "A_151",
+      "rank": 1,
+      "reference_norm": 245.98728741210326,
+      "projected_norm": 224.5889748632908,
+      "norm_match_scale": 1.095277662502524,
+      "retained_energy_before_norm_match": 0.833588162639948
+    },
+    {
+      "receiver_id": "A_151",
+      "rank": 2,
+      "reference_norm": 245.98728741210326,
+      "projected_norm": 240.05629111352775,
+      "norm_match_scale": 1.024706689714583,
+      "retained_energy_before_norm_match": 0.9523593656178083
+    },
+    {
+      "receiver_id": "A_151",
+      "rank": 3,
+      "reference_norm": 245.98728741210326,
+      "projected_norm": 240.64931257040803,
+      "norm_match_scale": 1.022181550342611,
+      "retained_energy_before_norm_match": 0.957070486690117
+    },
+    {
+      "receiver_id": "A_151",
+      "rank": 4,
+      "reference_norm": 245.98728741210326,
+      "projected_norm": 240.65616453565448,
+      "norm_match_scale": 1.0221524467770653,
+      "retained_energy_before_norm_match": 0.9571249884628659
+    },
+    {
+      "receiver_id": "A_151",
+      "rank": 8,
+      "reference_norm": 245.98728741210326,
+      "projected_norm": 242.61869624844272,
+      "norm_match_scale": 1.0138843016459502,
+      "retained_energy_before_norm_match": 0.9727991948468697
+    },
+    {
+      "receiver_id": "A_153",
+      "rank": 1,
+      "reference_norm": 242.91213716175884,
+      "projected_norm": 222.88775783777237,
+      "norm_match_scale": 1.0898406422956666,
+      "retained_energy_before_norm_match": 0.8419261540216114
+    },
+    {
+      "receiver_id": "A_153",
+      "rank": 2,
+      "reference_norm": 242.91213716175884,
+      "projected_norm": 228.38095999288964,
+      "norm_match_scale": 1.063626920428575,
+      "retained_energy_before_norm_match": 0.8839370922650516
+    },
+    {
+      "receiver_id": "A_153",
+      "rank": 3,
+      "reference_norm": 242.91213716175884,
+      "projected_norm": 235.98544823477278,
+      "norm_match_scale": 1.029352186665743,
+      "retained_energy_before_norm_match": 0.9437827106049271
+    },
+    {
+      "receiver_id": "A_153",
+      "rank": 4,
+      "reference_norm": 242.91213716175884,
+      "projected_norm": 237.41138291009528,
+      "norm_match_scale": 1.0231697157239787,
+      "retained_energy_before_norm_match": 0.9552227243614978
+    },
+    {
+      "receiver_id": "A_153",
+      "rank": 8,
+      "reference_norm": 242.91213716175884,
+      "projected_norm": 238.82203500059725,
+      "norm_match_scale": 1.0171261506969043,
+      "retained_energy_before_norm_match": 0.9666079424466737
+    },
+    {
+      "receiver_id": "A_156",
+      "rank": 1,
+      "reference_norm": 240.1945683140469,
+      "projected_norm": 216.2273632287979,
+      "norm_match_scale": 1.110842609035973,
+      "retained_energy_before_norm_match": 0.810391617972655
+    },
+    {
+      "receiver_id": "A_156",
+      "rank": 2,
+      "reference_norm": 240.1945683140469,
+      "projected_norm": 216.23439852871977,
+      "norm_match_scale": 1.110806467187249,
+      "retained_energy_before_norm_match": 0.8104443535816239
+    },
+    {
+      "receiver_id": "A_156",
+      "rank": 3,
+      "reference_norm": 240.1945683140469,
+      "projected_norm": 234.33791613997298,
+      "norm_match_scale": 1.0249923370086456,
+      "retained_energy_before_norm_match": 0.9518286280508553
+    },
+    {
+      "receiver_id": "A_156",
+      "rank": 4,
+      "reference_norm": 240.1945683140469,
+      "projected_norm": 234.34155629838494,
+      "norm_match_scale": 1.024976415229612,
+      "retained_energy_before_norm_match": 0.9518581993123485
+    },
+    {
+      "receiver_id": "A_156",
+      "rank": 8,
+      "reference_norm": 240.1945683140469,
+      "projected_norm": 235.39251453085305,
+      "norm_match_scale": 1.0204001974861627,
+      "retained_energy_before_norm_match": 0.9604149948307916
+    },
+    {
+      "receiver_id": "A_157",
+      "rank": 1,
+      "reference_norm": 238.70687439224912,
+      "projected_norm": 203.95607057213783,
+      "norm_match_scale": 1.1703837680468558,
+      "retained_energy_before_norm_match": 0.7300345597699797
+    },
+    {
+      "receiver_id": "A_157",
+      "rank": 2,
+      "reference_norm": 238.70687439224912,
+      "projected_norm": 207.02197005178058,
+      "norm_match_scale": 1.1530509265878566,
+      "retained_energy_before_norm_match": 0.7521475093963954
+    },
+    {
+      "receiver_id": "A_157",
+      "rank": 3,
+      "reference_norm": 238.70687439224912,
+      "projected_norm": 227.20473809827126,
+      "norm_match_scale": 1.0506245441457427,
+      "retained_energy_before_norm_match": 0.9059514309636613
+    },
+    {
+      "receiver_id": "A_157",
+      "rank": 4,
+      "reference_norm": 238.70687439224912,
+      "projected_norm": 227.20801610068585,
+      "norm_match_scale": 1.050609386450818,
+      "retained_energy_before_norm_match": 0.9059775724290713
+    },
+    {
+      "receiver_id": "A_157",
+      "rank": 8,
+      "reference_norm": 238.70687439224912,
+      "projected_norm": 232.14547611273787,
+      "norm_match_scale": 1.0282641660280505,
+      "retained_energy_before_norm_match": 0.9457810265346344
+    },
+    {
+      "receiver_id": "A_158",
+      "rank": 1,
+      "reference_norm": 239.6591294585373,
+      "projected_norm": 210.9587077498436,
+      "norm_match_scale": 1.1360475801867675,
+      "retained_energy_before_norm_match": 0.7748309466500138
+    },
+    {
+      "receiver_id": "A_158",
+      "rank": 2,
+      "reference_norm": 239.6591294585373,
+      "projected_norm": 213.0683990748122,
+      "norm_match_scale": 1.12479903401531,
+      "retained_energy_before_norm_match": 0.7904058221174529
+    },
+    {
+      "receiver_id": "A_158",
+      "rank": 3,
+      "reference_norm": 239.6591294585373,
+      "projected_norm": 231.09823606550717,
+      "norm_match_scale": 1.0370443908996496,
+      "retained_energy_before_norm_match": 0.9298337514086937
+    },
+    {
+      "receiver_id": "A_158",
+      "rank": 4,
+      "reference_norm": 239.6591294585373,
+      "projected_norm": 231.98859494111426,
+      "norm_match_scale": 1.0330642742130063,
+      "retained_energy_before_norm_match": 0.9370123483310602
+    },
+    {
+      "receiver_id": "A_158",
+      "rank": 8,
+      "reference_norm": 239.6591294585373,
+      "projected_norm": 234.54596522272942,
+      "norm_match_scale": 1.0218002651674367,
+      "retained_energy_before_norm_match": 0.9577848824189813
+    },
+    {
+      "receiver_id": "A_161",
+      "rank": 1,
+      "reference_norm": 242.6778171717588,
+      "projected_norm": 221.3367923796177,
+      "norm_match_scale": 1.0964187858814671,
+      "retained_energy_before_norm_match": 0.8318539130133485
+    },
+    {
+      "receiver_id": "A_161",
+      "rank": 2,
+      "reference_norm": 242.6778171717588,
+      "projected_norm": 224.08308206218373,
+      "norm_match_scale": 1.082981432326136,
+      "retained_energy_before_norm_match": 0.8526248350994181
+    },
+    {
+      "receiver_id": "A_161",
+      "rank": 3,
+      "reference_norm": 242.6778171717588,
+      "projected_norm": 235.2153528496967,
+      "norm_match_scale": 1.0317260936909616,
+      "retained_energy_before_norm_match": 0.9394445924105411
+    },
+    {
+      "receiver_id": "A_161",
+      "rank": 4,
+      "reference_norm": 242.6778171717588,
+      "projected_norm": 236.12492814108225,
+      "norm_match_scale": 1.0277517883531604,
+      "retained_energy_before_norm_match": 0.946724285179145
+    },
+    {
+      "receiver_id": "A_161",
+      "rank": 8,
+      "reference_norm": 242.6778171717588,
+      "projected_norm": 238.57072672513138,
+      "norm_match_scale": 1.0172153998229605,
+      "retained_energy_before_norm_match": 0.9664383320975626
+    },
+    {
+      "receiver_id": "A_169",
+      "rank": 1,
+      "reference_norm": 239.7272903439937,
+      "projected_norm": 209.1358036696911,
+      "norm_match_scale": 1.1462757028567847,
+      "retained_energy_before_norm_match": 0.7610651334180877
+    },
+    {
+      "receiver_id": "A_169",
+      "rank": 2,
+      "reference_norm": 239.7272903439937,
+      "projected_norm": 209.27897624690192,
+      "norm_match_scale": 1.145491509195695,
+      "retained_energy_before_norm_match": 0.7621075274267312
+    },
+    {
+      "receiver_id": "A_169",
+      "rank": 3,
+      "reference_norm": 239.7272903439937,
+      "projected_norm": 231.94679646648368,
+      "norm_match_scale": 1.0335443041078358,
+      "retained_energy_before_norm_match": 0.9361421592471754
+    },
+    {
+      "receiver_id": "A_169",
+      "rank": 4,
+      "reference_norm": 239.7272903439937,
+      "projected_norm": 232.27984455373448,
+      "norm_match_scale": 1.0320623849416102,
+      "retained_energy_before_norm_match": 0.9388324675427804
+    },
+    {
+      "receiver_id": "A_169",
+      "rank": 8,
+      "reference_norm": 239.7272903439937,
+      "projected_norm": 234.40025039153048,
+      "norm_match_scale": 1.0227262553839649,
+      "retained_energy_before_norm_match": 0.9560512847517508
+    },
+    {
+      "receiver_id": "A_172",
+      "rank": 1,
+      "reference_norm": 242.86854507425215,
+      "projected_norm": 207.12846791744232,
+      "norm_match_scale": 1.1725502897605324,
+      "retained_energy_before_norm_match": 0.7273392817170998
+    },
+    {
+      "receiver_id": "A_172",
+      "rank": 2,
+      "reference_norm": 242.86854507425215,
+      "projected_norm": 223.3103478521006,
+      "norm_match_scale": 1.0875830314639294,
+      "retained_energy_before_norm_match": 0.8454251317267226
+    },
+    {
+      "receiver_id": "A_172",
+      "rank": 3,
+      "reference_norm": 242.86854507425215,
+      "projected_norm": 228.6370234103613,
+      "norm_match_scale": 1.0622450443572644,
+      "retained_energy_before_norm_match": 0.8862384182027025
+    },
+    {
+      "receiver_id": "A_172",
+      "rank": 4,
+      "reference_norm": 242.86854507425215,
+      "projected_norm": 232.39494233169404,
+      "norm_match_scale": 1.0450681182536636,
+      "retained_energy_before_norm_match": 0.9156105793206633
+    },
+    {
+      "receiver_id": "A_172",
+      "rank": 8,
+      "reference_norm": 242.86854507425215,
+      "projected_norm": 237.02644310311527,
+      "norm_match_scale": 1.02464746926399,
+      "retained_energy_before_norm_match": 0.952469453784267
+    },
+    {
+      "receiver_id": "A_173",
+      "rank": 1,
+      "reference_norm": 245.20670062530246,
+      "projected_norm": 208.64370596408844,
+      "norm_match_scale": 1.1752413018752035,
+      "retained_energy_before_norm_match": 0.7240122407543875
+    },
+    {
+      "receiver_id": "A_173",
+      "rank": 2,
+      "reference_norm": 245.20670062530246,
+      "projected_norm": 238.22468666186674,
+      "norm_match_scale": 1.0293085240714197,
+      "retained_energy_before_norm_match": 0.9438627815936871
+    },
+    {
+      "receiver_id": "A_173",
+      "rank": 3,
+      "reference_norm": 245.20670062530246,
+      "projected_norm": 238.29104820746923,
+      "norm_match_scale": 1.0290218724952356,
+      "retained_energy_before_norm_match": 0.944388712957816
+    },
+    {
+      "receiver_id": "A_173",
+      "rank": 4,
+      "reference_norm": 245.20670062530246,
+      "projected_norm": 240.43020086387125,
+      "norm_match_scale": 1.019866471617414,
+      "retained_energy_before_norm_match": 0.9614204842170437
+    },
+    {
+      "receiver_id": "A_173",
+      "rank": 8,
+      "reference_norm": 245.20670062530246,
+      "projected_norm": 240.91577987151695,
+      "norm_match_scale": 1.0178108746387384,
+      "retained_energy_before_norm_match": 0.9653078247396811
+    },
+    {
+      "receiver_id": "A_174",
+      "rank": 1,
+      "reference_norm": 242.05092896653235,
+      "projected_norm": 209.4338814020157,
+      "norm_match_scale": 1.1557391160693198,
+      "retained_energy_before_norm_match": 0.7486526660355719
+    },
+    {
+      "receiver_id": "A_174",
+      "rank": 2,
+      "reference_norm": 242.05092896653235,
+      "projected_norm": 219.217090237002,
+      "norm_match_scale": 1.1041608512586496,
+      "retained_energy_before_norm_match": 0.8202293590371158
+    },
+    {
+      "receiver_id": "A_174",
+      "rank": 3,
+      "reference_norm": 242.05092896653235,
+      "projected_norm": 230.44507984151446,
+      "norm_match_scale": 1.0503627551215224,
+      "retained_energy_before_norm_match": 0.9064030800638554
+    },
+    {
+      "receiver_id": "A_174",
+      "rank": 4,
+      "reference_norm": 242.05092896653235,
+      "projected_norm": 230.45459834584196,
+      "norm_match_scale": 1.0503193718152148,
+      "retained_energy_before_norm_match": 0.9064779593351071
+    },
+    {
+      "receiver_id": "A_174",
+      "rank": 8,
+      "reference_norm": 242.05092896653235,
+      "projected_norm": 235.50940381113762,
+      "norm_match_scale": 1.027776067747344,
+      "retained_energy_before_norm_match": 0.9466795563294983
+    },
+    {
+      "receiver_id": "A_175",
+      "rank": 1,
+      "reference_norm": 242.48500772854294,
+      "projected_norm": 202.27182561159134,
+      "norm_match_scale": 1.1988076292650376,
+      "retained_energy_before_norm_match": 0.6958265628210267
+    },
+    {
+      "receiver_id": "A_175",
+      "rank": 2,
+      "reference_norm": 242.48500772854294,
+      "projected_norm": 225.87460481830374,
+      "norm_match_scale": 1.0735381603593765,
+      "retained_energy_before_norm_match": 0.8676908679852376
+    },
+    {
+      "receiver_id": "A_175",
+      "rank": 3,
+      "reference_norm": 242.48500772854294,
+      "projected_norm": 229.09101162899432,
+      "norm_match_scale": 1.0584658298215548,
+      "retained_energy_before_norm_match": 0.8925782815581896
+    },
+    {
+      "receiver_id": "A_175",
+      "rank": 4,
+      "reference_norm": 242.48500772854294,
+      "projected_norm": 231.30108906371126,
+      "norm_match_scale": 1.0483522092788378,
+      "retained_energy_before_norm_match": 0.9098830411072997
+    },
+    {
+      "receiver_id": "A_175",
+      "rank": 8,
+      "reference_norm": 242.48500772854294,
+      "projected_norm": 235.38161817131947,
+      "norm_match_scale": 1.0301781830391419,
+      "retained_energy_before_norm_match": 0.942269868296268
+    },
+    {
+      "receiver_id": "A_176",
+      "rank": 1,
+      "reference_norm": 242.3356040262967,
+      "projected_norm": 220.78300741314888,
+      "norm_match_scale": 1.0976189103757277,
+      "retained_energy_before_norm_match": 0.8300358275801779
+    },
+    {
+      "receiver_id": "A_176",
+      "rank": 2,
+      "reference_norm": 242.3356040262967,
+      "projected_norm": 234.88493740013317,
+      "norm_match_scale": 1.0317204956121606,
+      "retained_energy_before_norm_match": 0.9394547872242485
+    },
+    {
+      "receiver_id": "A_176",
+      "rank": 3,
+      "reference_norm": 242.3356040262967,
+      "projected_norm": 236.25442899766168,
+      "norm_match_scale": 1.025739940852898,
+      "retained_energy_before_norm_match": 0.9504416655393224
+    },
+    {
+      "receiver_id": "A_176",
+      "rank": 4,
+      "reference_norm": 242.3356040262967,
+      "projected_norm": 236.28992843759391,
+      "norm_match_scale": 1.0255858369786568,
+      "retained_energy_before_norm_match": 0.9507273125161394
+    },
+    {
+      "receiver_id": "A_176",
+      "rank": 8,
+      "reference_norm": 242.3356040262967,
+      "projected_norm": 238.0949280501389,
+      "norm_match_scale": 1.0178108622929791,
+      "retained_energy_before_norm_match": 0.9653078481575058
+    },
+    {
+      "receiver_id": "A_177",
+      "rank": 1,
+      "reference_norm": 244.60416309960976,
+      "projected_norm": 214.55084732174873,
+      "norm_match_scale": 1.140075493306218,
+      "retained_energy_before_norm_match": 0.7693656269299041
+    },
+    {
+      "receiver_id": "A_177",
+      "rank": 2,
+      "reference_norm": 244.60416309960976,
+      "projected_norm": 230.5182389440271,
+      "norm_match_scale": 1.061105464886893,
+      "retained_energy_before_norm_match": 0.8881430006504039
+    },
+    {
+      "receiver_id": "A_177",
+      "rank": 3,
+      "reference_norm": 244.60416309960976,
+      "projected_norm": 234.31614905684742,
+      "norm_match_scale": 1.0439065514014843,
+      "retained_energy_before_norm_match": 0.9176493338533094
+    },
+    {
+      "receiver_id": "A_177",
+      "rank": 4,
+      "reference_norm": 244.60416309960976,
+      "projected_norm": 234.53803545021734,
+      "norm_match_scale": 1.0429189561090575,
+      "retained_energy_before_norm_match": 0.9193880984095714
+    },
+    {
+      "receiver_id": "A_177",
+      "rank": 8,
+      "reference_norm": 244.60416309960976,
+      "projected_norm": 239.59442223571793,
+      "norm_match_scale": 1.0209092549698973,
+      "retained_energy_before_norm_match": 0.9594574473383753
+    },
+    {
+      "receiver_id": "A_185",
+      "rank": 1,
+      "reference_norm": 241.12359980154434,
+      "projected_norm": 211.10021251440048,
+      "norm_match_scale": 1.1422233873170344,
+      "retained_energy_before_norm_match": 0.7664748402347213
+    },
+    {
+      "receiver_id": "A_185",
+      "rank": 2,
+      "reference_norm": 241.12359980154434,
+      "projected_norm": 216.36665628082693,
+      "norm_match_scale": 1.1144212511588887,
+      "retained_energy_before_norm_match": 0.8051952971781077
+    },
+    {
+      "receiver_id": "A_185",
+      "rank": 3,
+      "reference_norm": 241.12359980154434,
+      "projected_norm": 232.77778036652333,
+      "norm_match_scale": 1.0358531618519602,
+      "retained_energy_before_norm_match": 0.9319735949883806
+    },
+    {
+      "receiver_id": "A_185",
+      "rank": 4,
+      "reference_norm": 241.12359980154434,
+      "projected_norm": 233.12620956933554,
+      "norm_match_scale": 1.0343049811815785,
+      "retained_energy_before_norm_match": 0.9347656986587402
+    },
+    {
+      "receiver_id": "A_185",
+      "rank": 8,
+      "reference_norm": 241.12359980154434,
+      "projected_norm": 236.64391391674096,
+      "norm_match_scale": 1.0189300701237536,
+      "retained_energy_before_norm_match": 0.9631883960347359
+    },
+    {
+      "receiver_id": "A_188",
+      "rank": 1,
+      "reference_norm": 240.0433906013917,
+      "projected_norm": 210.65466591715813,
+      "norm_match_scale": 1.1395113873043332,
+      "retained_energy_before_norm_match": 0.7701275520807701
+    },
+    {
+      "receiver_id": "A_188",
+      "rank": 2,
+      "reference_norm": 240.0433906013917,
+      "projected_norm": 217.28992594600214,
+      "norm_match_scale": 1.1047147701686084,
+      "retained_energy_before_norm_match": 0.8194070170923997
+    },
+    {
+      "receiver_id": "A_188",
+      "rank": 3,
+      "reference_norm": 240.0433906013917,
+      "projected_norm": 232.31201403879183,
+      "norm_match_scale": 1.0332801409113042,
+      "retained_energy_before_norm_match": 0.9366208792117048
+    },
+    {
+      "receiver_id": "A_188",
+      "rank": 4,
+      "reference_norm": 240.0433906013917,
+      "projected_norm": 232.50228728436375,
+      "norm_match_scale": 1.0324345338925838,
+      "retained_energy_before_norm_match": 0.9381557707893827
+    },
+    {
+      "receiver_id": "A_188",
+      "rank": 8,
+      "reference_norm": 240.0433906013917,
+      "projected_norm": 235.82845932846251,
+      "norm_match_scale": 1.0178728694786519,
+      "retained_energy_before_norm_match": 0.9651902417223599
+    },
+    {
+      "receiver_id": "A_196",
+      "rank": 1,
+      "reference_norm": 243.6376786423318,
+      "projected_norm": 209.7076199054718,
+      "norm_match_scale": 1.1617969759618385,
+      "retained_energy_before_norm_match": 0.740865747647214
+    },
+    {
+      "receiver_id": "A_196",
+      "rank": 2,
+      "reference_norm": 243.6376786423318,
+      "projected_norm": 216.98614397905263,
+      "norm_match_scale": 1.122825974850505,
+      "retained_energy_before_norm_match": 0.7931861063264556
+    },
+    {
+      "receiver_id": "A_196",
+      "rank": 3,
+      "reference_norm": 243.6376786423318,
+      "projected_norm": 230.79177487380738,
+      "norm_match_scale": 1.0556601454949956,
+      "retained_energy_before_norm_match": 0.8973290923223487
+    },
+    {
+      "receiver_id": "A_196",
+      "rank": 4,
+      "reference_norm": 243.6376786423318,
+      "projected_norm": 230.83348136643465,
+      "norm_match_scale": 1.0554694111101293,
+      "retained_energy_before_norm_match": 0.8976534351693913
+    },
+    {
+      "receiver_id": "A_196",
+      "rank": 8,
+      "reference_norm": 243.6376786423318,
+      "projected_norm": 236.8338597992885,
+      "norm_match_scale": 1.0287282352650478,
+      "retained_energy_before_norm_match": 0.9449279171000577
+    },
+    {
+      "receiver_id": "B_082",
+      "rank": 1,
+      "reference_norm": 250.39664140405355,
+      "projected_norm": 232.49661335349083,
+      "norm_match_scale": 1.0769904894199354,
+      "retained_energy_before_norm_match": 0.8621369596572371
+    },
+    {
+      "receiver_id": "B_082",
+      "rank": 2,
+      "reference_norm": 250.39664140405355,
+      "projected_norm": 241.62801389629854,
+      "norm_match_scale": 1.036289780172254,
+      "retained_energy_before_norm_match": 0.9311884265333898
+    },
+    {
+      "receiver_id": "B_082",
+      "rank": 3,
+      "reference_norm": 250.39664140405355,
+      "projected_norm": 242.99279542278364,
+      "norm_match_scale": 1.0304694053516605,
+      "retained_energy_before_norm_match": 0.9417373513036232
+    },
+    {
+      "receiver_id": "B_082",
+      "rank": 4,
+      "reference_norm": 250.39664140405355,
+      "projected_norm": 243.79927270116104,
+      "norm_match_scale": 1.0270606578510153,
+      "retained_energy_before_norm_match": 0.9479988548455562
+    },
+    {
+      "receiver_id": "B_082",
+      "rank": 8,
+      "reference_norm": 250.39664140405355,
+      "projected_norm": 245.7963092705808,
+      "norm_match_scale": 1.0187160342119237,
+      "retained_energy_before_norm_match": 0.963593177262948
+    },
+    {
+      "receiver_id": "B_083",
+      "rank": 1,
+      "reference_norm": 247.67316418832564,
+      "projected_norm": 206.0632232427597,
+      "norm_match_scale": 1.201928031071056,
+      "retained_energy_before_norm_match": 0.6922182935467444
+    },
+    {
+      "receiver_id": "B_083",
+      "rank": 2,
+      "reference_norm": 247.67316418832564,
+      "projected_norm": 239.42309372349035,
+      "norm_match_scale": 1.0344581232183194,
+      "retained_energy_before_norm_match": 0.9344889521697509
+    },
+    {
+      "receiver_id": "B_083",
+      "rank": 3,
+      "reference_norm": 247.67316418832564,
+      "projected_norm": 239.7820993713119,
+      "norm_match_scale": 1.0329093157400133,
+      "retained_energy_before_norm_match": 0.9372935131765349
+    },
+    {
+      "receiver_id": "B_083",
+      "rank": 4,
+      "reference_norm": 247.67316418832564,
+      "projected_norm": 242.8796652483365,
+      "norm_match_scale": 1.0197361064998502,
+      "retained_energy_before_norm_match": 0.961666319792028
+    },
+    {
+      "receiver_id": "B_083",
+      "rank": 8,
+      "reference_norm": 247.67316418832564,
+      "projected_norm": 243.13322221377004,
+      "norm_match_scale": 1.0186726516977755,
+      "retained_energy_before_norm_match": 0.9636752526670858
+    },
+    {
+      "receiver_id": "B_087",
+      "rank": 1,
+      "reference_norm": 248.25046741236332,
+      "projected_norm": 216.25051748752594,
+      "norm_match_scale": 1.147976292943129,
+      "retained_energy_before_norm_match": 0.7588119489524289
+    },
+    {
+      "receiver_id": "B_087",
+      "rank": 2,
+      "reference_norm": 248.25046741236332,
+      "projected_norm": 232.8041298458807,
+      "norm_match_scale": 1.0663490702536431,
+      "retained_energy_before_norm_match": 0.8794298666067388
+    },
+    {
+      "receiver_id": "B_087",
+      "rank": 3,
+      "reference_norm": 248.25046741236332,
+      "projected_norm": 237.724740407032,
+      "norm_match_scale": 1.0442769523580473,
+      "retained_energy_before_norm_match": 0.916998476032497
+    },
+    {
+      "receiver_id": "B_087",
+      "rank": 4,
+      "reference_norm": 248.25046741236332,
+      "projected_norm": 239.5368978908661,
+      "norm_match_scale": 1.0363767319282358,
+      "retained_energy_before_norm_match": 0.9310321801227455
+    },
+    {
+      "receiver_id": "B_087",
+      "rank": 8,
+      "reference_norm": 248.25046741236332,
+      "projected_norm": 244.0509159696088,
+      "norm_match_scale": 1.0172076856424397,
+      "retained_energy_before_norm_match": 0.9664529904768306
+    },
+    {
+      "receiver_id": "B_089",
+      "rank": 1,
+      "reference_norm": 244.77693361187116,
+      "projected_norm": 228.51776656508446,
+      "norm_match_scale": 1.0711505599375615,
+      "retained_energy_before_norm_match": 0.8715633544016881
+    },
+    {
+      "receiver_id": "B_089",
+      "rank": 2,
+      "reference_norm": 244.77693361187116,
+      "projected_norm": 228.51873577218709,
+      "norm_match_scale": 1.0711460169108062,
+      "retained_energy_before_norm_match": 0.8715707475002427
+    },
+    {
+      "receiver_id": "B_089",
+      "rank": 3,
+      "reference_norm": 244.77693361187116,
+      "projected_norm": 239.04292594075693,
+      "norm_match_scale": 1.0239873556121686,
+      "retained_energy_before_norm_match": 0.9536978688501477
+    },
+    {
+      "receiver_id": "B_089",
+      "rank": 4,
+      "reference_norm": 244.77693361187116,
+      "projected_norm": 241.11943389132355,
+      "norm_match_scale": 1.01516883007529,
+      "retained_energy_before_norm_match": 0.9703389190560782
+    },
+    {
+      "receiver_id": "B_089",
+      "rank": 8,
+      "reference_norm": 244.77693361187116,
+      "projected_norm": 241.47425838904033,
+      "norm_match_scale": 1.0136771316531383,
+      "retained_energy_before_norm_match": 0.9731968666305585
+    },
+    {
+      "receiver_id": "B_090",
+      "rank": 1,
+      "reference_norm": 248.33262599971343,
+      "projected_norm": 227.70581302046776,
+      "norm_match_scale": 1.0905853597044164,
+      "retained_energy_before_norm_match": 0.840776710775352
+    },
+    {
+      "receiver_id": "B_090",
+      "rank": 2,
+      "reference_norm": 248.33262599971343,
+      "projected_norm": 240.1568922784089,
+      "norm_match_scale": 1.0340433024584053,
+      "retained_energy_before_norm_match": 0.9352388688724782
+    },
+    {
+      "receiver_id": "B_090",
+      "rank": 3,
+      "reference_norm": 248.33262599971343,
+      "projected_norm": 242.01634483316903,
+      "norm_match_scale": 1.0260985726848262,
+      "retained_energy_before_norm_match": 0.9497774036877722
+    },
+    {
+      "receiver_id": "B_090",
+      "rank": 4,
+      "reference_norm": 248.33262599971343,
+      "projected_norm": 242.21476079687906,
+      "norm_match_scale": 1.0252580197123693,
+      "retained_energy_before_norm_match": 0.9513353831649507
+    },
+    {
+      "receiver_id": "B_090",
+      "rank": 8,
+      "reference_norm": 248.33262599971343,
+      "projected_norm": 244.32135971131075,
+      "norm_match_scale": 1.016417992651737,
+      "retained_energy_before_norm_match": 0.9679553204978296
+    },
+    {
+      "receiver_id": "B_096",
+      "rank": 1,
+      "reference_norm": 244.04369538935222,
+      "projected_norm": 229.51474517583847,
+      "norm_match_scale": 1.0633029054511625,
+      "retained_energy_before_norm_match": 0.8844758898052169
+    },
+    {
+      "receiver_id": "B_096",
+      "rank": 2,
+      "reference_norm": 244.04369538935222,
+      "projected_norm": 229.63857192395804,
+      "norm_match_scale": 1.0627295464551323,
+      "retained_energy_before_norm_match": 0.8854305240487336
+    },
+    {
+      "receiver_id": "B_096",
+      "rank": 3,
+      "reference_norm": 244.04369538935222,
+      "projected_norm": 236.684095071392,
+      "norm_match_scale": 1.031094612908993,
+      "retained_energy_before_norm_match": 0.9405956465619603
+    },
+    {
+      "receiver_id": "B_096",
+      "rank": 4,
+      "reference_norm": 244.04369538935222,
+      "projected_norm": 239.877953411999,
+      "norm_match_scale": 1.0173660893721168,
+      "retained_energy_before_norm_match": 0.9661520607685904
+    },
+    {
+      "receiver_id": "B_096",
+      "rank": 8,
+      "reference_norm": 244.04369538935222,
+      "projected_norm": 240.19446968468262,
+      "norm_match_scale": 1.0160254551644037,
+      "retained_energy_before_norm_match": 0.9687033965331704
+    },
+    {
+      "receiver_id": "B_100",
+      "rank": 1,
+      "reference_norm": 249.37386621306808,
+      "projected_norm": 233.78190532326698,
+      "norm_match_scale": 1.0666944726463794,
+      "retained_energy_before_norm_match": 0.8788604289491656
+    },
+    {
+      "receiver_id": "B_100",
+      "rank": 2,
+      "reference_norm": 249.37386621306808,
+      "projected_norm": 234.7541138487098,
+      "norm_match_scale": 1.0622768739796404,
+      "retained_energy_before_norm_match": 0.8861853092397539
+    },
+    {
+      "receiver_id": "B_100",
+      "rank": 3,
+      "reference_norm": 249.37386621306808,
+      "projected_norm": 238.49152623938346,
+      "norm_match_scale": 1.0456298810497844,
+      "retained_energy_before_norm_match": 0.914627023284051
+    },
+    {
+      "receiver_id": "B_100",
+      "rank": 4,
+      "reference_norm": 249.37386621306808,
+      "projected_norm": 243.59545776881248,
+      "norm_match_scale": 1.0237213308375384,
+      "retained_energy_before_norm_match": 0.9541935901313897
+    },
+    {
+      "receiver_id": "B_100",
+      "rank": 8,
+      "reference_norm": 249.37386621306808,
+      "projected_norm": 245.2939206554921,
+      "norm_match_scale": 1.016632884935237,
+      "retained_energy_before_norm_match": 0.9675461577638124
+    },
+    {
+      "receiver_id": "B_101",
+      "rank": 1,
+      "reference_norm": 241.02003305476327,
+      "projected_norm": 200.63849979639053,
+      "norm_match_scale": 1.2012651275769717,
+      "retained_energy_before_norm_match": 0.6929824887721127
+    },
+    {
+      "receiver_id": "B_101",
+      "rank": 2,
+      "reference_norm": 241.02003305476327,
+      "projected_norm": 227.18139203230177,
+      "norm_match_scale": 1.0609145005172513,
+      "retained_energy_before_norm_match": 0.8884627605038118
+    },
+    {
+      "receiver_id": "B_101",
+      "rank": 3,
+      "reference_norm": 241.02003305476327,
+      "projected_norm": 228.4977110144722,
+      "norm_match_scale": 1.0548028336244382,
+      "retained_energy_before_norm_match": 0.8987883290371234
+    },
+    {
+      "receiver_id": "B_101",
+      "rank": 4,
+      "reference_norm": 241.02003305476327,
+      "projected_norm": 233.22964441827298,
+      "norm_match_scale": 1.0334022231861704,
+      "retained_energy_before_norm_match": 0.9363995945058624
+    },
+    {
+      "receiver_id": "B_101",
+      "rank": 8,
+      "reference_norm": 241.02003305476327,
+      "projected_norm": 235.82336895045506,
+      "norm_match_scale": 1.0220362558954028,
+      "retained_energy_before_norm_match": 0.9573426236339775
+    },
+    {
+      "receiver_id": "B_104",
+      "rank": 1,
+      "reference_norm": 250.11564163312465,
+      "projected_norm": 235.43661722540855,
+      "norm_match_scale": 1.0623480942799237,
+      "retained_energy_before_norm_match": 0.8860664926888286
+    },
+    {
+      "receiver_id": "B_104",
+      "rank": 2,
+      "reference_norm": 250.11564163312465,
+      "projected_norm": 237.18701533610775,
+      "norm_match_scale": 1.0545081537397665,
+      "retained_energy_before_norm_match": 0.8992907278981364
+    },
+    {
+      "receiver_id": "B_104",
+      "rank": 3,
+      "reference_norm": 250.11564163312465,
+      "projected_norm": 242.36357875457546,
+      "norm_match_scale": 1.0319852632907323,
+      "retained_energy_before_norm_match": 0.9389727932195245
+    },
+    {
+      "receiver_id": "B_104",
+      "rank": 4,
+      "reference_norm": 250.11564163312465,
+      "projected_norm": 244.56683660424466,
+      "norm_match_scale": 1.0226882970149342,
+      "retained_energy_before_norm_match": 0.9561222561729786
+    },
+    {
+      "receiver_id": "B_104",
+      "rank": 8,
+      "reference_norm": 250.11564163312465,
+      "projected_norm": 245.74290116249182,
+      "norm_match_scale": 1.0177939645456593,
+      "retained_energy_before_norm_match": 0.9653399011349785
+    },
+    {
+      "receiver_id": "B_105",
+      "rank": 1,
+      "reference_norm": 245.8421577223003,
+      "projected_norm": 202.87381055951118,
+      "norm_match_scale": 1.2117983935150898,
+      "retained_energy_before_norm_match": 0.6809876802627467
+    },
+    {
+      "receiver_id": "B_105",
+      "rank": 2,
+      "reference_norm": 245.8421577223003,
+      "projected_norm": 236.7415195262101,
+      "norm_match_scale": 1.0384412426443121,
+      "retained_energy_before_norm_match": 0.9273339155353849
+    },
+    {
+      "receiver_id": "B_105",
+      "rank": 3,
+      "reference_norm": 245.8421577223003,
+      "projected_norm": 236.97534449324195,
+      "norm_match_scale": 1.0374166065588786,
+      "retained_energy_before_norm_match": 0.9291666392918572
+    },
+    {
+      "receiver_id": "B_105",
+      "rank": 4,
+      "reference_norm": 245.8421577223003,
+      "projected_norm": 240.7623640800444,
+      "norm_match_scale": 1.021098786189718,
+      "retained_energy_before_norm_match": 0.9591013010652747
+    },
+    {
+      "receiver_id": "B_105",
+      "rank": 8,
+      "reference_norm": 245.8421577223003,
+      "projected_norm": 241.1415645494393,
+      "norm_match_scale": 1.0194930856554896,
+      "retained_energy_before_norm_match": 0.9621248473071897
+    },
+    {
+      "receiver_id": "B_106",
+      "rank": 1,
+      "reference_norm": 241.5766103291094,
+      "projected_norm": 205.494107067585,
+      "norm_match_scale": 1.1755889926792753,
+      "retained_energy_before_norm_match": 0.7235840380854691
+    },
+    {
+      "receiver_id": "B_106",
+      "rank": 2,
+      "reference_norm": 241.5766103291094,
+      "projected_norm": 230.25909628341446,
+      "norm_match_scale": 1.0491512136908796,
+      "retained_energy_before_norm_match": 0.9084976855492278
+    },
+    {
+      "receiver_id": "B_106",
+      "rank": 3,
+      "reference_norm": 241.5766103291094,
+      "projected_norm": 232.9117566142519,
+      "norm_match_scale": 1.037202302884213,
+      "retained_energy_before_norm_match": 0.9295506422887873
+    },
+    {
+      "receiver_id": "B_106",
+      "rank": 4,
+      "reference_norm": 241.5766103291094,
+      "projected_norm": 233.59754550582568,
+      "norm_match_scale": 1.034157314478652,
+      "retained_energy_before_norm_match": 0.9350326669848867
+    },
+    {
+      "receiver_id": "B_106",
+      "rank": 8,
+      "reference_norm": 241.5766103291094,
+      "projected_norm": 237.71841630940727,
+      "norm_match_scale": 1.0162301014772048,
+      "retained_energy_before_norm_match": 0.9683132848502531
+    },
+    {
+      "receiver_id": "B_108",
+      "rank": 1,
+      "reference_norm": 243.45212061026612,
+      "projected_norm": 222.51020541787148,
+      "norm_match_scale": 1.0941166503040434,
+      "retained_energy_before_norm_match": 0.8353582106772637
+    },
+    {
+      "receiver_id": "B_108",
+      "rank": 2,
+      "reference_norm": 243.45212061026612,
+      "projected_norm": 227.8723931044142,
+      "norm_match_scale": 1.0683704036877917,
+      "retained_energy_before_norm_match": 0.8761052904555953
+    },
+    {
+      "receiver_id": "B_108",
+      "rank": 3,
+      "reference_norm": 243.45212061026612,
+      "projected_norm": 235.54934297838653,
+      "norm_match_scale": 1.0335504125460657,
+      "retained_energy_before_norm_match": 0.9361310937982402
+    },
+    {
+      "receiver_id": "B_108",
+      "rank": 4,
+      "reference_norm": 243.45212061026612,
+      "projected_norm": 237.02549543111408,
+      "norm_match_scale": 1.0271136451691114,
+      "retained_energy_before_norm_match": 0.9479010455692093
+    },
+    {
+      "receiver_id": "B_108",
+      "rank": 8,
+      "reference_norm": 243.45212061026612,
+      "projected_norm": 239.66436573639427,
+      "norm_match_scale": 1.0158044140697913,
+      "retained_energy_before_norm_match": 0.9691250260377985
+    },
+    {
+      "receiver_id": "B_113",
+      "rank": 1,
+      "reference_norm": 251.40076029224335,
+      "projected_norm": 237.76337236166,
+      "norm_match_scale": 1.057356975530443,
+      "retained_energy_before_norm_match": 0.8944513636907938
+    },
+    {
+      "receiver_id": "B_113",
+      "rank": 2,
+      "reference_norm": 251.40076029224335,
+      "projected_norm": 237.83654387835105,
+      "norm_match_scale": 1.0570316747489827,
+      "retained_energy_before_norm_match": 0.8950019820058195
+    },
+    {
+      "receiver_id": "B_113",
+      "rank": 3,
+      "reference_norm": 251.40076029224335,
+      "projected_norm": 241.35523978935913,
+      "norm_match_scale": 1.0416213068821352,
+      "retained_energy_before_norm_match": 0.9216802681115763
+    },
+    {
+      "receiver_id": "B_113",
+      "rank": 4,
+      "reference_norm": 251.40076029224335,
+      "projected_norm": 245.74164508140552,
+      "norm_match_scale": 1.0230287186730729,
+      "retained_energy_before_norm_match": 0.9554860461351554
+    },
+    {
+      "receiver_id": "B_113",
+      "rank": 8,
+      "reference_norm": 251.40076029224335,
+      "projected_norm": 246.53794678537153,
+      "norm_match_scale": 1.0197244017413076,
+      "retained_energy_before_norm_match": 0.9616883966132809
+    },
+    {
+      "receiver_id": "B_116",
+      "rank": 1,
+      "reference_norm": 237.243008922284,
+      "projected_norm": 171.99560981988907,
+      "norm_match_scale": 1.3793550263912022,
+      "retained_energy_before_norm_match": 0.5255909473216998
+    },
+    {
+      "receiver_id": "B_116",
+      "rank": 2,
+      "reference_norm": 237.243008922284,
+      "projected_norm": 211.12427680602127,
+      "norm_match_scale": 1.1237125948346542,
+      "retained_energy_before_norm_match": 0.7919349372660985
+    },
+    {
+      "receiver_id": "B_116",
+      "rank": 3,
+      "reference_norm": 237.243008922284,
+      "projected_norm": 211.47576111192373,
+      "norm_match_scale": 1.1218449229116283,
+      "retained_energy_before_norm_match": 0.7945739933688573
+    },
+    {
+      "receiver_id": "B_116",
+      "rank": 4,
+      "reference_norm": 237.243008922284,
+      "projected_norm": 227.53394898169114,
+      "norm_match_scale": 1.04267081894392,
+      "retained_energy_before_norm_match": 0.9198257466072974
+    },
+    {
+      "receiver_id": "B_116",
+      "rank": 8,
+      "reference_norm": 237.243008922284,
+      "projected_norm": 229.50124706445877,
+      "norm_match_scale": 1.033732983837124,
+      "retained_energy_before_norm_match": 0.935800456056204
+    },
+    {
+      "receiver_id": "B_120",
+      "rank": 1,
+      "reference_norm": 246.3621742065184,
+      "projected_norm": 204.0287497639656,
+      "norm_match_scale": 1.207487545218637,
+      "retained_energy_before_norm_match": 0.6858587447203265
+    },
+    {
+      "receiver_id": "B_120",
+      "rank": 2,
+      "reference_norm": 246.3621742065184,
+      "projected_norm": 236.20926730113732,
+      "norm_match_scale": 1.0429826781200646,
+      "retained_energy_before_norm_match": 0.9192757600743433
+    },
+    {
+      "receiver_id": "B_120",
+      "rank": 3,
+      "reference_norm": 246.3621742065184,
+      "projected_norm": 236.22633864976618,
+      "norm_match_scale": 1.0429073049799913,
+      "retained_energy_before_norm_match": 0.9194086409240994
+    },
+    {
+      "receiver_id": "B_120",
+      "rank": 4,
+      "reference_norm": 246.3621742065184,
+      "projected_norm": 240.4289658873552,
+      "norm_match_scale": 1.0246775936387924,
+      "retained_energy_before_norm_match": 0.9524134515349206
+    },
+    {
+      "receiver_id": "B_120",
+      "rank": 8,
+      "reference_norm": 246.3621742065184,
+      "projected_norm": 241.92944722047974,
+      "norm_match_scale": 1.0183223953800007,
+      "retained_energy_before_norm_match": 0.9643382870755918
+    },
+    {
+      "receiver_id": "B_121",
+      "rank": 1,
+      "reference_norm": 238.39135122531582,
+      "projected_norm": 179.8614296913147,
+      "norm_match_scale": 1.3254167479623202,
+      "retained_energy_before_norm_match": 0.5692395831278397
+    },
+    {
+      "receiver_id": "B_121",
+      "rank": 2,
+      "reference_norm": 238.39135122531582,
+      "projected_norm": 215.32988761061907,
+      "norm_match_scale": 1.1070982940203766,
+      "retained_energy_before_norm_match": 0.8158825355799073
+    },
+    {
+      "receiver_id": "B_121",
+      "rank": 3,
+      "reference_norm": 238.39135122531582,
+      "projected_norm": 216.59785130321157,
+      "norm_match_scale": 1.1006173412662155,
+      "retained_energy_before_norm_match": 0.8255194260570294
+    },
+    {
+      "receiver_id": "B_121",
+      "rank": 4,
+      "reference_norm": 238.39135122531582,
+      "projected_norm": 225.5953720174202,
+      "norm_match_scale": 1.0567209295716737,
+      "retained_energy_before_norm_match": 0.8955284378262649
+    },
+    {
+      "receiver_id": "B_121",
+      "rank": 8,
+      "reference_norm": 238.39135122531582,
+      "projected_norm": 230.81784988839775,
+      "norm_match_scale": 1.0328115929534043,
+      "retained_energy_before_norm_match": 0.9374708916410635
+    },
+    {
+      "receiver_id": "B_123",
+      "rank": 1,
+      "reference_norm": 236.32319937024982,
+      "projected_norm": 171.10816302895546,
+      "norm_match_scale": 1.3811334023278508,
+      "retained_energy_before_norm_match": 0.5242382951836299
+    },
+    {
+      "receiver_id": "B_123",
+      "rank": 2,
+      "reference_norm": 236.32319937024982,
+      "projected_norm": 209.41832403648078,
+      "norm_match_scale": 1.1284743131125536,
+      "retained_energy_before_norm_match": 0.7852657290905468
+    },
+    {
+      "receiver_id": "B_123",
+      "rank": 3,
+      "reference_norm": 236.32319937024982,
+      "projected_norm": 210.21411121143166,
+      "norm_match_scale": 1.1242023573410724,
+      "retained_energy_before_norm_match": 0.7912450693770956
+    },
+    {
+      "receiver_id": "B_123",
+      "rank": 4,
+      "reference_norm": 236.32319937024982,
+      "projected_norm": 223.59570907638724,
+      "norm_match_scale": 1.056921889719782,
+      "retained_energy_before_norm_match": 0.895187923697109
+    },
+    {
+      "receiver_id": "B_123",
+      "rank": 8,
+      "reference_norm": 236.32319937024982,
+      "projected_norm": 227.88551880654978,
+      "norm_match_scale": 1.0370259620176336,
+      "retained_energy_before_norm_match": 0.9298667996628089
+    },
+    {
+      "receiver_id": "B_125",
+      "rank": 1,
+      "reference_norm": 248.8493035992571,
+      "projected_norm": 233.47613963484764,
+      "norm_match_scale": 1.065844689690573,
+      "retained_energy_before_norm_match": 0.8802623936876122
+    },
+    {
+      "receiver_id": "B_125",
+      "rank": 2,
+      "reference_norm": 248.8493035992571,
+      "projected_norm": 233.5772456909221,
+      "norm_match_scale": 1.0653833290274497,
+      "retained_energy_before_norm_match": 0.8810249480935592
+    },
+    {
+      "receiver_id": "B_125",
+      "rank": 3,
+      "reference_norm": 248.8493035992571,
+      "projected_norm": 238.11516022709873,
+      "norm_match_scale": 1.045079630217248,
+      "retained_energy_before_norm_match": 0.9155904078097311
+    },
+    {
+      "receiver_id": "B_125",
+      "rank": 4,
+      "reference_norm": 248.8493035992571,
+      "projected_norm": 243.38606625711594,
+      "norm_match_scale": 1.0224467958505468,
+      "retained_energy_before_norm_match": 0.9565739802310923
+    },
+    {
+      "receiver_id": "B_125",
+      "rank": 8,
+      "reference_norm": 248.8493035992571,
+      "projected_norm": 244.52231382088047,
+      "norm_match_scale": 1.017695684744527,
+      "retained_energy_before_norm_match": 0.9655263576483287
+    },
+    {
+      "receiver_id": "B_130",
+      "rank": 1,
+      "reference_norm": 241.44241054722508,
+      "projected_norm": 215.81442272663116,
+      "norm_match_scale": 1.1187501164046691,
+      "retained_energy_before_norm_match": 0.7989761453356287
+    },
+    {
+      "receiver_id": "B_130",
+      "rank": 2,
+      "reference_norm": 241.44241054722508,
+      "projected_norm": 226.5546791689405,
+      "norm_match_scale": 1.0657136344872526,
+      "retained_energy_before_norm_match": 0.8804789059974422
+    },
+    {
+      "receiver_id": "B_130",
+      "rank": 3,
+      "reference_norm": 241.44241054722508,
+      "projected_norm": 232.217626195366,
+      "norm_match_scale": 1.039724737966696,
+      "retained_energy_before_norm_match": 0.9250458212803747
+    },
+    {
+      "receiver_id": "B_130",
+      "rank": 4,
+      "reference_norm": 241.44241054722508,
+      "projected_norm": 233.5153494346467,
+      "norm_match_scale": 1.033946638333498,
+      "retained_energy_before_norm_match": 0.935413748831354
+    },
+    {
+      "receiver_id": "B_130",
+      "rank": 8,
+      "reference_norm": 241.44241054722508,
+      "projected_norm": 237.32427143518336,
+      "norm_match_scale": 1.0173523722927196,
+      "retained_energy_before_norm_match": 0.9661781144236123
+    },
+    {
+      "receiver_id": "B_134",
+      "rank": 1,
+      "reference_norm": 248.10816362417083,
+      "projected_norm": 234.55603194236755,
+      "norm_match_scale": 1.057777800765035,
+      "retained_energy_before_norm_match": 0.8937398100358457
+    },
+    {
+      "receiver_id": "B_134",
+      "rank": 2,
+      "reference_norm": 248.10816362417083,
+      "projected_norm": 235.05545934540942,
+      "norm_match_scale": 1.0555303174625725,
+      "retained_energy_before_norm_match": 0.8975498451194962
+    },
+    {
+      "receiver_id": "B_134",
+      "rank": 3,
+      "reference_norm": 248.10816362417083,
+      "projected_norm": 239.97158966427673,
+      "norm_match_scale": 1.0339064052177063,
+      "retained_energy_before_norm_match": 0.9354865510535492
+    },
+    {
+      "receiver_id": "B_134",
+      "rank": 4,
+      "reference_norm": 248.10816362417083,
+      "projected_norm": 243.07698975864895,
+      "norm_match_scale": 1.0206978614903752,
+      "retained_energy_before_norm_match": 0.9598549088378387
+    },
+    {
+      "receiver_id": "B_134",
+      "rank": 8,
+      "reference_norm": 248.10816362417083,
+      "projected_norm": 243.81719465106744,
+      "norm_match_scale": 1.0175991237174404,
+      "retained_energy_before_norm_match": 0.965709605919777
+    },
+    {
+      "receiver_id": "B_136",
+      "rank": 1,
+      "reference_norm": 240.95820792411996,
+      "projected_norm": 184.51218855381012,
+      "norm_match_scale": 1.3059202744963823,
+      "retained_energy_before_norm_match": 0.5863631526914589
+    },
+    {
+      "receiver_id": "B_136",
+      "rank": 2,
+      "reference_norm": 240.95820792411996,
+      "projected_norm": 223.33876686997885,
+      "norm_match_scale": 1.078891100282642,
+      "retained_energy_before_norm_match": 0.8591020962213354
+    },
+    {
+      "receiver_id": "B_136",
+      "rank": 3,
+      "reference_norm": 240.95820792411996,
+      "projected_norm": 223.84280759469516,
+      "norm_match_scale": 1.076461694317269,
+      "retained_energy_before_norm_match": 0.8629841905060069
+    },
+    {
+      "receiver_id": "B_136",
+      "rank": 4,
+      "reference_norm": 240.95820792411996,
+      "projected_norm": 235.0797646352687,
+      "norm_match_scale": 1.025006164601074,
+      "retained_energy_before_norm_match": 0.9518029474061745
+    },
+    {
+      "receiver_id": "B_136",
+      "rank": 8,
+      "reference_norm": 240.95820792411996,
+      "projected_norm": 236.15822157420763,
+      "norm_match_scale": 1.020325298513497,
+      "retained_energy_before_norm_match": 0.9605560022855355
+    },
+    {
+      "receiver_id": "B_137",
+      "rank": 1,
+      "reference_norm": 250.6647568199343,
+      "projected_norm": 233.11350813508034,
+      "norm_match_scale": 1.0752905690676822,
+      "retained_energy_before_norm_match": 0.864865008534632
+    },
+    {
+      "receiver_id": "B_137",
+      "rank": 2,
+      "reference_norm": 250.6647568199343,
+      "projected_norm": 238.557917974141,
+      "norm_match_scale": 1.0507501027365005,
+      "retained_energy_before_norm_match": 0.9057349319341846
+    },
+    {
+      "receiver_id": "B_137",
+      "rank": 3,
+      "reference_norm": 250.6647568199343,
+      "projected_norm": 241.12179430638466,
+      "norm_match_scale": 1.0395773535984214,
+      "retained_energy_before_norm_match": 0.9253081335710768
+    },
+    {
+      "receiver_id": "B_137",
+      "rank": 4,
+      "reference_norm": 250.6647568199343,
+      "projected_norm": 243.22320526955252,
+      "norm_match_scale": 1.0305955656744785,
+      "retained_energy_before_norm_match": 0.9415067999211937
+    },
+    {
+      "receiver_id": "B_137",
+      "rank": 8,
+      "reference_norm": 250.6647568199343,
+      "projected_norm": 245.53838141362198,
+      "norm_match_scale": 1.0208781021394642,
+      "retained_energy_before_norm_match": 0.9595160053016749
+    },
+    {
+      "receiver_id": "B_144",
+      "rank": 1,
+      "reference_norm": 245.54867212631402,
+      "projected_norm": 227.02357703447342,
+      "norm_match_scale": 1.0815998731665988,
+      "retained_energy_before_norm_match": 0.8548043915063198
+    },
+    {
+      "receiver_id": "B_144",
+      "rank": 2,
+      "reference_norm": 245.54867212631402,
+      "projected_norm": 228.07855993308277,
+      "norm_match_scale": 1.0765969067778967,
+      "retained_energy_before_norm_match": 0.862767435492702
+    },
+    {
+      "receiver_id": "B_144",
+      "rank": 3,
+      "reference_norm": 245.54867212631402,
+      "projected_norm": 236.49761749896268,
+      "norm_match_scale": 1.038271229634654,
+      "retained_energy_before_norm_match": 0.927637635283093
+    },
+    {
+      "receiver_id": "B_144",
+      "rank": 4,
+      "reference_norm": 245.54867212631402,
+      "projected_norm": 239.98682709671195,
+      "norm_match_scale": 1.02317562633286,
+      "retained_energy_before_norm_match": 0.9552116882666859
+    },
+    {
+      "receiver_id": "B_144",
+      "rank": 8,
+      "reference_norm": 245.54867212631402,
+      "projected_norm": 241.04403490022472,
+      "norm_match_scale": 1.0186880261440774,
+      "retained_energy_before_norm_match": 0.9636461645434601
+    },
+    {
+      "receiver_id": "B_148",
+      "rank": 1,
+      "reference_norm": 243.51341773368392,
+      "projected_norm": 226.97655642032623,
+      "norm_match_scale": 1.07285713368007,
+      "retained_energy_before_norm_match": 0.8687928006914626
+    },
+    {
+      "receiver_id": "B_148",
+      "rank": 2,
+      "reference_norm": 243.51341773368392,
+      "projected_norm": 227.4718247418873,
+      "norm_match_scale": 1.0705212305304141,
+      "retained_energy_before_norm_match": 0.8725883909119128
+    },
+    {
+      "receiver_id": "B_148",
+      "rank": 3,
+      "reference_norm": 243.51341773368392,
+      "projected_norm": 235.97998394210012,
+      "norm_match_scale": 1.0319240372244123,
+      "retained_energy_before_norm_match": 0.9390842187003193
+    },
+    {
+      "receiver_id": "B_148",
+      "rank": 4,
+      "reference_norm": 243.51341773368392,
+      "projected_norm": 239.5490104361418,
+      "norm_match_scale": 1.0165494622178743,
+      "retained_energy_before_norm_match": 0.9677049668421503
+    },
+    {
+      "receiver_id": "B_148",
+      "rank": 8,
+      "reference_norm": 243.51341773368392,
+      "projected_norm": 239.87932813771883,
+      "norm_match_scale": 1.015149657222146,
+      "retained_energy_before_norm_match": 0.9703755724522521
+    },
+    {
+      "receiver_id": "B_149",
+      "rank": 1,
+      "reference_norm": 246.3903220210721,
+      "projected_norm": 227.78232762217522,
+      "norm_match_scale": 1.081692002154628,
+      "retained_energy_before_norm_match": 0.8546587883037747
+    },
+    {
+      "receiver_id": "B_149",
+      "rank": 2,
+      "reference_norm": 246.3903220210721,
+      "projected_norm": 234.15933909843045,
+      "norm_match_scale": 1.0522335900405846,
+      "retained_energy_before_norm_match": 0.9031828387146825
+    },
+    {
+      "receiver_id": "B_149",
+      "rank": 3,
+      "reference_norm": 246.3903220210721,
+      "projected_norm": 236.87839215444905,
+      "norm_match_scale": 1.0401553294081003,
+      "retained_energy_before_norm_match": 0.9242801003212003
+    },
+    {
+      "receiver_id": "B_149",
+      "rank": 4,
+      "reference_norm": 246.3903220210721,
+      "projected_norm": 240.58385134731776,
+      "norm_match_scale": 1.024134914464279,
+      "retained_energy_before_norm_match": 0.9534230682887059
+    },
+    {
+      "receiver_id": "B_149",
+      "rank": 8,
+      "reference_norm": 246.3903220210721,
+      "projected_norm": 243.09509334410998,
+      "norm_match_scale": 1.0135553072323744,
+      "retained_energy_before_norm_match": 0.9734308277550021
+    },
+    {
+      "receiver_id": "B_150",
+      "rank": 1,
+      "reference_norm": 245.1737254574795,
+      "projected_norm": 228.28529557585716,
+      "norm_match_scale": 1.0739794906151126,
+      "retained_energy_before_norm_match": 0.866977894309979
+    },
+    {
+      "receiver_id": "B_150",
+      "rank": 2,
+      "reference_norm": 245.1737254574795,
+      "projected_norm": 228.5612293240222,
+      "norm_match_scale": 1.0726829138195892,
+      "retained_energy_before_norm_match": 0.8690750336798376
+    },
+    {
+      "receiver_id": "B_150",
+      "rank": 3,
+      "reference_norm": 245.1737254574795,
+      "projected_norm": 235.94433504472963,
+      "norm_match_scale": 1.039116812916912,
+      "retained_energy_before_norm_match": 0.9261285157784691
+    },
+    {
+      "receiver_id": "B_150",
+      "rank": 4,
+      "reference_norm": 245.1737254574795,
+      "projected_norm": 240.2530099822778,
+      "norm_match_scale": 1.0204813894967004,
+      "retained_energy_before_norm_match": 0.9602621749496618
+    },
+    {
+      "receiver_id": "B_150",
+      "rank": 8,
+      "reference_norm": 245.1737254574795,
+      "projected_norm": 241.06299901008936,
+      "norm_match_scale": 1.0170524985761837,
+      "retained_energy_before_norm_match": 0.9667479456476018
+    },
+    {
+      "receiver_id": "B_152",
+      "rank": 1,
+      "reference_norm": 245.62733331353476,
+      "projected_norm": 210.71075654029846,
+      "norm_match_scale": 1.1657085634665192,
+      "retained_energy_before_norm_match": 0.7359020728965099
+    },
+    {
+      "receiver_id": "B_152",
+      "rank": 2,
+      "reference_norm": 245.62733331353476,
+      "projected_norm": 238.9048512229293,
+      "norm_match_scale": 1.0281387425001784,
+      "retained_energy_before_norm_match": 0.9460117938883214
+    },
+    {
+      "receiver_id": "B_152",
+      "rank": 3,
+      "reference_norm": 245.62733331353476,
+      "projected_norm": 238.96416697198705,
+      "norm_match_scale": 1.02788353762817,
+      "retained_energy_before_norm_match": 0.9464816074049167
+    },
+    {
+      "receiver_id": "B_152",
+      "rank": 4,
+      "reference_norm": 245.62733331353476,
+      "projected_norm": 239.99098724308172,
+      "norm_match_scale": 1.0234856572540538,
+      "retained_energy_before_norm_match": 0.9546330767270141
+    },
+    {
+      "receiver_id": "B_152",
+      "rank": 8,
+      "reference_norm": 245.62733331353476,
+      "projected_norm": 240.50045099217257,
+      "norm_match_scale": 1.0213175580345546,
+      "retained_energy_before_norm_match": 0.9586904555126805
+    },
+    {
+      "receiver_id": "B_153",
+      "rank": 1,
+      "reference_norm": 241.4251661359897,
+      "projected_norm": 196.89973467588425,
+      "norm_match_scale": 1.2261325112164247,
+      "retained_energy_before_norm_match": 0.6651585592893284
+    },
+    {
+      "receiver_id": "B_153",
+      "rank": 2,
+      "reference_norm": 241.4251661359897,
+      "projected_norm": 225.05353791915417,
+      "norm_match_scale": 1.072745482555874,
+      "retained_energy_before_norm_match": 0.868973657646679
+    },
+    {
+      "receiver_id": "B_153",
+      "rank": 3,
+      "reference_norm": 241.4251661359897,
+      "projected_norm": 225.68203067054017,
+      "norm_match_scale": 1.069758037087286,
+      "retained_energy_before_norm_match": 0.8738338899309994
+    },
+    {
+      "receiver_id": "B_153",
+      "rank": 4,
+      "reference_norm": 241.4251661359897,
+      "projected_norm": 231.77955201271936,
+      "norm_match_scale": 1.0416154662458792,
+      "retained_energy_before_norm_match": 0.9216906043910522
+    },
+    {
+      "receiver_id": "B_153",
+      "rank": 8,
+      "reference_norm": 241.4251661359897,
+      "projected_norm": 235.10586597386873,
+      "norm_match_scale": 1.0268785303843646,
+      "retained_energy_before_norm_match": 0.948335159356608
+    },
+    {
+      "receiver_id": "B_155",
+      "rank": 1,
+      "reference_norm": 247.177293445757,
+      "projected_norm": 225.44356536865234,
+      "norm_match_scale": 1.0964042954234021,
+      "retained_energy_before_norm_match": 0.8318759012962247
+    },
+    {
+      "receiver_id": "B_155",
+      "rank": 2,
+      "reference_norm": 247.177293445757,
+      "projected_norm": 237.8961115529215,
+      "norm_match_scale": 1.039013592245163,
+      "retained_energy_before_norm_match": 0.9263125371554841
+    },
+    {
+      "receiver_id": "B_155",
+      "rank": 3,
+      "reference_norm": 247.177293445757,
+      "projected_norm": 239.8448786431482,
+      "norm_match_scale": 1.0305714878887127,
+      "retained_energy_before_norm_match": 0.9415507942759969
+    },
+    {
+      "receiver_id": "B_155",
+      "rank": 4,
+      "reference_norm": 247.177293445757,
+      "projected_norm": 240.96351889260342,
+      "norm_match_scale": 1.0257872004098805,
+      "retained_energy_before_norm_match": 0.9503540910066596
+    },
+    {
+      "receiver_id": "B_155",
+      "rank": 8,
+      "reference_norm": 247.177293445757,
+      "projected_norm": 243.76171161865,
+      "norm_match_scale": 1.0140119701507941,
+      "retained_energy_before_norm_match": 0.9725542509922033
+    },
+    {
+      "receiver_id": "B_158",
+      "rank": 1,
+      "reference_norm": 247.26265798066686,
+      "projected_norm": 231.89851117134094,
+      "norm_match_scale": 1.0662537535567616,
+      "retained_energy_before_norm_match": 0.8795871051560838
+    },
+    {
+      "receiver_id": "B_158",
+      "rank": 2,
+      "reference_norm": 247.26265798066686,
+      "projected_norm": 233.42113554794096,
+      "norm_match_scale": 1.0592984966859742,
+      "retained_energy_before_norm_match": 0.8911756018503568
+    },
+    {
+      "receiver_id": "B_158",
+      "rank": 3,
+      "reference_norm": 247.26265798066686,
+      "projected_norm": 236.37250739740253,
+      "norm_match_scale": 1.0460719848647846,
+      "retained_energy_before_norm_match": 0.9138540847973587
+    },
+    {
+      "receiver_id": "B_158",
+      "rank": 4,
+      "reference_norm": 247.26265798066686,
+      "projected_norm": 241.71968589960798,
+      "norm_match_scale": 1.0229314052780998,
+      "retained_energy_before_norm_match": 0.9556678491637384
+    },
+    {
+      "receiver_id": "B_158",
+      "rank": 8,
+      "reference_norm": 247.26265798066686,
+      "projected_norm": 243.28577561588295,
+      "norm_match_scale": 1.0163465469969066,
+      "retained_energy_before_norm_match": 0.9680914131182945
+    },
+    {
+      "receiver_id": "B_161",
+      "rank": 1,
+      "reference_norm": 247.58292109609258,
+      "projected_norm": 234.10663840174675,
+      "norm_match_scale": 1.0575647183110604,
+      "retained_energy_before_norm_match": 0.8940999950041619
+    },
+    {
+      "receiver_id": "B_161",
+      "rank": 2,
+      "reference_norm": 247.58292109609258,
+      "projected_norm": 234.56966480690733,
+      "norm_match_scale": 1.0554771491867778,
+      "retained_energy_before_norm_match": 0.8976402731873848
+    },
+    {
+      "receiver_id": "B_161",
+      "rank": 3,
+      "reference_norm": 247.58292109609258,
+      "projected_norm": 239.691155190347,
+      "norm_match_scale": 1.0329247272369249,
+      "retained_energy_before_norm_match": 0.9372655440749338
+    },
+    {
+      "receiver_id": "B_161",
+      "rank": 4,
+      "reference_norm": 247.58292109609258,
+      "projected_norm": 242.8308045354561,
+      "norm_match_scale": 1.0195696611462761,
+      "retained_energy_before_norm_match": 0.961980330618483
+    },
+    {
+      "receiver_id": "B_161",
+      "rank": 8,
+      "reference_norm": 247.58292109609258,
+      "projected_norm": 243.53769714131286,
+      "norm_match_scale": 1.0166102578872316,
+      "retained_energy_before_norm_match": 0.9675892282656616
+    },
+    {
+      "receiver_id": "B_163",
+      "rank": 1,
+      "reference_norm": 246.91507366517325,
+      "projected_norm": 215.23186695575714,
+      "norm_match_scale": 1.1472049987650244,
+      "retained_energy_before_norm_match": 0.7598326278789045
+    },
+    {
+      "receiver_id": "B_163",
+      "rank": 2,
+      "reference_norm": 246.91507366517325,
+      "projected_norm": 235.74641525660084,
+      "norm_match_scale": 1.0473757295372477,
+      "retained_energy_before_norm_match": 0.9115804196175211
+    },
+    {
+      "receiver_id": "B_163",
+      "rank": 3,
+      "reference_norm": 246.91507366517325,
+      "projected_norm": 238.48941560811437,
+      "norm_match_scale": 1.0353292746161278,
+      "retained_energy_before_norm_match": 0.9329170100197929
+    },
+    {
+      "receiver_id": "B_163",
+      "rank": 4,
+      "reference_norm": 246.91507366517325,
+      "projected_norm": 238.58251335575946,
+      "norm_match_scale": 1.0349252767615404,
+      "retained_energy_before_norm_match": 0.9336455071248094
+    },
+    {
+      "receiver_id": "B_163",
+      "rank": 8,
+      "reference_norm": 246.91507366517325,
+      "projected_norm": 242.95984665030565,
+      "norm_match_scale": 1.0162793443830265,
+      "retained_energy_before_norm_match": 0.9682194496169636
+    }
+  ]
+}

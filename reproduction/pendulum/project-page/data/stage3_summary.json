@@ -1,0 +1,78 @@
+{
+  "protocol": "pendulum_stage3_low_rank_causal_route_v2_hidden_size_parameterized",
+  "model_name": "frequency_color_circle",
+  "history": "short",
+  "checkpoint": "runs/pendulum/frequency_color_circle_large_short_long_50k_seed3407/short/ckpt/frequency-color-circle-large-short-50k/step-50000.safetensors",
+  "checkpoint_sha256": "0dd907676adebe24fd44b1e8feae808a2c7864615ac965a742e422f0cd721392",
+  "hidden_size": 1152,
+  "commitment_block_index": 12,
+  "receiver_manifest_sha256": "55efb97064c9af8295f5e27d34aa9644877f72bcb3b60853ae7546cecf1d7c80",
+  "fit_count": 64,
+  "heldout_count": 64,
+  "ranks": [
+    1,
+    2,
+    3,
+    4,
+    8
+  ],
+  "oracle_geometry": [
+    {
+      "rank": 1,
+      "num_heldout": 64,
+      "median_retained_energy_E_m": 0.7692007592093695,
+      "q25_retained_energy_E_m": 0.7265075214764217,
+      "q75_retained_energy_E_m": 0.8410640715869169
+    },
+    {
+      "rank": 2,
+      "num_heldout": 64,
+      "median_retained_energy_E_m": 0.8793618627286874,
+      "q25_retained_energy_E_m": 0.8315146164998068,
+      "q75_retained_energy_E_m": 0.903820862019558
+    },
+    {
+      "rank": 3,
+      "num_heldout": 64,
+      "median_retained_energy_E_m": 0.9268830755307811,
+      "q25_retained_energy_E_m": 0.9129590434239556,
+      "q75_retained_energy_E_m": 0.9397323559483959
+    },
+    {
+      "rank": 4,
+      "num_heldout": 64,
+      "median_retained_energy_E_m": 0.9467910979025757,
+      "q25_retained_energy_E_m": 0.9278709315210505,
+      "q75_retained_energy_E_m": 0.9554960725944401
+    },
+    {
+      "rank": 8,
+      "num_heldout": 64,
+      "median_retained_energy_E_m": 0.963390786648842,
+      "q25_retained_energy_E_m": 0.952898509403937,
+      "q75_retained_energy_E_m": 0.9669474986766544
+    }
+  ],
+  "m_star": {
+    "recovery_threshold": 0.5,
+    "full_d_close_fraction": 0.95,
+    "full_d_median_recovery": 0.9244791666666666,
+    "median_recovery_by_rank": {
+      "1": 0.9285714285714285,
+      "2": 0.9192073170731707,
+      "3": 0.9215893337887251,
+      "4": 0.9311101184659911,
+      "8": 0.9270976616231087
+    },
+    "selection_threshold": 0.8782552083333333,
+    "m_star": 1,
+    "median_retained_energy_by_rank": {
+      "1": 0.7692007592093695,
+      "2": 0.8793618627286874,
+      "3": 0.9268830755307811,
+      "4": 0.9467910979025757,
+      "8": 0.963390786648842
+    }
+  },
+  "natural_valid_rate": 1.0
+}

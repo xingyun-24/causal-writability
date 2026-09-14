@@ -1,0 +1,25 @@
+# Observed top-level source environment versions; use requirements.txt for a fresh environment.
+accelerate==1.14.0
+einops==0.8.2
+ftfy==6.3.1
+ImageIO==2.37.4
+imageio-ffmpeg==0.6.0
+matplotlib==3.10.9
+modelscope==1.39.0
+numpy==2.2.6
+omegaconf==2.3.1
+opencv-python-headless==5.0.0.93
+pandas==2.3.3
+peft==0.20.0
+pillow==11.3.0
+protobuf==7.35.1
+pydantic==2.13.4
+PyYAML==5.4.1
+safetensors==0.8.0
+sentencepiece==0.2.2
+torch==2.13.0
+torchvision==0.28.0
+tqdm==4.69.0
+transformers==4.57.6
+typing_extensions==4.16.0
+wandb==0.28.1

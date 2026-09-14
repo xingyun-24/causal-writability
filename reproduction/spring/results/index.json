@@ -1,0 +1,71 @@
+[
+  {
+    "figure": 1,
+    "pdf": "results/figures/figure1.pdf",
+    "tables": [],
+    "scope": "Selected supporting tables, not a complete export of every panel input"
+  },
+  {
+    "figure": 2,
+    "pdf": "results/figures/figure2.pdf",
+    "tables": [
+      "results/behavior/short-3407.json",
+      "results/behavior/long-3407.json"
+    ],
+    "scope": "Selected supporting tables, not a complete export of every panel input"
+  },
+  {
+    "figure": 3,
+    "pdf": "results/figures/figure3.pdf",
+    "tables": [
+      "results/figure3_seed_functional_layers.csv",
+      "results/figure3_selected_phase_bootstrap.csv",
+      "results/figure3_haomin_phase_seed3408.csv",
+      "results/figure3_haomin_large_lowrank_50k.csv",
+      "results/figure3_state_synthesis_audit.csv",
+      "results/behavior/short-3408.json",
+      "results/behavior/short-3409.json",
+      "results/behavior/short-3407.json"
+    ],
+    "scope": "Selected supporting tables, not a complete export of every panel input"
+  },
+  {
+    "figure": 4,
+    "pdf": "results/figures/figure4.pdf",
+    "tables": [
+      "results/figure4_checkpoint_local_layer_profiles.csv",
+      "results/figure4_short_long_paired_curves.csv",
+      "results/figure4_persistent_failure_rigidity_bootstrap.csv",
+      "results/training_behavior.csv",
+      "results/D5_by_future_fate.csv",
+      "results/D5_fate_bootstrap.csv"
+    ],
+    "scope": "Selected supporting tables, not a complete export of every panel input"
+  },
+  {
+    "figure": 5,
+    "pdf": "results/figures/figure5.pdf",
+    "tables": [
+      "results/pretrained/direct-2k.json",
+      "results/pretrained/direct-5k.json",
+      "results/pretrained/direct-10k.json",
+      "results/pretrained/neutral-2k.json",
+      "results/pretrained/neutral-5k.json",
+      "results/pretrained/neutral-10k.json",
+      "results/pretrained/pretrained_wan_direct5k_controller_summary.json",
+      "results/pretrained/pretrained_wan_direct10k_boundary_summary.json",
+      "results/pretrained/pretrained_wan_neutral10k_boundary_summary.json"
+    ],
+    "scope": "Selected supporting tables, not a complete export of every panel input"
+  },
+  {
+    "figure": 6,
+    "pdf": "results/figures/figure6.pdf",
+    "tables": [
+      "results/figure5_single_head_gain_sweep.csv",
+      "results/figure5_qkv_paired_bootstrap.csv",
+      "results/target_transport_summary.csv"
+    ],
+    "scope": "Selected supporting tables, not a complete export of every panel input"
+  }
+]

@@ -1,0 +1,22 @@
+experiment_id: support_release
+dataset_id: support_release_v1
+data:
+  train_count: 2048
+  eval_count: 64
+prediction_profiles:
+  raw_wan:
+    mode: raw_wan
+    diffusion_steps: 20
+    seed_offset: 1700000
+evaluation_profiles:
+  raw_wan:
+    mode: raw_wan
+    diffusion_steps: 20
+  gt_dynamics:
+    mode: gt_dynamics
+  scale_velocity:
+    mode: scale_velocity
+    config: configs/support_release_v1/gt_scale_velocity_controls.yaml
+  block_scale:
+    mode: block_scale
+    config: configs/support_release_v1/gt_block_scale_controls.yaml

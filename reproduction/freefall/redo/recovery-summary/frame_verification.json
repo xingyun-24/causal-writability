@@ -1,0 +1,109 @@
+{
+  "verified_saved_videos": 16,
+  "selection": "first available video per rank and gravity band",
+  "frame_shape": [
+    64,
+    128,
+    128,
+    3
+  ],
+  "checks": [
+    {
+      "rank": "1",
+      "gravity_band": "high",
+      "pair_id": "eval_50000_high",
+      "passed": true
+    },
+    {
+      "rank": "2",
+      "gravity_band": "high",
+      "pair_id": "eval_50000_high",
+      "passed": true
+    },
+    {
+      "rank": "4",
+      "gravity_band": "high",
+      "pair_id": "eval_50000_high",
+      "passed": true
+    },
+    {
+      "rank": "8",
+      "gravity_band": "high",
+      "pair_id": "eval_50000_high",
+      "passed": true
+    },
+    {
+      "rank": "16",
+      "gravity_band": "high",
+      "pair_id": "eval_50000_high",
+      "passed": true
+    },
+    {
+      "rank": "32",
+      "gravity_band": "high",
+      "pair_id": "eval_50000_high",
+      "passed": true
+    },
+    {
+      "rank": "64",
+      "gravity_band": "high",
+      "pair_id": "eval_50000_high",
+      "passed": true
+    },
+    {
+      "rank": "full_delta",
+      "gravity_band": "high",
+      "pair_id": "eval_50000_high",
+      "passed": true
+    },
+    {
+      "rank": "1",
+      "gravity_band": "low",
+      "pair_id": "eval_50005_low",
+      "passed": true
+    },
+    {
+      "rank": "2",
+      "gravity_band": "low",
+      "pair_id": "eval_50005_low",
+      "passed": true
+    },
+    {
+      "rank": "4",
+      "gravity_band": "low",
+      "pair_id": "eval_50005_low",
+      "passed": true
+    },
+    {
+      "rank": "8",
+      "gravity_band": "low",
+      "pair_id": "eval_50005_low",
+      "passed": true
+    },
+    {
+      "rank": "16",
+      "gravity_band": "low",
+      "pair_id": "eval_50005_low",
+      "passed": true
+    },
+    {
+      "rank": "32",
+      "gravity_band": "low",
+      "pair_id": "eval_50005_low",
+      "passed": true
+    },
+    {
+      "rank": "64",
+      "gravity_band": "low",
+      "pair_id": "eval_50005_low",
+      "passed": true
+    },
+    {
+      "rank": "full_delta",
+      "gravity_band": "low",
+      "pair_id": "eval_50005_low",
+      "passed": true
+    }
+  ],
+  "all_measurement_fields_match": true
+}

@@ -1,0 +1,35 @@
+\section{Related Work}
+
+\paragraph{Shortcut learning and predictive underspecification.}
+Training data can support multiple predictive rules that agree on the training
+distribution and diverge only under shift
+\citep{geirhos2020shortcut,damour2022underspecification}.
+In controlled mechanics videos, \citet{kang2025physical} find case-based
+generalization with an attribute hierarchy that places color above velocity.
+Our cue sweep also reveals the reverse relation: observed motion can select its
+training-associated color.
+
+\paragraph{Physics representations and control in video models.}
+Physics-related structure is decodable in video encoders
+\citep{joseph2026interpreting} and inverted diffusion trajectories
+\citep{esmati2026invisible}; concept activation vectors steer VideoMAE's
+plausibility judgments \citep{alam2026causal}. Generation improves through
+relational alignment \citep{zhang2025videorepa} or inference-time rewards
+\citep{yuan2026physicsalignment}. We test whether physical-state-based activation
+edits change motion in fully decoded video, distinguishing the presence of
+physical information from its ability to control generation.
+
+\paragraph{Causal intervention, commitment, and cross-model transfer.}
+Activation patching probes internal mechanisms
+\citep{meng2022locating,zhang2024patching}, but subspace interventions can
+mislead causal attribution \citep{makelov2024subspace}. Manifold steering links
+geometry to behavior, including video physics \citep{wurgaft2026manifold}.
+\citet{plattner2026circuits} localize and rescue 3D failure through an
+early-denoising cross-attention write. Our question is whether a physically
+specified alternative remains causally usable after the model has selected a
+different future.
+Stitching \citep{bansal2021stitching} and permutation alignment
+\citep{ainsworth2023git} compare networks, but stitching does not establish
+shared information \citep{smith2025alignment}. Cross-model steering transfers
+interventions \citep{oozeer2025activationtransfer,poppi2026crossmodel}; we test
+held-out physical corrections across models with different natural behavior.

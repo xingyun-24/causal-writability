@@ -1,0 +1,10 @@
+seed: 3407
+model:
+  dit: {dim: 1536, in_dim: 16, ffn_dim: 6144, out_dim: 16, text_dim: 4096, freq_dim: 256, eps: 1.0e-06, patch_size: [1, 2, 2], num_heads: 12, num_layers: 30, has_text_input: false, has_image_input: false, num_inference_steps: 20, type: bidirectional}
+  vae: {z_dim: 16, queued: false, ckpt_file: models/Wan2.1_VAE.pth}
+  type: default
+  num_condition_frames: 17
+data: {dataset: data/projectile_gravity_v3/latents/train_short_v3_large_hist8, labels: data/projectile_gravity_v3/latents/train_short_v3_large_hist8/metadata.csv, size: [128, 128], num_frames: 33, load_as: tensor, encoded: true}
+loader: {num_training_steps: 100000, batch_size: 8, num_workers: 4}
+optimizer: {learning_rate: 0.0002, weight_decay: 0.01, gradient_accumulation_steps: 1, with_ema: false}
+log: {project: projectile-gravity-v3-large, name: fixedstart-hist8, log_every: 10, save_at: [20000, 50000, 100000], save_last_every: 100000, ckpt_dir: runs/projectile_gravity_v3/large_hist8/ckpt, out_dir: runs/projectile_gravity_v3/large_hist8/output, fps: 20}

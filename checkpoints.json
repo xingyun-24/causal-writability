@@ -1,0 +1,98 @@
+[
+  {
+    "id": "spring-long-3407-50k",
+    "path": "spring/spring-long-3407-50k.safetensors",
+    "bytes": 976369200,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/spring/spring-long-3407-50k.safetensors"
+  },
+  {
+    "id": "spring-long-3408-50k",
+    "path": "spring/spring-long-3408-50k.safetensors",
+    "bytes": 976369200,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/spring/spring-long-3408-50k.safetensors"
+  },
+  {
+    "id": "spring-long-3409-50k",
+    "path": "spring/spring-long-3409-50k.safetensors",
+    "bytes": 976369200,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/spring/spring-long-3409-50k.safetensors"
+  },
+  {
+    "id": "spring-short-3407-50k",
+    "path": "spring/spring-short-3407-50k.safetensors",
+    "bytes": 976369200,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/spring/spring-short-3407-50k.safetensors"
+  },
+  {
+    "id": "spring-short-3408-50k",
+    "path": "spring/spring-short-3408-50k.safetensors",
+    "bytes": 976369200,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/spring/spring-short-3408-50k.safetensors"
+  },
+  {
+    "id": "spring-short-3409-50k",
+    "path": "spring/spring-short-3409-50k.safetensors",
+    "bytes": 976369200,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/spring/spring-short-3409-50k.safetensors"
+  },
+  {
+    "id": "freefall-hist32-100k",
+    "path": "freefall/freefall-hist32-100k.safetensors",
+    "bytes": 1734739752,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/freefall/freefall-hist32-100k.safetensors"
+  },
+  {
+    "id": "pendulum-short-3407-50k",
+    "path": "pendulum/pendulum-short-3407-50k.safetensors",
+    "bytes": 976369200,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/pendulum/pendulum-short-3407-50k.safetensors"
+  },
+  {
+    "id": "pendulum-long-3407-50k",
+    "path": "pendulum/pendulum-long-3407-50k.safetensors",
+    "bytes": 976369200,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/pendulum/pendulum-long-3407-50k.safetensors"
+  },
+  {
+    "id": "wan-direct-2k",
+    "path": "pretrained/wan-direct-2k.safetensors",
+    "bytes": 2838077328,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/pretrained/wan-direct-2k.safetensors"
+  },
+  {
+    "id": "wan-direct-5k",
+    "path": "pretrained/wan-direct-5k.safetensors",
+    "bytes": 2838077328,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/pretrained/wan-direct-5k.safetensors"
+  },
+  {
+    "id": "wan-direct-10k",
+    "path": "pretrained/wan-direct-10k.safetensors",
+    "bytes": 2838077328,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/pretrained/wan-direct-10k.safetensors"
+  },
+  {
+    "id": "wan-neutral-first-2k",
+    "path": "pretrained/wan-neutral-first-2k.safetensors",
+    "bytes": 2838077328,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/pretrained/wan-neutral-first-2k.safetensors"
+  },
+  {
+    "id": "wan-neutral-first-5k",
+    "path": "pretrained/wan-neutral-first-5k.safetensors",
+    "bytes": 2838077328,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/pretrained/wan-neutral-first-5k.safetensors"
+  },
+  {
+    "id": "wan-neutral-first-10k",
+    "path": "pretrained/wan-neutral-first-10k.safetensors",
+    "bytes": 2838077328,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/pretrained/wan-neutral-first-10k.safetensors"
+  },
+  {
+    "id": "wan-neutral-only-10k",
+    "path": "pretrained/wan-neutral-only-10k.safetensors",
+    "bytes": 2838077328,
+    "url": "https://huggingface.co/xingyun-24/causal-writability/resolve/main/pretrained/wan-neutral-only-10k.safetensors"
+  }
+]

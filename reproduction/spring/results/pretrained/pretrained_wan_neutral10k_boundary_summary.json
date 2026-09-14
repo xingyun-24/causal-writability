@@ -1,0 +1,286 @@
+{
+  "status": "PASS",
+  "n": 17,
+  "layers": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "direction_filter": "slow",
+  "first_observed_filter": null,
+  "groups": {
+    "pooled/B8": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 1.0,
+      "strong_R_rate": 1.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 17
+      }
+    },
+    "fast/B8": {
+      "n": 0,
+      "finite_R_n": 0,
+      "median_R": null,
+      "strong_R_rate": null,
+      "valid_rate": null,
+      "route_counts_valid": {}
+    },
+    "slow/B8": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 1.0,
+      "strong_R_rate": 1.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 17
+      }
+    },
+    "pooled/B9": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9983739837398372,
+      "strong_R_rate": 1.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 17
+      }
+    },
+    "fast/B9": {
+      "n": 0,
+      "finite_R_n": 0,
+      "median_R": null,
+      "strong_R_rate": null,
+      "valid_rate": null,
+      "route_counts_valid": {}
+    },
+    "slow/B9": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9983739837398372,
+      "strong_R_rate": 1.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 17
+      }
+    },
+    "pooled/B10": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9982425307557116,
+      "strong_R_rate": 1.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 17
+      }
+    },
+    "fast/B10": {
+      "n": 0,
+      "finite_R_n": 0,
+      "median_R": null,
+      "strong_R_rate": null,
+      "valid_rate": null,
+      "route_counts_valid": {}
+    },
+    "slow/B10": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9982425307557116,
+      "strong_R_rate": 1.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 17
+      }
+    },
+    "pooled/B11": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9982486865148862,
+      "strong_R_rate": 1.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 17
+      }
+    },
+    "fast/B11": {
+      "n": 0,
+      "finite_R_n": 0,
+      "median_R": null,
+      "strong_R_rate": null,
+      "valid_rate": null,
+      "route_counts_valid": {}
+    },
+    "slow/B11": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9982486865148862,
+      "strong_R_rate": 1.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 17
+      }
+    },
+    "pooled/B12": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9959919839679359,
+      "strong_R_rate": 1.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 17
+      }
+    },
+    "fast/B12": {
+      "n": 0,
+      "finite_R_n": 0,
+      "median_R": null,
+      "strong_R_rate": null,
+      "valid_rate": null,
+      "route_counts_valid": {}
+    },
+    "slow/B12": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9959919839679359,
+      "strong_R_rate": 1.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 17
+      }
+    },
+    "pooled/B13": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9272151898734178,
+      "strong_R_rate": 0.7058823529411765,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 10,
+        "compromise_frequency": 3,
+        "shortcut_frequency": 4
+      }
+    },
+    "fast/B13": {
+      "n": 0,
+      "finite_R_n": 0,
+      "median_R": null,
+      "strong_R_rate": null,
+      "valid_rate": null,
+      "route_counts_valid": {}
+    },
+    "slow/B13": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9272151898734178,
+      "strong_R_rate": 0.7058823529411765,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 10,
+        "compromise_frequency": 3,
+        "shortcut_frequency": 4
+      }
+    },
+    "pooled/B14": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9089430894308941,
+      "strong_R_rate": 0.5294117647058824,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 8,
+        "shortcut_frequency": 8,
+        "compromise_frequency": 1
+      }
+    },
+    "fast/B14": {
+      "n": 0,
+      "finite_R_n": 0,
+      "median_R": null,
+      "strong_R_rate": null,
+      "valid_rate": null,
+      "route_counts_valid": {}
+    },
+    "slow/B14": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": 0.9089430894308941,
+      "strong_R_rate": 0.5294117647058824,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "physics_frequency": 8,
+        "shortcut_frequency": 8,
+        "compromise_frequency": 1
+      }
+    },
+    "pooled/B15": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": -0.018705035971223114,
+      "strong_R_rate": 0.17647058823529413,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "shortcut_frequency": 14,
+        "compromise_frequency": 1,
+        "physics_frequency": 1,
+        "off_frequency_family": 1
+      }
+    },
+    "fast/B15": {
+      "n": 0,
+      "finite_R_n": 0,
+      "median_R": null,
+      "strong_R_rate": null,
+      "valid_rate": null,
+      "route_counts_valid": {}
+    },
+    "slow/B15": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": -0.018705035971223114,
+      "strong_R_rate": 0.17647058823529413,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "shortcut_frequency": 14,
+        "compromise_frequency": 1,
+        "physics_frequency": 1,
+        "off_frequency_family": 1
+      }
+    },
+    "pooled/B16": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": -0.014545454545454375,
+      "strong_R_rate": 0.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "shortcut_frequency": 17
+      }
+    },
+    "fast/B16": {
+      "n": 0,
+      "finite_R_n": 0,
+      "median_R": null,
+      "strong_R_rate": null,
+      "valid_rate": null,
+      "route_counts_valid": {}
+    },
+    "slow/B16": {
+      "n": 17,
+      "finite_R_n": 17,
+      "median_R": -0.014545454545454375,
+      "strong_R_rate": 0.0,
+      "valid_rate": 1.0,
+      "route_counts_valid": {
+        "shortcut_frequency": 17
+      }
+    }
+  },
+  "interpretation": "pre-registered local fallback after B14/B15 heterogeneity; no full-network layer search"
+}

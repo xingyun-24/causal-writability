@@ -1,0 +1,45 @@
+{
+  "heldout_receivers": 64,
+  "rank": 2,
+  "conditions": {
+    "natural_conflict": {
+      "n": 64,
+      "valid": 64,
+      "E3_correct": 0,
+      "E3_accuracy": 0.0,
+      "near_full_R_count": 0,
+      "near_full_R_rate": 0.0,
+      "mean_R": 0.0
+    },
+    "full_matched_edit": {
+      "n": 64,
+      "valid": 64,
+      "E3_correct": 64,
+      "E3_accuracy": 1.0,
+      "near_full_R_count": 64,
+      "near_full_R_rate": 1.0,
+      "mean_R": 0.9760693139369786
+    },
+    "top2_oracle_projection": {
+      "n": 64,
+      "valid": 64,
+      "E3_correct": 62,
+      "E3_accuracy": 0.96875,
+      "near_full_R_count": 47,
+      "near_full_R_rate": 0.734375,
+      "mean_R": 0.9957207453532497
+    },
+    "fit_only_controller": {
+      "n": 64,
+      "valid": 64,
+      "E3_correct": 61,
+      "E3_accuracy": 0.953125,
+      "near_full_R_count": 46,
+      "near_full_R_rate": 0.71875,
+      "mean_R": 0.9937269966888642
+    }
+  },
+  "same_rank_oracle_and_controller": true,
+  "same_global_scale": 1.0022815498887996,
+  "invalid_in_denominator": true
+}

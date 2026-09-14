@@ -1,0 +1,3 @@
+[submodule "lib/diffsynth"]
+	path = lib/diffsynth
+	url = https://github.com/modelscope/DiffSynth-Studio.git

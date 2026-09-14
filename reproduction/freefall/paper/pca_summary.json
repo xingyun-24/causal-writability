@@ -1,0 +1,40 @@
+{
+  "method": "uncentered SVD/PCA of aligned-minus-conflict Block 1 condition-prefix residuals; fit split only",
+  "rank": 2,
+  "fit_pairs": 64,
+  "heldout_pairs": 64,
+  "split_counts": {
+    "train": {
+      "low": 32,
+      "high": 32
+    },
+    "heldout": {
+      "low": 32,
+      "high": 32
+    }
+  },
+  "rank_selection": "smallest fit-only rank retaining at least 99% of training residual energy",
+  "train_retained_energy_fraction": 0.9954524692610435,
+  "heldout_retained_energy_fraction": 0.995544302866699,
+  "global_scale": 1.0022815498887996,
+  "feature_component_shape": [
+    2,
+    20,
+    1088,
+    1536
+  ],
+  "component_gram_matrix": [
+    [
+      1.0000000001117066,
+      -3.068252802437138e-11
+    ],
+    [
+      -3.068252802437138e-11,
+      0.9999999998603504
+    ]
+  ],
+  "intervention_site": "after zero-based Block 1",
+  "token_scope": "condition-prefix tokens only",
+  "fm_calls": 20,
+  "observed_window_frames": 32
+}

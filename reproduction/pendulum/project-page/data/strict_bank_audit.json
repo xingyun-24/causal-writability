@@ -1,0 +1,33 @@
+{
+  "program_version": "pendulum_strict_bank_v2_hidden_size_parameterized",
+  "hidden_size": 1152,
+  "pool_per_direction": 384,
+  "target_per_direction": 64,
+  "rmse_threshold": 0.035,
+  "gap_threshold": 2.0,
+  "candidate_total": 768,
+  "A": {
+    "candidates": 384,
+    "qualified_total": 112,
+    "acceptance_rate": 0.16666666666666666,
+    "pass_rate": 0.2916666666666667,
+    "rejection_reasons": {
+      "aligned_trajectory_rmse": 245,
+      "conflict_wrong_class": 59,
+      "aligned_wrong_class": 11,
+      "gap_below_2": 2
+    }
+  },
+  "B": {
+    "candidates": 384,
+    "qualified_total": 156,
+    "acceptance_rate": 0.16666666666666666,
+    "pass_rate": 0.40625,
+    "rejection_reasons": {
+      "aligned_trajectory_rmse": 206,
+      "conflict_wrong_class": 46,
+      "aligned_wrong_class": 17,
+      "gap_below_2": 2
+    }
+  }
+}

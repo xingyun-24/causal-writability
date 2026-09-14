@@ -1,0 +1,93 @@
+[
+  {
+    "id": "spring-short-3408-50k",
+    "filename": "spring-short-3408-50k.safetensors",
+    "url": null,
+    "bytes": 976369200,
+    "group": "main_90_checkpoints",
+    "alias": "spring-short-3408-50k",
+    "seed": 3408,
+    "history": "short",
+    "step": 50000,
+    "parameters": 488158912,
+    "hf_repo": "xingyun-24/causal-writability",
+    "hf_filename": "spring/spring-short-3408-50k.safetensors"
+  },
+  {
+    "id": "spring-short-3409-50k",
+    "filename": "spring-short-3409-50k.safetensors",
+    "url": null,
+    "bytes": 976369200,
+    "group": "main_90_checkpoints",
+    "alias": "spring-short-3409-50k",
+    "seed": 3409,
+    "history": "short",
+    "step": 50000,
+    "parameters": 488158912,
+    "hf_repo": "xingyun-24/causal-writability",
+    "hf_filename": "spring/spring-short-3409-50k.safetensors"
+  },
+  {
+    "id": "spring-short-3407-50k",
+    "filename": "spring-short-3407-50k.safetensors",
+    "url": null,
+    "bytes": 976369200,
+    "group": "main_90_checkpoints",
+    "alias": "spring-short-3407-50k",
+    "seed": 3407,
+    "history": "short",
+    "step": 50000,
+    "parameters": 488158912,
+    "hf_repo": "xingyun-24/causal-writability",
+    "hf_filename": "spring/spring-short-3407-50k.safetensors"
+  },
+  {
+    "id": "spring-long-3407-50k",
+    "filename": "spring-long-3407-50k.safetensors",
+    "url": null,
+    "bytes": 976369200,
+    "group": "spring_long_control_checkpoint",
+    "alias": "spring-long-3407-50k",
+    "seed": 3407,
+    "history": "long",
+    "step": 50000,
+    "parameters": 488158912,
+    "hf_repo": "xingyun-24/causal-writability",
+    "hf_filename": "spring/spring-long-3407-50k.safetensors"
+  },
+  {
+    "id": "spring-long-3408-50k",
+    "filename": "spring-long-3408-50k.safetensors",
+    "url": null,
+    "bytes": 976369200,
+    "group": "spring_long_control_checkpoint",
+    "alias": "spring-long-3408-50k",
+    "seed": 3408,
+    "history": "long",
+    "step": 50000,
+    "parameters": 488158912,
+    "hf_repo": "xingyun-24/causal-writability",
+    "hf_filename": "spring/spring-long-3408-50k.safetensors"
+  },
+  {
+    "id": "spring-long-3409-50k",
+    "filename": "spring-long-3409-50k.safetensors",
+    "url": null,
+    "bytes": 976369200,
+    "group": "spring_long_control_checkpoint",
+    "alias": "spring-long-3409-50k",
+    "seed": 3409,
+    "history": "long",
+    "step": 50000,
+    "parameters": 488158912,
+    "hf_repo": "xingyun-24/causal-writability",
+    "hf_filename": "spring/spring-long-3409-50k.safetensors"
+  },
+  {
+    "id": "wan21-vae",
+    "filename": "vae.pth",
+    "bytes": 507609880,
+    "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/main/Wan2.1_VAE.pth",
+    "group": "upstream"
+  }
+]

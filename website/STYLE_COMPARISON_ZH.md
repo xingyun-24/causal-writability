@@ -1,0 +1,13 @@
+# A/B 本地视觉比较
+
+- A：`http://127.0.0.1:4317/?style=leqian`，基于乐谦 `website-test_v1` 的页面和现有汇总页样式。保留衬线标题、深浅章节、原有 panel 排列。
+- B：`http://127.0.0.1:4317/?style=clean`，在同一页面上通过 CSS 改为浅底、克制的紫色强调、细分隔线和更清楚的阅读层级。参考 MirroS 的 S-Space 研究页，而不是复制其官网图像、logo 或宣传片玻璃材质。
+- 两版共享文字、实验数据、播放器和六个 PCA 视图；没有建立第二套数据或前端工程。默认 A，页顶可切换。
+
+参考官网：<https://mirros.ai/>；研究页：<https://mirros.ai/blog/s-space>。
+
+宣传片只放在被 Git 忽略的 `public/_local/`，由被忽略的 `.env.local` 启用。没有上传原片或公开部署。`sites()` 公共预览功能默认关闭，只有显式设置 `ENABLE_PUBLIC_PREVIEW=1` 才会启用；目前服务只监听 127.0.0.1。
+
+拟定最终地址 `https://xingyun-24.github.io/causal-writability/` 尚未上线。发布前还需选择样式、确认影片末版、建立最终公开仓库和支持项目子路径的部署；当前旧 `export_github_pages.py` 会去掉交互脚本，不能直接用于正式发布。
+
+当前为视觉比较稿，尚需完整的最终文案和素材编号检查。不要把这份预览或旧交接文档当作新的论文科学结论。

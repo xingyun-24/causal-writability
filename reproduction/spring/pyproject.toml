@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "causal-writability"
+version = "0.1.0"
+description = "Spring video-model training and causal intervention experiments"
+requires-python = ">=3.12"
+license = "MIT"
+
+[project.scripts]
+cw = "causal_writability.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

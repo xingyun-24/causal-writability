@@ -1,0 +1,120 @@
+{
+  "status": "FROZEN_FOR_PROJECT_PAGE_HANDOFF",
+  "paper_snapshot": "paper-v1-audited",
+  "video_contract": {
+    "frames": 64,
+    "fps": 20,
+    "format": "H.264 MP4, yuv420p, faststart",
+    "processing": "Browser transcode only; no recoloring, retiming, interpolation, or trajectory modification."
+  },
+  "groups": [
+    {
+      "id": "solution-selection-fast",
+      "contract": "Same fast physical history and generation seed; only the appearance cue changes.",
+      "videos": [
+        {
+          "path": "/videos/selection-fast-red-endpoint.mp4",
+          "label": "Fast history \u00b7 red endpoint cue",
+          "outcome": "red / slow shortcut continuation",
+          "source_sample": "neutral_168a1211cc631d499746"
+        },
+        {
+          "path": "/videos/selection-fast-purple.mp4",
+          "label": "Fast history \u00b7 purple cue",
+          "outcome": "blue-ish / fast history-consistent continuation",
+          "source_sample": "neutral_1d063536769094ea5890"
+        }
+      ]
+    },
+    {
+      "id": "solution-selection-slow",
+      "contract": "Same slow physical history and generation seed; only the appearance cue changes.",
+      "videos": [
+        {
+          "path": "/videos/selection-slow-blue-endpoint.mp4",
+          "label": "Slow history \u00b7 blue endpoint cue",
+          "outcome": "blue / fast shortcut continuation",
+          "source_sample": "neutral_169b34539ebd1fe96838"
+        },
+        {
+          "path": "/videos/selection-slow-purple.mp4",
+          "label": "Slow history \u00b7 purple cue",
+          "outcome": "red-ish / slow history-consistent continuation",
+          "source_sample": "neutral_6eb67f1f53ad094ae737"
+        }
+      ]
+    },
+    {
+      "id": "state-conditioned-controller",
+      "contract": "Same held-out conflict receiver and noise; the fit-only controller changes only the condition prefix at the frozen rewrite site.",
+      "videos": [
+        {
+          "path": "/videos/controller-natural-conflict.mp4",
+          "label": "Natural conflict",
+          "outcome": "red / slow selected shortcut",
+          "source_artifact": "figure3_state_synthesis/natural_conflict_frames.npz"
+        },
+        {
+          "path": "/videos/controller-state-edit.mp4",
+          "label": "State-conditioned edit",
+          "outcome": "blue / fast rejected continuation recovered",
+          "source_artifact": "figure3_state_synthesis/predicted_4d_frames.npz"
+        }
+      ]
+    },
+    {
+      "id": "downstream-vh8-realization",
+      "contract": "Same selection-clean Run-C fast-target receiver and future window; only condition-token V in head 8 is edited.",
+      "videos": [
+        {
+          "path": "/videos/realization-natural-conflict.mp4",
+          "label": "Natural conflict",
+          "outcome": "red / slow continuation",
+          "source_artifact": "figure5_decoded_rescue_replay_v2/natural_conflict.mp4"
+        },
+        {
+          "path": "/videos/realization-vh8-edit.mp4",
+          "label": "Targeted V/h8 edit",
+          "outcome": "blue / fast continuation",
+          "source_artifact": "figure5_decoded_rescue_replay_v2/condition_V_only.mp4"
+        }
+      ]
+    },
+    {
+      "id": "pendulum-natural-selection",
+      "contract": "Same long high-frequency Pendulum history, trajectory, renderer seed, generation seed, and future window; only the appearance cue changes.",
+      "videos": [
+        {
+          "path": "/videos/pendulum/pendulum-selection-conflict.mp4",
+          "label": "Endpoint conflict",
+          "outcome": "red / shortcut-associated low-frequency continuation",
+          "source_sample": "sample_dfc14d8f0a759a3e5596"
+        },
+        {
+          "path": "/videos/pendulum/pendulum-selection-ambiguous.mp4",
+          "label": "Ambiguous cue",
+          "outcome": "purple / history-associated high-frequency continuation",
+          "source_sample": "sample_92db42b161d70f5e07eb"
+        }
+      ]
+    },
+    {
+      "id": "pendulum-fit-only-controller",
+      "contract": "Same held-out Pendulum receiver B_082, noise, flow-matching schedule, and future window; the fit-only top-four edit changes condition-prefix tokens at block 12 and reads no held-out activation donor.",
+      "videos": [
+        {
+          "path": "/videos/pendulum/pendulum-controller-natural-conflict.mp4",
+          "label": "Natural conflict",
+          "outcome": "shortcut continuation; normalized recovery 0.000",
+          "source_artifact": "strict_bank/natural_videos/B_082/conflict.mp4"
+        },
+        {
+          "path": "/videos/pendulum/pendulum-controller-state-edit.mp4",
+          "label": "State-conditioned edit",
+          "outcome": "target continuation; normalized recovery 0.879",
+          "source_artifact": "paper_revision_20260826/top4_controller_block12/heldout/B/B_082/scale_1p00.mp4"
+        }
+      ]
+    }
+  ]
+}

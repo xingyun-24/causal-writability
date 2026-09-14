@@ -1,0 +1,29 @@
+% Project notation. Keep this file short and semantic.
+\newcommand{\springtask}{\textsc{Spring}}
+\newcommand{\pendulumtask}{\textsc{Pendulum}}
+\newcommand{\projectiletask}{\textsc{Projectile}}
+\newcommand{\physcat}{\mathrm{P}}
+\newcommand{\shortcutcat}{\mathrm{S}}
+\newcommand{\compcat}{\mathrm{C}}
+\newcommand{\offcat}{\mathrm{O}}
+\newcommand{\what}{\widehat{\omega}}
+\newcommand{\Domega}{D^{\omega}}
+\newcommand{\Rrec}{R^{\omega}}
+\newcommand{\hue}{u}
+\newcommand{\cond}{\mathrm{cond}}
+\newcommand{\tgt}{\mathrm{tgt}}
+\newcommand{\todoresult}[1]{\textcolor{orange!80!black}{[Result to freeze: #1]}}
+\newcommand{\draftnote}[1]{\textcolor{blue!65!black}{[Draft: #1]}}
+\newcommand{\sectionplaceholder}[1]{%
+  \par\smallskip
+  \noindent\fcolorbox{black!18}{black!2}{%
+    \parbox{0.965\linewidth}{\small\color{black!58}\textbf{Writing status:} #1}}%
+  \par\medskip
+}
+\newcommand{\figureplaceholder}[2]{%
+  \begin{tikzpicture}
+    \node[draw=black!28, fill=black!2, rounded corners=3pt,
+      minimum width=.965\linewidth, minimum height=#1, align=center,
+      text width=.88\linewidth, text=black!58] {#2};
+  \end{tikzpicture}%
+}

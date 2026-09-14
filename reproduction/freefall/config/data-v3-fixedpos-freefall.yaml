@@ -1,0 +1,31 @@
+# V3 fixed-position large-model study with a ball released from rest.
+version: projectile_gravity_v3_fixedpos_freefall
+render:
+  width: 128
+  height: 128
+  fps: 20
+  num_frames: 129
+  ball_radius_px: 7
+  background_rgb: [28, 30, 34]
+  red_rgb: [235, 48, 48]
+  blue_rgb: [48, 106, 235]
+physics:
+  simulation_fps: 20
+  low_gravity_range: [0.003, 0.025]
+  high_gravity_range: [0.045, 0.067]
+  paired_gravity_gap: 0.042
+  x_boundary_range: [0.50, 0.50]
+  y_boundary_range: [0.65, 0.65]
+  vx_boundary_range: [0.0, 0.0]
+  vy_boundary_range: [0.0, 0.0]
+history:
+  boundary_frame: 64
+  prediction_start: 65
+  short_observation_window_pixels: 32
+  short_masked_prefix_pixels: 33
+evaluation:
+  E3_threshold: 0.002
+splits:
+  train_base_seeds: 1024
+  eval_base_seeds: 128
+seed: 3407

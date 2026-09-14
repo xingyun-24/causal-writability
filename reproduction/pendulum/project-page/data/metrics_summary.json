@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "project_page_pca": {
+    "fit_pairs_used_for_basis": 64,
+    "heldout_pairs_projected": 64,
+    "endpoint_points": 128,
+    "difference_points": 64,
+    "endpoint_groups": {
+      "low_aligned": 32,
+      "low_conflict": 32,
+      "high_aligned": 32,
+      "high_conflict": 32
+    },
+    "median_generated_frequency": {
+      "low_aligned": 2.653125,
+      "low_conflict": 5.4625,
+      "high_aligned": 5.929437500000001,
+      "high_conflict": 2.8449375000000003
+    },
+    "median_absolute_generated_frequency_gap": 2.972125,
+    "block_index_zero_based": 12,
+    "fm_calls_concatenated": 20,
+    "condition_tokens_per_call": 1088,
+    "hidden_size": 1152,
+    "display_rank": 3
+  },
+  "paper_mechanism": {
+    "selected_rank": 1,
+    "selected_coordinate_basis": "phi0",
+    "heldout_coordinate_r2": 0.9897188520629182,
+    "synthesized_recovery": 0.9454329774614473
+  }
+}

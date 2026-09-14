@@ -1,0 +1,3 @@
+comparison,observed_mean_difference,ci_low,ci_high,bootstrap_replicates
+stable_rescued_minus_persistent_failure,3.691634195734556,1.300349660705884,7.0021568269716195,4000
+compromise_bound_minus_persistent_failure,0.9662879119257148,-0.22968170737523366,2.2950775542875994,4000

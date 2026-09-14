@@ -1,0 +1,246 @@
+{
+  "method": "uncentered PCA (SVD) of aligned-minus-conflict residual; training-only basis",
+  "samples": 128,
+  "fit_pairs": 64,
+  "heldout_pairs": 64,
+  "split_counts": {
+    "train": {
+      "low": 32,
+      "high": 32
+    },
+    "heldout": {
+      "low": 32,
+      "high": 32
+    }
+  },
+  "delta_shape": [
+    20,
+    1088,
+    1536
+  ],
+  "numerical_rank": 64,
+  "dtype": "float64",
+  "sources": [
+    {
+      "path": "/data/home/yuanman/spring-mechanism-run/projectile-gravity-continuous-v2/results/freefall-hist32-step100000-block1-pca128/shard0",
+      "shape": [
+        32,
+        20,
+        1088,
+        1536
+      ],
+      "metadata_sha256": "1290115107bf608df67e904b04c7d702583c2dc831900da7e4bbada10ac85490"
+    },
+    {
+      "path": "/data/home/yuanman/spring-mechanism-run/projectile-gravity-continuous-v2/results/freefall-hist32-step100000-block1-pca128/shard1",
+      "shape": [
+        32,
+        20,
+        1088,
+        1536
+      ],
+      "metadata_sha256": "b471662307dbc7719958e8cf6e46250255c290da676874e011366c8f1eac7b1e"
+    },
+    {
+      "path": "/data/home/yuanman/spring-mechanism-run/projectile-gravity-continuous-v2/results/freefall-hist32-step100000-block1-pca128/shard2",
+      "shape": [
+        32,
+        20,
+        1088,
+        1536
+      ],
+      "metadata_sha256": "479e6eb9ba0d2356b79720e136cf5a351b60f13f488f63a6a2fc2e90aa7cf195"
+    },
+    {
+      "path": "/data/home/yuanman/spring-mechanism-run/projectile-gravity-continuous-v2/results/freefall-hist32-step100000-block1-pca128/shard3",
+      "shape": [
+        32,
+        20,
+        1088,
+        1536
+      ],
+      "metadata_sha256": "75eb080dbc4a02fef81149b1dd360faa61a1e1d82fab21b206b81eed1b62c910"
+    }
+  ],
+  "script_sha256": "833b431bf8d4b12b1868ffb0a2c91eba2f659c642a4e8817a4baf81120c3c8f5",
+  "rank_metrics": {
+    "1": {
+      "train": {
+        "retained_energy_fraction": 0.9198340398766786,
+        "relative_reconstruction_error": 0.2831359393000497
+      },
+      "heldout": {
+        "retained_energy_fraction": 0.9204817792141239,
+        "relative_reconstruction_error": 0.2819897529802743
+      }
+    },
+    "2": {
+      "train": {
+        "retained_energy_fraction": 0.9954524692610435,
+        "relative_reconstruction_error": 0.06743538195158777
+      },
+      "heldout": {
+        "retained_energy_fraction": 0.995544302866699,
+        "relative_reconstruction_error": 0.06675100848152754
+      }
+    },
+    "3": {
+      "train": {
+        "retained_energy_fraction": 0.9971095343721539,
+        "relative_reconstruction_error": 0.05376305076766121
+      },
+      "heldout": {
+        "retained_energy_fraction": 0.9968802491274651,
+        "relative_reconstruction_error": 0.05585473008201642
+      }
+    },
+    "4": {
+      "train": {
+        "retained_energy_fraction": 0.9972626941898409,
+        "relative_reconstruction_error": 0.052319268058326984
+      },
+      "heldout": {
+        "retained_energy_fraction": 0.9969346190617288,
+        "relative_reconstruction_error": 0.05536588243919937
+      }
+    },
+    "8": {
+      "train": {
+        "retained_energy_fraction": 0.9975835817335306,
+        "relative_reconstruction_error": 0.049157077480963346
+      },
+      "heldout": {
+        "retained_energy_fraction": 0.9970036106389233,
+        "relative_reconstruction_error": 0.05473928535409201
+      }
+    },
+    "16": {
+      "train": {
+        "retained_energy_fraction": 0.9980425944716538,
+        "relative_reconstruction_error": 0.04424257596870037
+      },
+      "heldout": {
+        "retained_energy_fraction": 0.9970480293930715,
+        "relative_reconstruction_error": 0.054332040334672996
+      }
+    },
+    "32": {
+      "train": {
+        "retained_energy_fraction": 0.998774075921731,
+        "relative_reconstruction_error": 0.03501319862950324
+      },
+      "heldout": {
+        "retained_energy_fraction": 0.9970713817724443,
+        "relative_reconstruction_error": 0.05411670931935668
+      }
+    },
+    "64": {
+      "train": {
+        "retained_energy_fraction": 1.0,
+        "relative_reconstruction_error": 0.0
+      },
+      "heldout": {
+        "retained_energy_fraction": 0.9970875232592997,
+        "relative_reconstruction_error": 0.05396736736862635
+      }
+    }
+  },
+  "regression": {
+    "2": {
+      "train_quality": {
+        "joint_rmse": 1.1285681779599033,
+        "component_rmse": [
+          0.8600463227985119,
+          1.3444897125854962
+        ],
+        "component_R2": [
+          0.999994210095287,
+          0.989608357147124
+        ]
+      },
+      "holdout_quality": {
+        "joint_rmse": 0.9327592967599265,
+        "component_rmse": [
+          0.7380021251046794,
+          1.0933584383563895
+        ],
+        "component_R2": [
+          0.9999957398880335,
+          0.9913939411597069
+        ]
+      }
+    },
+    "3": {
+      "train_quality": {
+        "joint_rmse": 1.8917359133205323,
+        "component_rmse": [
+          0.8600463227985119,
+          1.3444897125854962,
+          2.8615838328856507
+        ],
+        "component_R2": [
+          0.999994210095287,
+          0.989608357147124,
+          0.9639367901293963
+        ]
+      },
+      "holdout_quality": {
+        "joint_rmse": 1.7952922339556447,
+        "component_rmse": [
+          0.7380021251046794,
+          1.0933584383563895,
+          2.8158733644324636
+        ],
+        "component_R2": [
+          0.9999957398880335,
+          0.9913939411597069,
+          0.9562603214203679
+        ]
+      }
+    },
+    "4": {
+      "train_quality": {
+        "joint_rmse": 2.8227574352886426,
+        "component_rmse": [
+          0.8600463227985127,
+          1.3444897125854978,
+          2.8615838328856507,
+          4.5973735824565365
+        ],
+        "component_R2": [
+          0.999994210095287,
+          0.989608357147124,
+          0.9639367901293963,
+          0.003986285732907602
+        ]
+      },
+      "holdout_quality": {
+        "joint_rmse": 2.0614578222841056,
+        "component_rmse": [
+          0.7380021251046923,
+          1.0933584383563926,
+          2.8158733644324636,
+          2.707251520697871
+        ],
+        "component_R2": [
+          0.9999957398880335,
+          0.9913939411597069,
+          0.9562603214203679,
+          0.0106338810719806
+        ]
+      }
+    }
+  },
+  "rank_selection": "fixed diagnostic ranks; no selection or tuning using heldout",
+  "limitations": [
+    "Existing 128 pairs were selected by baseline aligned/conflict E3 performance; heldout is within this selected cohort.",
+    "Prior analyses have already examined these heldout pairs; this is a corrected split evaluation, not a fresh untouched test set.",
+    "No video generation or intervention rollout is performed by this script."
+  ],
+  "validation": {
+    "unique_pairs": true,
+    "base_seeds_disjoint": true,
+    "train_score_identity": true,
+    "projection_energy_bound": true
+  }
+}

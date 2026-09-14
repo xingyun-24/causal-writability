@@ -1,0 +1,2589 @@
+{
+  "repo_id": "xingyun-24/causal-writability",
+  "files": [
+    {
+      "path": "reproduction/freefall/paper/matched_directions.npy",
+      "filename": "artifacts/reproduction/freefall/paper/matched_directions.npy"
+    },
+    {
+      "path": "reproduction/freefall/paper/pca_basis_metadata.npz",
+      "filename": "artifacts/reproduction/freefall/paper/pca_basis_metadata.npz"
+    },
+    {
+      "path": "reproduction/freefall/paper/pca_components.npy",
+      "filename": "artifacts/reproduction/freefall/paper/pca_components.npy"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50000_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50000_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50000_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50000_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50007_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50007_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50007_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50007_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50022_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50022_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50022_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50022_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50047_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50047_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50047_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50047_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50060_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50060_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50060_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50060_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50071_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50071_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50071_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50071_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50081_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50081_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50081_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50081_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50094_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50094_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50094_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50094_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50106_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50106_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50106_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50106_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50118_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50118_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50118_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50118_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50142_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50142_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50142_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50142_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50153_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50153_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50153_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50153_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50163_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50163_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50163_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50163_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50185_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50185_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50185_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50185_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50195_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50195_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50195_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50195_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50209_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50209_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50209_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50209_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50230_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50230_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50230_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50230_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50247_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50247_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50247_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50247_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50276_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50276_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50276_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50276_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50288_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50288_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50288_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50288_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50301_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50301_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50301_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50301_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50316_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50316_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50316_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard0/frames/eval_50316_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50003_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50003_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50003_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50003_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50014_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50014_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50014_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50014_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50034_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50034_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50034_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50034_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50053_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50053_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50053_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50053_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50064_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50064_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50064_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50064_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50073_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50073_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50073_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50073_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50084_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50084_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50084_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50084_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50097_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50097_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50097_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50097_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50110_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50110_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50110_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50110_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50120_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50120_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50120_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50120_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50143_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50143_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50143_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50143_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50156_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50156_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50156_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50156_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50169_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50169_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50169_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50169_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50187_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50187_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50187_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50187_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50199_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50199_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50199_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50199_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50216_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50216_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50216_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50216_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50241_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50241_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50241_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50241_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50257_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50257_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50257_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50257_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50281_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50281_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50281_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50281_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50292_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50292_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50292_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50292_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50304_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50304_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50304_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard1/frames/eval_50304_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50005_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50005_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50005_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50005_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50016_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50016_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50016_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50016_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50038_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50038_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50038_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50038_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50055_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50055_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50055_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50055_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50067_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50067_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50067_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50067_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50076_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50076_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50076_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50076_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50092_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50092_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50092_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50092_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50101_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50101_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50101_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50101_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50115_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50115_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50115_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50115_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50122_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50122_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50122_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50122_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50146_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50146_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50146_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50146_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50161_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50161_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50161_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50161_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50178_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50178_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50178_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50178_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50194_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50194_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50194_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50194_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50204_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50204_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50204_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50204_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50224_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50224_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50224_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50224_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50246_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50246_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50246_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50246_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50261_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50261_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50261_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50261_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50282_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50282_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50282_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50282_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50298_low__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50298_low__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50298_low__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50298_low__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50311_high__fit_only_controller.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50311_high__fit_only_controller.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50311_high__natural_conflict.npz",
+      "filename": "artifacts/reproduction/freefall/redo/controller_extracted/controller_rollout/shard2/frames/eval_50311_high__natural_conflict.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/delivery_inputs/aligned_reference_eval_50281_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/delivery_inputs/aligned_reference_eval_50281_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/delivery_inputs/pca_components.npy",
+      "filename": "artifacts/reproduction/freefall/redo/delivery_inputs/pca_components.npy"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50000_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50000_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50005_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50005_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50014_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50014_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50022_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50022_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50038_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50038_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50053_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50053_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50060_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50060_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50067_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50067_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50073_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50073_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50081_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50081_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50092_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50092_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50097_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50097_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50106_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50106_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50115_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50115_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50120_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50120_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50142_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50142_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50146_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50146_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50156_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50156_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50163_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50163_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50178_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50178_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50187_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50187_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50195_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50195_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50204_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50204_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50216_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50216_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50230_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50230_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50246_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50246_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50257_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50257_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50276_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50276_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50282_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50282_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50292_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50292_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50301_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50301_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50311_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/1/eval_50311_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50000_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50000_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50005_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50005_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50014_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50014_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50022_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50022_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50038_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50038_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50053_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50053_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50060_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50060_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50067_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50067_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50073_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50073_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50081_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50081_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50092_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50092_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50097_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50097_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50106_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50106_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50115_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50115_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50120_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50120_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50142_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50142_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50146_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50146_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50156_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50156_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50163_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50163_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50178_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50178_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50187_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50187_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50195_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50195_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50204_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50204_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50216_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50216_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50230_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50230_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50246_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50246_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50257_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50257_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50276_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50276_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50282_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50282_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50292_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50292_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50301_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50301_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50311_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/16/eval_50311_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50000_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50000_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50005_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50005_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50014_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50014_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50022_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50022_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50038_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50038_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50053_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50053_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50060_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50060_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50067_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50067_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50073_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50073_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50081_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50081_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50092_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50092_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50097_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50097_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50106_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50106_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50115_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50115_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50120_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50120_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50142_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50142_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50146_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50146_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50156_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50156_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50163_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50163_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50178_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50178_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50187_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50187_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50195_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50195_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50204_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50204_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50216_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50216_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50230_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50230_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50246_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50246_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50257_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50257_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50276_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50276_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50282_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50282_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50292_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50292_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50301_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50301_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50311_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/2/eval_50311_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50000_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50000_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50005_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50005_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50014_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50014_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50022_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50022_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50038_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50038_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50053_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50053_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50060_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50060_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50067_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50067_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50073_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50073_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50081_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50081_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50092_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50092_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50097_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50097_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50106_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50106_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50115_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50115_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50120_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50120_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50142_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50142_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50146_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50146_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50156_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50156_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50163_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50163_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50178_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50178_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50187_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50187_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50195_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50195_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50204_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50204_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50216_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50216_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50230_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50230_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50246_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50246_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50257_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50257_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50276_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50276_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50282_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50282_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50292_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50292_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50301_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50301_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50311_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/32/eval_50311_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50000_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50000_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50005_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50005_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50014_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50014_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50022_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50022_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50038_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50038_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50053_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50053_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50060_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50060_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50067_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50067_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50073_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50073_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50081_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50081_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50092_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50092_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50097_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50097_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50106_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50106_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50115_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50115_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50120_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50120_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50142_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50142_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50146_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50146_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50156_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50156_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50163_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50163_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50178_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50178_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50187_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50187_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50195_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50195_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50204_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50204_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50216_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50216_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50230_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50230_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50246_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50246_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50257_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50257_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50276_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50276_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50282_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50282_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50292_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50292_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50301_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50301_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50311_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/4/eval_50311_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50000_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50000_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50005_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50005_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50014_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50014_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50022_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50022_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50038_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50038_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50053_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50053_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50060_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50060_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50067_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50067_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50073_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50073_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50081_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50081_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50092_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50092_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50097_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50097_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50106_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50106_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50115_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50115_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50120_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50120_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50142_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50142_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50146_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50146_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50156_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50156_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50163_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50163_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50178_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50178_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50187_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50187_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50195_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50195_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50204_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50204_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50216_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50216_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50230_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50230_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50246_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50246_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50257_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50257_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50276_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50276_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50282_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50282_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50292_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50292_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50301_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50301_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50311_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/64/eval_50311_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50000_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50000_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50005_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50005_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50014_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50014_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50022_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50022_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50038_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50038_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50053_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50053_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50060_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50060_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50067_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50067_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50073_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50073_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50081_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50081_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50092_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50092_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50097_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50097_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50106_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50106_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50115_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50115_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50120_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50120_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50142_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50142_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50146_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50146_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50156_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50156_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50163_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50163_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50178_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50178_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50187_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50187_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50195_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50195_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50204_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50204_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50216_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50216_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50230_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50230_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50246_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50246_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50257_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50257_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50276_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50276_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50282_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50282_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50292_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50292_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50301_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50301_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50311_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/8/eval_50311_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50000_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50000_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50005_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50005_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50014_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50014_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50022_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50022_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50038_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50038_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50053_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50053_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50060_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50060_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50067_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50067_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50073_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50073_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50081_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50081_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50092_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50092_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50097_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50097_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50106_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50106_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50115_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50115_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50120_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50120_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50142_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50142_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50146_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50146_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50156_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50156_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50163_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50163_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50178_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50178_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50187_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50187_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50195_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50195_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50204_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50204_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50216_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50216_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50230_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50230_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50246_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50246_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50257_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50257_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50276_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50276_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50282_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50282_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50292_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50292_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50301_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50301_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50311_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard0/frames/full_delta/eval_50311_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50003_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50003_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50007_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50007_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50016_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50016_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50034_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50034_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50047_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50047_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50055_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50055_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50064_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50064_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50071_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50071_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50076_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50076_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50084_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50084_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50094_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50094_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50101_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50101_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50110_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50110_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50118_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50118_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50122_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50122_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50143_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50143_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50153_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50153_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50161_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50161_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50169_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50169_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50185_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50185_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50194_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50194_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50199_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50199_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50209_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50209_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50224_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50224_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50241_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50241_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50247_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50247_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50261_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50261_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50281_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50281_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50288_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50288_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50298_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50298_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50304_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50304_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50316_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/1/eval_50316_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50003_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50003_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50007_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50007_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50016_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50016_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50034_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50034_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50047_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50047_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50055_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50055_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50064_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50064_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50071_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50071_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50076_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50076_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50084_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50084_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50094_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50094_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50101_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50101_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50110_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50110_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50118_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50118_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50122_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50122_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50143_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50143_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50153_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50153_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50161_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50161_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50169_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50169_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50185_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50185_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50194_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50194_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50199_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50199_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50209_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50209_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50224_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50224_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50241_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50241_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50247_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50247_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50261_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50261_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50281_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50281_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50288_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50288_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50298_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50298_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50304_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50304_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50316_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/16/eval_50316_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50003_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50003_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50007_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50007_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50016_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50016_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50034_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50034_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50047_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50047_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50055_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50055_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50064_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50064_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50071_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50071_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50076_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50076_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50084_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50084_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50094_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50094_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50101_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50101_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50110_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50110_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50118_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50118_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50122_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50122_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50143_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50143_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50153_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50153_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50161_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50161_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50169_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50169_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50185_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50185_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50194_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50194_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50199_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50199_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50209_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50209_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50224_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50224_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50241_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50241_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50247_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50247_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50261_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50261_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50281_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50281_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50288_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50288_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50298_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50298_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50304_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50304_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50316_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/2/eval_50316_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50003_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50003_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50007_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50007_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50016_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50016_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50034_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50034_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50047_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50047_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50055_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50055_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50064_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50064_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50071_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50071_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50076_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50076_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50084_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50084_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50094_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50094_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50101_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50101_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50110_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50110_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50118_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50118_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50122_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50122_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50143_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50143_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50153_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50153_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50161_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50161_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50169_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50169_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50185_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50185_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50194_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50194_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50199_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50199_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50209_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50209_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50224_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50224_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50241_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50241_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50247_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50247_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50261_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50261_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50281_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50281_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50288_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50288_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50298_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50298_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50304_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50304_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50316_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/32/eval_50316_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50003_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50003_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50007_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50007_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50016_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50016_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50034_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50034_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50047_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50047_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50055_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50055_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50064_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50064_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50071_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50071_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50076_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50076_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50084_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50084_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50094_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50094_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50101_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50101_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50110_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50110_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50118_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50118_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50122_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50122_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50143_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50143_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50153_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50153_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50161_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50161_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50169_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50169_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50185_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50185_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50194_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50194_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50199_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50199_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50209_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50209_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50224_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50224_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50241_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50241_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50247_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50247_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50261_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50261_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50281_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50281_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50288_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50288_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50298_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50298_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50304_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50304_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50316_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/4/eval_50316_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50003_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50003_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50007_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50007_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50016_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50016_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50034_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50034_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50047_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50047_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50055_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50055_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50064_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50064_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50071_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50071_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50076_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50076_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50084_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50084_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50094_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50094_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50101_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50101_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50110_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50110_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50118_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50118_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50122_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50122_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50143_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50143_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50153_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50153_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50161_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50161_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50169_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50169_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50185_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50185_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50194_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50194_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50199_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50199_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50209_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50209_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50224_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50224_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50241_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50241_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50247_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50247_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50261_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50261_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50281_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50281_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50288_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50288_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50298_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50298_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50304_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50304_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50316_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/64/eval_50316_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50003_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50003_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50007_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50007_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50016_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50016_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50034_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50034_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50047_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50047_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50055_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50055_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50064_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50064_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50071_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50071_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50076_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50076_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50084_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50084_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50094_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50094_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50101_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50101_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50110_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50110_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50118_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50118_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50122_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50122_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50143_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50143_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50153_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50153_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50161_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50161_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50169_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50169_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50185_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50185_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50194_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50194_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50199_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50199_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50209_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50209_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50224_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50224_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50241_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50241_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50247_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50247_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50261_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50261_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50281_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50281_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50288_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50288_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50298_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50298_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50304_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50304_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50316_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/8/eval_50316_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50003_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50003_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50007_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50007_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50016_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50016_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50034_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50034_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50047_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50047_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50055_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50055_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50064_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50064_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50071_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50071_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50076_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50076_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50084_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50084_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50094_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50094_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50101_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50101_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50110_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50110_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50118_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50118_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50122_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50122_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50143_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50143_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50153_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50153_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50161_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50161_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50169_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50169_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50185_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50185_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50194_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50194_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50199_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50199_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50209_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50209_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50224_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50224_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50241_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50241_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50247_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50247_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50261_high.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50261_high.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50281_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50281_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50288_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50288_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50298_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50298_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50304_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50304_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50316_low.npz",
+      "filename": "artifacts/reproduction/freefall/redo/recovery_extracted/shard1/frames/full_delta/eval_50316_low.npz"
+    },
+    {
+      "path": "reproduction/freefall/redo/results-grouped/train_only_pca.npz",
+      "filename": "artifacts/reproduction/freefall/redo/results-grouped/train_only_pca.npz"
+    }
+  ]
+}

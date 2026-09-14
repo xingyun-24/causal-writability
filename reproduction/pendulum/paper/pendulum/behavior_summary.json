@@ -1,0 +1,40 @@
+{
+  "cells": {
+    "long_high": {
+      "per_hue": 64,
+      "physical_states": 64,
+      "rollouts": 704,
+      "valid_color": 704,
+      "valid_frequency": 704
+    },
+    "long_low": {
+      "per_hue": 64,
+      "physical_states": 64,
+      "rollouts": 704,
+      "valid_color": 704,
+      "valid_frequency": 704
+    },
+    "short_high": {
+      "per_hue": 64,
+      "physical_states": 64,
+      "rollouts": 704,
+      "valid_color": 704,
+      "valid_frequency": 704
+    },
+    "short_low": {
+      "per_hue": 64,
+      "physical_states": 64,
+      "rollouts": 704,
+      "valid_color": 704,
+      "valid_frequency": 704
+    }
+  },
+  "cluster_unit": "physical_state_id",
+  "evaluator": {
+    "appearance": "bob_core_rgb_projection_v1",
+    "dynamics": "geometry_annulus_v1"
+  },
+  "total_rollouts": 2816,
+  "training_seed": 3407,
+  "trajectory_count_definition": "64 frozen physical states × 11 cues per history/band cell"
+}

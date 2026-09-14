@@ -1,0 +1,18 @@
+experiment_id: support_overlap
+dataset_id: support_overlap_angle_banks_v3
+data:
+  train_count: 2048
+  eval_count: 64
+  calibration_count: 10000
+prediction_profiles:
+  raw_wan:
+    mode: raw_wan
+    diffusion_steps: 20
+    seed_offset: 1700000
+    save_videos_limit: 16
+evaluation_profiles:
+  raw_wan:
+    mode: raw_wan
+    diffusion_steps: 20
+  matched_low_reference:
+    mode: matched_low_reference

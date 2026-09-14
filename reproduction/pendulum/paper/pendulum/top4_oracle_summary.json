@@ -1,0 +1,24 @@
+{
+  "condition_summary": {
+    "conditional_median_recovery": 0.9311101184659911,
+    "invalid_reason_counts": {
+      "detection_rate_below_0.90": 2,
+      "max_missing_run_above_3": 12
+    },
+    "n": 64,
+    "near_full_success_n": 51,
+    "near_full_success_rate_all": 0.796875,
+    "outcome_counts": {
+      "compromise": 7,
+      "invalid": 12,
+      "physics": 45
+    },
+    "physics_follow_rate_all": 0.703125,
+    "valid_n": 52,
+    "valid_rate": 0.8125
+  },
+  "receiver_level_rows": 64,
+  "released_condition": "top4_oracle",
+  "source_audit_sha256": "d589dba61ae7feca84568618272de092d08044be1e541a7ed44493e1ceec99a6",
+  "source_selection": "condition=low_rank_oracle AND output_video_path contains edit_rank_4.mp4"
+}

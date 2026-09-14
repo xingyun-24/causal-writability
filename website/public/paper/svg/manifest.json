@@ -1,0 +1,46 @@
+{
+  "status": "FROZEN_FOR_PROJECT_PAGE_HANDOFF",
+  "paper_snapshot": "/paper/main.pdf",
+  "assets": [
+    {
+      "path": "/paper/svg/figure1-visual-thesis.svg",
+      "role": "main Figure 1: visual thesis"
+    },
+    {
+      "path": "/paper/svg/figure2-solution-selection.svg",
+      "role": "main Figure 2: decoded solution selection"
+    },
+    {
+      "path": "/paper/svg/figure3-causal-route.svg",
+      "role": "main Figure 3: compact state-structured causal route"
+    },
+    {
+      "path": "/paper/svg/figure4-writeability.svg",
+      "role": "main Figure 4: writeability and commitment"
+    },
+    {
+      "path": "/paper/svg/figure5-downstream.svg",
+      "role": "main Figure 5: downstream causal realization"
+    },
+    {
+      "path": "/paper/svg/figure6-multiseed-behavior.svg",
+      "role": "optional appendix: multiseed behavior"
+    },
+    {
+      "path": "/paper/svg/figure7-controller-ablation.svg",
+      "role": "optional appendix: direction and phase controller ablation"
+    },
+    {
+      "path": "/paper/svg/figure14-cross-step-exact100k.svg",
+      "role": "optional appendix: exact-checkpoint temporal compatibility"
+    },
+    {
+      "path": "/paper/svg/figure15-implementation-multiplicity.svg",
+      "role": "optional appendix: distinct downstream realizations"
+    },
+    {
+      "path": "/paper/svg/figure17-fm-time-decoded.svg",
+      "role": "optional appendix: temporal selectivity and decoded rescue"
+    }
+  ]
+}

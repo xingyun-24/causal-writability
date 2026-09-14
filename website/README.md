@@ -1,0 +1,76 @@
+# Causal Writability project page
+
+2026-09-14: the active page again uses Leqian's `website-test_v1` structure,
+with the current Pendulum section and the new Free Fall/PCA additions.
+`?style=leqian` is the default A theme; `?style=clean` is a B presentation
+inspired by the MirroS S-Space research page. The content is shared.
+See `STYLE_COMPARISON_ZH.md`. No public deployment is enabled.
+
+Scientific figures now use vector SVGs. `scripts/export_vector_panels.py`
+exports current-paper subpanels with outlined fonts, keeping embedded decoded
+frames unchanged. `scripts/export_appendix.py` exports all 27 appendix figures
+(7--33) and resolves their numbers and PDF pages from the final manuscript.
+The Supplement section groups them into six topics and mounts images only
+when a group is expanded; each figure links to the full caption in the paper.
+
+Active project repository: `xingyun-24/causal-writability`, branch `main`.
+Both styles are maintained here from the same content. The previous private
+integration branch remains a historical collaborator handoff, not the release
+destination. Publish only after author review.
+
+## Run
+
+Node >=22.13 is required by the existing vinext/Vite stack.
+
+```bash
+npm ci
+npm run dev -- --host 127.0.0.1 --port 4317
+npm test
+```
+
+## Publication settings
+
+Edit `app/site-content.ts` for the trailer MP4, poster, optional captions,
+public repository, arXiv and project URL. Unset external links are omitted,
+not replaced by private repository links. While the trailer is unset, Hero
+shows the current paper's Figure 1 without a pretend play button.
+
+The paper link is `public/paper/main.pdf`, the authored arXiv-ready version.
+`scripts/export_current_paper.py --source /path/to/arxiv-source --out public/paper/current`
+exports its six main figures without modifying their contents. Pendulum
+images use `../reproduction/pendulum/paper/final/`.
+
+## Integrated evidence
+
+- Eight Spring MP4s: four natural cue comparisons, a controller comparison,
+  and a condition-V/head-8 comparison. Uses Leqian's audited video set from
+  `website-test_v1` with a shared two-video transport, not legacy placeholders.
+- Four current Pendulum MP4s, including the Top-4 B_082 intervention.
+- Four original-resolution Free Fall panel-kit MP4s under `videos/freefall/originals/`.
+- Six standalone, offline Plotly 2.35.2 views: raw projections and matched
+  differences for Spring, Pendulum and Free Fall. The page loads them near
+  the viewport and mounts only the selected view.
+
+New Pendulum embeds use Leqian's coordinates unchanged. Their difference-view
+color is **aligned decoded frequency**, matching Spring, rather than the
+absolute frequency gap used in his original two-plot page. Free Fall uses
+decoded gravity; its difference view uses aligned decoded gravity. The
+original Pendulum JSON remains intact as a source record.
+
+Free Fall uses B1, hist32, 100K and the archived 64-fit/64-held-out split.
+The raw view has 128 endpoints, 32 per input-color/gravity group. The actual
+third PC is reconstructed from fit residuals; the paper's rank-2 controller
+is not changed. See `../reproduction/freefall/PROJECT_PAGE_PCA.md`.
+
+## Source history and scope
+
+`LEQIAN_PROJECT_PAGE_HANDOFF.md` and `references/PROJECT_PAGE_REQUIREMENTS_ORIGINAL.md`
+are historical requirements, not authority for current numbers or figure
+labels. The new source replaces old titles, controller descriptions and
+placeholders, while reusing the audited assets and paper's current evidence.
+`PendulumGenerality.tsx` remains active, with its current Top-4 example and
+updated numerical details. The original Spring video layout is preserved.
+
+No new pretrained layer-scan candidate is inserted into the paper or page.
+No model training, recoloring of decoded frames, public deployment or remote
+license change is part of this integration.

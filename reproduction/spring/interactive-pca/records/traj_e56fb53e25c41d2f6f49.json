@@ -1,0 +1,40 @@
+{
+  "points": [
+    {
+      "pair_id": "pair_e56fb53e25c41d2f6f49",
+      "trajectory_id": "traj_e56fb53e25c41d2f6f49",
+      "condition": "aligned",
+      "split": "heldout",
+      "input_colour": "red",
+      "true_band": "slow",
+      "omega_true": 2.8325423577950546,
+      "omega_hat": 2.43595,
+      "valid": true,
+      "generation_seed": 164004061,
+      "pc1": 52.78465270996094,
+      "pc2": -41.40107727050781,
+      "pc3": 35.09374237060547
+    },
+    {
+      "pair_id": "pair_e56fb53e25c41d2f6f49",
+      "trajectory_id": "traj_e56fb53e25c41d2f6f49",
+      "condition": "conflict",
+      "split": "heldout",
+      "input_colour": "blue",
+      "true_band": "slow",
+      "omega_true": 2.8325423577950546,
+      "omega_hat": 5.25935,
+      "valid": true,
+      "generation_seed": 164004061,
+      "pc1": -51.01705551147461,
+      "pc2": 19.222681045532227,
+      "pc3": 13.836051940917969
+    }
+  ],
+  "difference_pc": [
+    103.80170440673828,
+    -60.62376022338867,
+    21.257692337036133
+  ],
+  "projection_subtraction_error": 3.814697265625e-06
+}

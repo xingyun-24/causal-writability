@@ -1,0 +1,69 @@
+{
+  "protocol": "pendulum_stage4_coordinate_difference_v2_parameterized",
+  "model_name": "frequency_color_circle",
+  "history": "short",
+  "checkpoint_sha256": "0dd907676adebe24fd44b1e8feae808a2c7864615ac965a742e422f0cd721392",
+  "commitment_block_index": 12,
+  "m_star": 1,
+  "hidden_size": 1152,
+  "fit_count": 64,
+  "heldout_count": 64,
+  "basis_results": [
+    {
+      "basis": "phi0",
+      "feature_count": 1,
+      "heldout_coordinate_r2": 0.9897188520629182,
+      "synthesized_recovery": 0.9454329774614473,
+      "weight_shape": [
+        1,
+        1
+      ]
+    },
+    {
+      "basis": "phi1",
+      "feature_count": 3,
+      "heldout_coordinate_r2": 0.9900555356536724,
+      "synthesized_recovery": 0.9325004944294285,
+      "weight_shape": [
+        3,
+        1
+      ]
+    },
+    {
+      "basis": "phi2",
+      "feature_count": 6,
+      "heldout_coordinate_r2": 0.9908794576135554,
+      "synthesized_recovery": 0.9337843628452765,
+      "weight_shape": [
+        6,
+        1
+      ]
+    },
+    {
+      "basis": "phi3",
+      "feature_count": 9,
+      "heldout_coordinate_r2": 0.9933838821482888,
+      "synthesized_recovery": 0.9337662337662337,
+      "weight_shape": [
+        9,
+        1
+      ]
+    }
+  ],
+  "oracle_recovery": {
+    "rank_2": 0.9115646258503401,
+    "rank_3": 0.9215893337887251,
+    "rank_4": 0.9251749620711593,
+    "rank_8": 0.9236320547544105,
+    "full_d": 0.9244833805285869,
+    "rank_1": 0.9188144329896906
+  },
+  "selection": {
+    "selected_basis": "phi0",
+    "min_coordinate_r2": 0.9,
+    "full_d_close_fraction": 0.9,
+    "recovery_target": 0.8269329896907215,
+    "oracle_rank_1_recovery": 0.9188144329896906,
+    "oracle_full_d_recovery": 0.9244833805285869
+  }
+}

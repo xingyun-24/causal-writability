@@ -1,0 +1,18 @@
+{
+  "task": "free_fall",
+  "primary_evaluator": "E3 free-state gravity fit with position and velocity offsets",
+  "secondary_evaluator": "E0 fixed-boundary-state gravity fit",
+  "E3_threshold_abs_g_error": 0.002,
+  "E0_threshold_abs_g_error": 0.002,
+  "trajectory_validity": "at least 58 of 64 future frames detected",
+  "invalid_in_denominator": true,
+  "time_axis": "tau=(future_frame_index+1)/20 s",
+  "same_contract_conditions": [
+    "natural",
+    "full matched",
+    "top-2 oracle",
+    "fit-only controller",
+    "layer scan"
+  ],
+  "known_source_gap": "Archived F4 layer-scan output did not retain fit RMSE, coverage, jump, or future RGB fields; these are blank in evaluator_audit.csv."
+}

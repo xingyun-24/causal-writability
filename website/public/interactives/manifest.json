@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "interactive": "spring-route-geometry.html",
+  "data": "spring-route-geometry-data.json",
+  "fallback": "spring-route-geometry-fallback.png",
+  "checkpoint": {
+    "model": "Large Short",
+    "seed": 3408,
+    "step": "50K",
+    "functional_block": "B6"
+  },
+  "heldout_points": 128,
+  "phase_r2": {
+    "fast": 0.9350764011473169,
+    "slow": 0.8810842823860321
+  }
+}

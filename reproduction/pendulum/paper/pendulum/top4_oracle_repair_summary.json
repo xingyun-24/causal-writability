@@ -1,0 +1,104 @@
+{
+  "conditions": {
+    "fit_only_predicted": {
+      "conditional_median_recovery": 0.9295710601330256,
+      "invalid_reason_counts": {
+        "detection_rate_below_0.90": 2,
+        "max_missing_run_above_3": 12
+      },
+      "n": 64,
+      "near_full_success_n": 51,
+      "near_full_success_rate_all": 0.796875,
+      "outcome_counts": {
+        "compromise": 6,
+        "invalid": 12,
+        "physics": 46
+      },
+      "physics_follow_rate_all": 0.71875,
+      "valid_n": 52,
+      "valid_rate": 0.8125
+    },
+    "full_matched": {
+      "conditional_median_recovery": 0.9244791666666666,
+      "invalid_reason_counts": {
+        "detection_rate_below_0.90": 3,
+        "max_missing_run_above_3": 13
+      },
+      "n": 64,
+      "near_full_success_n": 50,
+      "near_full_success_rate_all": 0.78125,
+      "outcome_counts": {
+        "compromise": 7,
+        "invalid": 13,
+        "physics": 44
+      },
+      "physics_follow_rate_all": 0.6875,
+      "valid_n": 51,
+      "valid_rate": 0.796875
+    },
+    "top4_oracle": {
+      "conditional_median_recovery": 0.9311101184659911,
+      "invalid_reason_counts": {
+        "detection_rate_below_0.90": 2,
+        "max_missing_run_above_3": 12
+      },
+      "n": 64,
+      "near_full_success_n": 51,
+      "near_full_success_rate_all": 0.796875,
+      "outcome_counts": {
+        "compromise": 7,
+        "invalid": 12,
+        "physics": 45
+      },
+      "physics_follow_rate_all": 0.703125,
+      "valid_n": 52,
+      "valid_rate": 0.8125
+    },
+    "natural_conflict": {
+      "conditional_median_recovery": 0.0,
+      "invalid_reason_counts": {},
+      "n": 64,
+      "near_full_success_n": 0,
+      "near_full_success_rate_all": 0.0,
+      "outcome_counts": {
+        "shortcut": 64
+      },
+      "physics_follow_rate_all": 0.0,
+      "valid_n": 64,
+      "valid_rate": 1.0
+    }
+  },
+  "evaluator": "geometry_annulus_v1",
+  "notes": [
+    "All conditions were recomputed with the same frozen evaluator and thresholds.",
+    "The oracle and fit-only controller use the same frozen top-four coordinate space.",
+    "The Top-4 oracle rows come from edit_rank_4.mp4 outputs and are not relabeled Rank-1 points.",
+    "Scale 1.0 was selected globally on the fit split before the held-out cohort was generated once.",
+    "The prior block-15 rerun was a protocol mismatch because the released directions were captured at block 12.",
+    "FM-call coverage is enforced by the generation runtime (20/20 or hard failure).",
+    "activation_delta_l2 is the injected activation-change norm; no held-out norm is used by fit-only synthesis."
+  ],
+  "stratified_examples": {
+    "fit_only_predicted_invalid": [
+      "A_120"
+    ],
+    "full_matched_invalid": [
+      "A_112"
+    ],
+    "top4_oracle_invalid": [
+      "A_120"
+    ],
+    "valid_all_four": [
+      "B_082",
+      "A_111"
+    ]
+  },
+  "thresholds_frozen": {
+    "detection_rate_required": 0.9,
+    "fit_rmse_max": 0.08,
+    "max_boundary_jump_px": 20.0,
+    "max_jump_px": 20.0,
+    "max_length_error": 0.05,
+    "max_missing_run_allowed": 3
+  }
+}

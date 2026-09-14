@@ -1,0 +1,54 @@
+benchmark_version: spring_shortcuts_v4
+slow_band:
+  name: slow
+  low: 2.2
+  high: 3.0
+fast_band:
+  name: fast
+  low: 5.2
+  high: 6.4
+amplitude_low: 0.1
+amplitude_high: 0.17
+short_prefix_start: 57
+prediction_start: 65
+short_mask_mode: background_only
+seed: 3407
+train_base_seeds: 1024
+eval_base_seeds: 64
+sanity_base_seeds: 8
+tiny_train_videos: 16
+pilot_train_videos: 256
+route_reference_amplitude_multiplier: 1.0
+frequency_band_tolerance: 0.005
+free_shm_rmse_threshold: 0.035
+render:
+  width: 128
+  height: 128
+  fps: 20
+  num_frames: 129
+  equilibrium_x: 0.58
+  anchor_x: 0.16
+  center_y: 0.5
+  mass_radius_px: 7
+  spring_half_height_px: 5
+  spring_coils: 10
+  background_rgb:
+  - 28
+  - 30
+  - 34
+  spring_rgb:
+  - 226
+  - 229
+  - 235
+  anchor_rgb:
+  - 205
+  - 209
+  - 217
+  red_rgb:
+  - 235
+  - 48
+  - 48
+  blue_rgb:
+  - 48
+  - 96
+  - 235

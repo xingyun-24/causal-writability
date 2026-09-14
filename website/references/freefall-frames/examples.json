@@ -1,0 +1,52 @@
+{
+  "source_package": "freefall_pca_trainonly_redo.zip",
+  "fps": 20,
+  "frames_per_video": 64,
+  "source": "held-out rollout frames used by current Figure 21",
+  "examples": [
+    {
+      "pair_id": "eval_50073_high",
+      "condition": "natural_conflict",
+      "normalized_recovery_g": 0.0,
+      "generation_seed": 17050073,
+      "gravity_true": 0.06509883693868776,
+      "gravity_hat": 0.04442093303796729,
+      "detected_colour_majority": "red",
+      "valid": true,
+      "frames": "eval_50073_high__natural_conflict.npz"
+    },
+    {
+      "pair_id": "eval_50073_high",
+      "condition": "fit_only_controller",
+      "normalized_recovery_g": 0.9618355849745482,
+      "generation_seed": 17050073,
+      "gravity_true": 0.06509883693868776,
+      "gravity_hat": 0.06445725165002648,
+      "detected_colour_majority": "blue",
+      "valid": true,
+      "frames": "eval_50073_high__fit_only_controller.npz"
+    },
+    {
+      "pair_id": "eval_50281_low",
+      "condition": "natural_conflict",
+      "normalized_recovery_g": 0.0,
+      "generation_seed": 17050281,
+      "gravity_true": 0.01366498664374326,
+      "gravity_hat": 0.018680592288138755,
+      "detected_colour_majority": "blue",
+      "valid": true,
+      "frames": "eval_50281_low__natural_conflict.npz"
+    },
+    {
+      "pair_id": "eval_50281_low",
+      "condition": "fit_only_controller",
+      "normalized_recovery_g": 1.0032187558393417,
+      "generation_seed": 17050281,
+      "gravity_true": 0.01366498664374326,
+      "gravity_hat": 0.013083770309329838,
+      "detected_colour_majority": "red",
+      "valid": true,
+      "frames": "eval_50281_low__fit_only_controller.npz"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "fig1a-context": {
+    "source": "figure1_haomin.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      202.0,
+      135.0
+    ],
+    "vector_paths": 329
+  },
+  "fig1b-conflict": {
+    "source": "figure1_haomin.pdf",
+    "viewBox": [
+      210.0,
+      0.0,
+      396.0,
+      135.0
+    ],
+    "vector_paths": 329
+  },
+  "fig1c-rewrite": {
+    "source": "figure1_haomin.pdf",
+    "viewBox": [
+      0.0,
+      137.0,
+      203.0,
+      263.622
+    ],
+    "vector_paths": 329
+  },
+  "fig1d-commitment": {
+    "source": "figure1_haomin.pdf",
+    "viewBox": [
+      211.0,
+      137.0,
+      396.0,
+      263.622
+    ],
+    "vector_paths": 329
+  },
+  "fig2a-slow": {
+    "source": "figure2_solution_selection.pdf",
+    "viewBox": [
+      0.0,
+      22.0,
+      199.0,
+      152.0
+    ],
+    "vector_paths": 2554
+  },
+  "fig2a-fast": {
+    "source": "figure2_solution_selection.pdf",
+    "viewBox": [
+      212.0,
+      22.0,
+      396.0,
+      152.0
+    ],
+    "vector_paths": 2554
+  },
+  "fig2b-examples": {
+    "source": "figure2_solution_selection.pdf",
+    "viewBox": [
+      20.0,
+      163.0,
+      396.0,
+      250.0
+    ],
+    "vector_paths": 2554
+  },
+  "fig2c-history": {
+    "source": "figure2_solution_selection.pdf",
+    "viewBox": [
+      0.0,
+      260.0,
+      396.0,
+      352.8
+    ],
+    "vector_paths": 2554
+  },
+  "fig3a-replacement": {
+    "source": "figure3_causal_route.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      270.0,
+      105.0
+    ],
+    "vector_paths": 960
+  },
+  "fig3b-fast-phase": {
+    "source": "figure3_causal_route.pdf",
+    "viewBox": [
+      0.0,
+      129.0,
+      131.0,
+      263.0
+    ],
+    "vector_paths": 960
+  },
+  "fig3b-slow-phase": {
+    "source": "figure3_causal_route.pdf",
+    "viewBox": [
+      132.0,
+      123.0,
+      270.0,
+      263.0
+    ],
+    "vector_paths": 960
+  },
+  "fig3b-recovery": {
+    "source": "figure3_causal_route.pdf",
+    "viewBox": [
+      277.0,
+      147.0,
+      396.0,
+      259.0
+    ],
+    "vector_paths": 960
+  },
+  "fig3c-controller-model": {
+    "source": "figure3_causal_route.pdf",
+    "viewBox": [
+      0.0,
+      307.0,
+      146.0,
+      428.4
+    ],
+    "vector_paths": 960
+  },
+  "fig3c-controller-replay": {
+    "source": "figure3_causal_route.pdf",
+    "viewBox": [
+      164.0,
+      305.0,
+      396.0,
+      428.4
+    ],
+    "vector_paths": 960
+  },
+  "fig4a-training": {
+    "source": "figure4_writeability_draft.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      173.0,
+      156.0
+    ],
+    "vector_paths": 371
+  },
+  "fig4b-solutions": {
+    "source": "figure4_writeability_draft.pdf",
+    "viewBox": [
+      176.0,
+      0.0,
+      396.0,
+      156.0
+    ],
+    "vector_paths": 371
+  },
+  "fig4c-fate": {
+    "source": "figure4_writeability_draft.pdf",
+    "viewBox": [
+      0.0,
+      158.0,
+      172.0,
+      302.4
+    ],
+    "vector_paths": 371
+  },
+  "fig4d-history": {
+    "source": "figure4_writeability_draft.pdf",
+    "viewBox": [
+      172.0,
+      158.0,
+      396.0,
+      302.4
+    ],
+    "vector_paths": 371
+  },
+  "fig5a-persistence": {
+    "source": "figure5_downstream_draft.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      192.0,
+      127.0
+    ],
+    "vector_paths": 393
+  },
+  "fig5b-transfer": {
+    "source": "figure3_causal_route.pdf",
+    "viewBox": [
+      270.0,
+      0.0,
+      396.0,
+      108.0
+    ],
+    "vector_paths": 960
+  },
+  "fig5c-kv": {
+    "source": "figure5_downstream_draft.pdf",
+    "viewBox": [
+      223.0,
+      0.0,
+      396.0,
+      267.84
+    ],
+    "vector_paths": 393
+  },
+  "fig5d-head": {
+    "source": "figure5_downstream_draft.pdf",
+    "viewBox": [
+      0.0,
+      128.0,
+      223.0,
+      267.84
+    ],
+    "vector_paths": 393
+  },
+  "fig6-multiseed-behavior": {
+    "source": "appendix_figure2_multiseed_behavior.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      522.0,
+      374.3999938964844
+    ],
+    "vector_paths": 395
+  },
+  "fig7-controller-ablation": {
+    "source": "appendix_short50k_controller_comparison.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      396.0,
+      147.60000610351562
+    ],
+    "vector_paths": 436
+  },
+  "fig14-cross-step-exact100k": {
+    "source": "appendix_figure5_cross_step_exact100k.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      510.2640075683594,
+      174.9600067138672
+    ],
+    "vector_paths": 167
+  },
+  "fig15-implementation-multiplicity": {
+    "source": "appendix_figure5_implementation_multiplicity.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      396.0,
+      116.63999938964844
+    ],
+    "vector_paths": 129
+  },
+  "fig17-fm-time-decoded": {
+    "source": "appendix_figure5_fm_and_decoded.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      396.0,
+      147.60000610351562
+    ],
+    "vector_paths": 149
+  },
+  "behavior": {
+    "source": "pendulum_behavior.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      396.0,
+      280.55999755859375
+    ],
+    "vector_paths": 4617
+  },
+  "decoded-recovery": {
+    "source": "pendulum_decoded_recovery.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      396.0,
+      154.8000030517578
+    ],
+    "vector_paths": 128
+  },
+  "state-geometry": {
+    "source": "pendulum_state_geometry.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      396.0,
+      165.60000610351562
+    ],
+    "vector_paths": 959
+  },
+  "writeability": {
+    "source": "pendulum_writeability.pdf",
+    "viewBox": [
+      0.0,
+      0.0,
+      396.0,
+      156.9600067138672
+    ],
+    "vector_paths": 163
+  }
+}

@@ -1,0 +1,29 @@
+experiment_id: world_model_shortcuts
+dataset_id: world_model_shortcuts_phase_a_v2
+data:
+  scenes:
+    - ball_wall
+    - support_release
+    - occluded_uniform_motion
+  train_count: 2048
+  eval_count: 64
+prediction_profiles:
+  ball_wall:
+    scene: ball_wall
+    diffusion_steps: 20
+    seed_offset: 1700000
+  support_release:
+    scene: support_release
+    diffusion_steps: 20
+    seed_offset: 1700000
+  occluded_uniform_motion:
+    scene: occluded_uniform_motion
+    diffusion_steps: 20
+    seed_offset: 1700000
+evaluation_profiles:
+  ball_wall:
+    scene: ball_wall
+  support_release:
+    scene: support_release
+  occluded_uniform_motion:
+    scene: occluded_uniform_motion
