@@ -3,7 +3,7 @@ export const publication = {
   title: "A Chosen Future Can Still Be Rewritten",
   subtitle: "Causal Writability in Video Models",
   paper: "/paper/main.pdf",
-  code: null as string | null,
+  code: "https://github.com/xingyun-24/causal-writability" as string | null,
   arxiv: null as string | null,
   projectUrl: "https://xingyun-24.github.io/causal-writability/",
   trailer: (import.meta.env.VITE_LOCAL_TRAILER || null) as string | null,

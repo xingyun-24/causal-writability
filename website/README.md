@@ -32,8 +32,10 @@ npm test
 ## Publication settings
 
 Edit `app/site-content.ts` for the trailer MP4, poster, optional captions,
-public repository, arXiv and project URL. Unset external links are omitted,
-not replaced by private repository links. While the trailer is unset, Hero
+repository, arXiv and project URL. The header links directly to Paper and GitHub;
+model downloads remain in the repository documentation, not the page header.
+The canonical GitHub repository is still private until author-approved release.
+While the trailer is unset, Hero
 shows the current paper's Figure 1 without a pretend play button.
 
 The paper link is `public/paper/main.pdf`, the authored arXiv-ready version.

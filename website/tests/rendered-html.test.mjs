@@ -41,6 +41,18 @@ test("all six interactive embeds exist and carry Plotly offline", async () => {
   }
 });
 
+test("the header links to the paper and canonical GitHub repository", async () => {
+  const html = await (await render()).text();
+  const header = html.match(/<header\b[^>]*>([\s\S]*?)<\/header>/)?.[1];
+  assert.ok(header);
+  assert.match(header, /href="\/paper\/main\.pdf"/);
+  const github = header.match(/<a\b[^>]*href="https:\/\/github\.com\/xingyun-24\/causal-writability"[^>]*>/)?.[0];
+  assert.ok(github);
+  assert.match(github, /target="_blank"/);
+  assert.match(github, /rel="noopener noreferrer"/);
+  assert.ok(!header.includes("huggingface.co"));
+});
+
 test("appendix catalogue includes every final figure with vector assets and paper page links", async () => {
   const figures = JSON.parse(await readFile(new URL("../public/paper/appendix/manifest.json", import.meta.url), "utf8"));
   assert.equal(figures.length, 27);
