@@ -5,6 +5,8 @@
 - `iclr/`: anonymous submission version.
 
 Each directory contains `main.pdf` and the matching clean LaTeX source.
+The latest correction points the early-outcome comparison to Appendix B.9
+and labels the full matched write E in Figure 6b.
 Both are 34 pages with nine pages of main text. These copies include the current
 Free Fall train-only results, corrected Pendulum figures and physics-follow-rate
 scope clarifications. The older handoff manuscript is retained as history, not
