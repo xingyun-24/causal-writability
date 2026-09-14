@@ -12,7 +12,7 @@ new fits or regenerated experimental results.
 From this repository root:
 
 ```bash
-python -m pip install 'huggingface_hub>=1.0,<2'
+python -m pip install 'huggingface_hub==0.36.2'
 hf auth login
 python scripts/download_freefall.py
 ```
@@ -22,8 +22,17 @@ downloads its hist32/100K checkpoint, and obtains the VAE from Wan's official
 repository. To restore only the PCA arrays and saved frames, use
 `--artifacts-only`. Already cached downloads are reused.
 
-Spring and Pendulum model download commands remain in their task READMEs.
-Spring controller bases and the Pendulum full held-out Top-4 basis must still
-be supplied or regenerated following those READMEs; uploading core model
-weights does not replace this step. The full 15-seed checkpoint history is not
-part of the selected release.
+Spring's frozen Short controllers are available under `controllers/spring/`:
+seed 3407 at block 3, seed 3408 at block 6, and seed 3409 at block 4. Each
+bundle contains `model.json` and 20 per-call basis arrays (about 401 MB).
+See [the Spring download and edit commands](reproduction/spring/README.md).
+No full activation bank is needed to use these controllers.
+
+Pendulum provides frozen split and coordinate tables plus code to reconstruct
+the fit-only PCA basis and refit its coefficients. The original dense basis is
+not distributed; this is a rebuild workflow, not a ready-to-run controller
+download. See [the Pendulum instructions](reproduction/pendulum/project-page/README.md).
+Do not combine a rebuilt basis with coefficients from the old basis.
+
+The full 15-seed checkpoint history and raw residual banks are not part of the
+selected release.

@@ -54,7 +54,7 @@ environment; Spring and Pendulum also define `sshv2` and must not share it.
 The experiment source environment is Python 3.10.12 on Linux/CUDA.
 
 ```bash
-python -m pip install 'huggingface_hub>=1.0,<2'
+python -m pip install 'huggingface_hub==0.36.2'
 hf auth login
 python scripts/download_freefall.py
 cd reproduction/freefall

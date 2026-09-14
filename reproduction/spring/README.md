@@ -36,12 +36,13 @@ This generates a tiny dataset and runs one optimizer step, not a 50K retraining.
 ## Models
 
 The core models are Spring Short and Long at 50K steps, each with seeds 3407,
-3408 and 3409. Put supplied checkpoints in `weights/`, and the Wan2.1 VAE in
-`weights/vae.pth`. The registry in `models/registry.json` records the model variants;
-entries without a URL are not yet downloadable from this project.
+3408 and 3409. The registry in `models/registry.json` provides their download
+locations. Use an authorized Hugging Face account while the repository is private.
+The following commands install a Short model and the upstream VAE:
 
 ```bash
-cw weights --source /path/to/supplied-checkpoint.safetensors \
+hf auth login
+cw weights --model spring-short-3407-50k \
   --out weights/spring-short-3407-50k.safetensors
 cw weights --model wan21-vae --out weights/vae.pth
 ```
@@ -95,13 +96,29 @@ Use `--sites all` for a 31-site residual scan and `--limit 0` for all 64 held-ou
 receivers in one target direction. This shared-bank scan is distinct from the
 checkpoint-local failure banks used for the training-time study.
 
-With the supplied frozen controller bundle placed in `controllers/3409`:
+Download the frozen controller for the same Short model seed. This bundle
+contains only the fitted coefficients and the 20 per-call top-four basis
+tensors, not the full residual bank. Run from this directory:
 
 ```bash
+hf download xingyun-24/causal-writability \
+  --include 'controllers/spring/3409/*' --local-dir weights
+
+cw weights --model spring-short-3409-50k --out weights/spring-short-3409-50k.safetensors
 cw edit --checkpoint weights/spring-short-3409-50k.safetensors \
-  --vae weights/vae.pth --sites 4 --controller controllers/3409 \
-  --kv-block 9 --components v --head 8 --gain 8 --out runs/controlled
+  --vae weights/vae.pth --sites 4 --controller weights/controllers/spring/3409 \
+  --out runs/controlled
 ```
+
+The other supplied Short controllers are seed 3407 at site 3 and seed 3408 at
+site 6 (all sites are zero-based blocks). Change the download prefix, checkpoint,
+`--sites` and `--controller` together. Each seed's bundle is about 401 MB.
+Skip the weight-install command if that checkpoint is already installed.
+These are not Long-model controllers. The command above performs a phase edit.
+Adding `--kv-block 9 --components v --head 8 --gain 8` also runs a targeted
+attention-write intervention. This gain can overshoot on some receivers; it is
+not a universal restoration setting for the shared bank.
+The Hugging Face repository requires authorized login while it is private.
 
 `--fm-window early` or `late` restricts the K/V write to calls 0-9 or 10-19.
 The demo selects from the shared held-out bank; reproducing the paper's specific

@@ -23,6 +23,8 @@ task in a separate environment and follow its README.
 Free Fall's dense PCA basis and archived decoded frames are hosted alongside
 the weights, rather than stored as Git LFS placeholders. Follow
 [the download instructions](ARTIFACTS.md) before running those workflows.
+Spring's three frozen Short controllers are also downloadable. Pendulum instead
+provides a fit-only basis reconstruction and controller-fitting workflow.
 
 Spring includes tested core generation and intervention workflows. Pendulum
 Short/Long loading, generation, matched editing and evaluation have passed a

@@ -9,7 +9,7 @@ node_modules/
 dist/
 .next/
 .wrangler/
-website/public/_local/
+website/public/_local
 weights/
 runs/
 *.safetensors
