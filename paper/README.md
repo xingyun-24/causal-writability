@@ -1,6 +1,7 @@
 # Current Paper
 
-- `arxiv/`: authored preprint, with Figure 1 below the abstract on page 1.
+- `arxiv/`: authored preprint, with clickable project-page and GitHub links
+  below the author contacts, and Figure 1 below the abstract on page 1.
 - `iclr/`: anonymous submission version.
 
 Each directory contains `main.pdf` and the matching clean LaTeX source.
