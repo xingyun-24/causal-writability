@@ -22,6 +22,8 @@ test("renders the shared narrative and active experimental videos", async () => 
   assert.ok(!html.includes("main32.pdf"));
   assert.ok(!html.includes("RANK-1 ORACLE"));
   assert.ok(!html.includes('src="null"'));
+  assert.ok(!html.includes("Visual style comparison"));
+  assert.ok(!html.includes("B · Editorial"));
   assert.ok(html.includes('id="fm-timing"'));
   assert.ok(html.includes("When the write acts matters"));
   assert.ok(html.includes("first and second halves of the denoising sequence"));

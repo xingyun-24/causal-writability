@@ -1,6 +1,5 @@
 import PendulumGenerality from "./PendulumGenerality";
 import FreefallGenerality from "./FreefallGenerality";
-import StyleSwitcher from "./StyleSwitcher";
 import SupplementGallery from "./SupplementGallery";
 import { PCAView } from "./ResearchMedia";
 import { citation, publication } from "./site-content";
@@ -61,7 +60,7 @@ export default function Home() {
     <main>
       <header className="topbar">
         <a className="brand" href="#top"><span className="brandMark">WM</span><span>WORLD MODEL MECHANISMS</span></a>
-        <div className="topMeta"><StyleSwitcher/><span className="statusDot">Local preview</span><a href="/paper/main.pdf">Paper ↗</a></div>
+        <div className="topMeta"><span className="statusDot">Local preview</span><a href="/paper/main.pdf">Paper ↗</a></div>
       </header>
       <nav className="sectionNav" aria-label="Section navigation">
         <a href="#top">00 Abstract</a><a href="#overview">01 Overview</a><a href="#choice">02 Selection</a><a href="#rewrite">03 Control</a><a href="#commit">04 Commitment</a><a href="#realize">05 Realization</a><a href="#pendulum">06 Pendulum</a><a href="#freefall">07 Free Fall</a><a href="#atlas">08 Supplement</a>

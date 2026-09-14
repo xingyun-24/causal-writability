@@ -2,9 +2,10 @@
 
 2026-09-14: the active page again uses Leqian's `website-test_v1` structure,
 with the current Pendulum section and the new Free Fall/PCA additions.
-`?style=leqian` is the default A theme; `?style=clean` is a B presentation
-inspired by the MirroS S-Space research page. The content is shared.
-See `STYLE_COMPARISON_ZH.md`. No public deployment is enabled.
+Leqian's original style is the selected project-page design. The A/B switcher
+has been removed; old `?style=clean` links also display the selected design.
+The previous comparison is recorded in `STYLE_COMPARISON_ZH.md` and Git history.
+No public deployment is enabled.
 
 Scientific figures now use vector SVGs. `scripts/export_vector_panels.py`
 exports current-paper subpanels with outlined fonts, keeping embedded decoded
@@ -14,7 +15,7 @@ The Supplement section groups them into six topics and mounts images only
 when a group is expanded; each figure links to the full caption in the paper.
 
 Active project repository: `xingyun-24/causal-writability`, branch `main`.
-Both styles are maintained here from the same content. The previous private
+The selected page is maintained here. The previous private
 integration branch remains a historical collaborator handoff, not the release
 destination. Publish only after author review.
 
